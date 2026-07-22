@@ -1,7 +1,10 @@
-# BORNE — quiz de culture générale
+# NO WAY! — des faits à peine croyables
 
-Jeu de quiz (direction visuelle « riso club »), en un seul écran, jouable
-dans le navigateur.
+Jeu de quiz de culture générale (curiosités, anecdotes incroyables, faits
+absurdes), en une page, jouable dans le navigateur. Direction artistique
+« carnet de voyage » dessinée à la main : contours tremblés, aplats de
+couleurs mal calés, fond crème. Chaque bonne surprise déclenche un énorme
+tampon **NO WAY!** — la signature du jeu.
 
 ## Structure des fichiers
 
