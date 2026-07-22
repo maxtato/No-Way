@@ -3,7 +3,7 @@
    Extrait du fichier principal pour l'alléger.
    Structure : Q[theme] = [{q, a:[...], c, e}, ...]
      q = énoncé · a = réponses · c = index de la bonne · e = explication
-   Chargé avant borne.html ; expose la globale `Q`.
+   Chargé avant index.html ; expose la globale `Q`.
    ========================================================= */
 const Q = {
 geo:[

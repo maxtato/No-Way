@@ -7,10 +7,10 @@ dans le navigateur.
 
 | Fichier         | Rôle                                                                 |
 |-----------------|----------------------------------------------------------------------|
-| `borne.html`    | Interface, styles et logique du jeu (~55 Ko).                        |
+| `index.html`    | Interface, styles et logique du jeu (~55 Ko).                        |
 | `questions.js`  | Banque de questions extraite pour alléger le HTML (~120 Ko, 561 questions). |
 
-`borne.html` charge `questions.js` **avant** son propre script :
+`index.html` charge `questions.js` **avant** son propre script :
 
 ```html
 <script src="questions.js"></script>
@@ -39,15 +39,15 @@ const Q = {
 ```
 
 Pour ajouter ou modifier des questions, il suffit d'éditer `questions.js` :
-le fichier `borne.html` n'a pas besoin d'être touché.
+le fichier `index.html` n'a pas besoin d'être touché.
 
 ## Lancer le jeu
 
-Ouvrir `borne.html` dans un navigateur. Comme la page charge `questions.js`
+Ouvrir `index.html` dans un navigateur. Comme la page charge `questions.js`
 en local, servez le dossier via un petit serveur si votre navigateur bloque
 les `file://` :
 
 ```sh
 python3 -m http.server
-# puis ouvrir http://localhost:8000/borne.html
+# puis ouvrir http://localhost:8000/ (index.html est servi automatiquement)
 ```
