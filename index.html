@@ -85,7 +85,8 @@ svg.fr{position:absolute !important}
 .node .disc > svg{position:absolute;inset:-8px;width:calc(100% + 16px);height:calc(100% + 16px);overflow:visible}
 .node .glyph{position:relative;z-index:2;line-height:0;display:grid;place-items:center}
 .lvl-num{font-family:var(--f-disp);font-weight:800;font-style:normal;font-size:31px;
-  line-height:1;color:var(--encre);filter:url(#peint)}
+  line-height:1;color:var(--papier);filter:url(#peint);
+  text-shadow:1.6px 1.8px 0 rgba(42,50,41,.6)}
 .node .glyph svg:not(.fr){position:relative;z-index:2;display:block;inset:auto}
 .sheet-badge span svg:not(.fr){position:relative;z-index:2;display:block;inset:auto}
 .node .num{position:absolute;z-index:3;right:-2px;top:-4px;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
@@ -229,6 +230,15 @@ svg.fr{position:absolute !important}
 .confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden}
 .confetti i{position:absolute;width:11px;height:13px;top:-24px;border:1.5px solid var(--encre);animation:fall linear forwards}
 @keyframes fall{to{transform:translateY(110vh) rotate(680deg)}}
+
+/* récompense de fin de niveau : les jetons gagnés surgissent en rebond */
+#resultCoins{display:inline-flex;align-items:center;gap:8px;opacity:0}
+#resultCoins svg{width:23px;height:23px}
+#resultCoins.on{animation:rewardPop .55s cubic-bezier(.2,1.55,.35,1) forwards}
+#resultCoins.on svg{animation:coinSpin .6s ease-out}
+@keyframes rewardPop{0%{opacity:0;transform:scale(.3) rotate(-14deg)}
+  55%{opacity:1;transform:scale(1.14) rotate(3deg)}100%{opacity:1;transform:scale(1) rotate(0)}}
+@keyframes coinSpin{0%{transform:rotateY(0)}100%{transform:rotateY(720deg)}}
 
 
 .boosts{display:flex;justify-content:flex-end;align-items:center;gap:9px;flex:none;padding:0 4px 0 0;min-height:44px}
@@ -641,7 +651,7 @@ const BOOSTS=[
 ];
 
 /* ---------- état ---------- */
-let state={stars:{},unlocked:0,sound:true,seen:{},last:{},jetons:6};
+let state={stars:{},unlocked:0,sound:true,seen:{},last:{},jetons:0};
 const mem={};
 async function save(){
   const p=JSON.stringify(state);
@@ -653,7 +663,7 @@ async function load(){
     else if(mem.s) state=JSON.parse(mem.s);
   }catch(e){}
   state.seen=state.seen||{}; state.last=state.last||{};
-  if(typeof state.jetons!=='number') state.jetons=6;
+  if(typeof state.jetons!=='number') state.jetons=0;
 }
 
 /* ---------- son ---------- */
@@ -1056,13 +1066,19 @@ function finish(won){
   $('retryBtn').style.display=(won&&stars===3)?'none':'block';
   paintFrame($('continueBtn'),HEX.rouge,HEX.ombre,run.lvl*13+3);
   paintFrame($('retryBtn'),HEX.jaune,HEX.ombre,run.lvl*13+61);
-  $('resultCoins').textContent=gain?`+${gain} jeton${gain>1?'s':''}`:'';
+  const rc=$('resultCoins'); rc.classList.remove('on');
+  rc.innerHTML=gain?`${pictoSVG('jeton',23,'#F2C64B')}<span>+${gain} jeton${gain>1?'s':''} gagné${gain>1?'s':''} !</span>`:'';
   if(won){
     sfx.win(); confetti();
-    state.jetons+=gain; majJetons();
     if(stars>(state.stars[run.lvl]||0)) state.stars[run.lvl]=stars;
     if(run.lvl===state.unlocked&&state.unlocked<LEVELS.length-1) state.unlocked++;
     save();
+    // la récompense arrive après les étoiles : jetons versés + animation + son
+    if(gain) setTimeout(()=>{
+      rc.classList.add('on');
+      state.jetons+=gain; majJetons(); save();
+      [740,990,1240].forEach((f,i)=>setTimeout(()=>beep(f,.12,'triangle',.05),i*70));
+    },560);
   }else sfx.lose();
 }
 function confetti(){
