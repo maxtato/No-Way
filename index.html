@@ -228,7 +228,14 @@ svg.fr{position:absolute !important}
 .result .score small{display:block;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;font-size:calc(17px * var(--hand-scale));color:var(--encre);text-shadow:none;margin-top:2px}
 .result .actions{width:100%;max-width:330px;display:flex;flex-direction:column;gap:11px;margin-top:26px}
 .confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-.confetti i{position:absolute;width:11px;height:13px;top:-24px;border:1.5px solid var(--encre);animation:fall linear forwards}
+/* confetti dans l'esprit du jeu : aplat de couleur + trait crayonné (filtre
+   #peint), la couleur légèrement mal calée déborde un peu du contour */
+.confetti i{position:absolute;width:12px;height:14px;top:-24px;
+  background:var(--c,#E03B26);border-radius:2px 3px 2px 3px;
+  animation:fall linear forwards;filter:url(#peint)}
+.confetti i::after{content:'';position:absolute;inset:0;
+  border:1.6px solid var(--encre);border-radius:3px 2px 3px 2px;
+  transform:translate(-1.6px,-1.4px)}
 @keyframes fall{to{transform:translateY(110vh) rotate(680deg)}}
 
 /* récompense de fin de niveau : les jetons gagnés surgissent en rebond */
@@ -1084,11 +1091,12 @@ function finish(won){
 function confetti(){
   const box=$('confetti'); box.innerHTML='';
   if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  const cols=['#E03B26','#5E9BD1','#F2C64B','#79A257','#E8897A'];
+  // couleurs de la palette carnet (mêmes encres que le reste du jeu)
+  const cols=['#E03B26','#F2C64B','#79A257','#E8897A','#2C6E7F','#4FA8A0','#E6A93C','#B5533C'];
   for(let i=0;i<32;i++){
     const el=document.createElement('i');
     el.style.left=Math.random()*100+'%';
-    el.style.background=cols[i%cols.length];
+    el.style.setProperty('--c',cols[i%cols.length]);
     el.style.animationDuration=(1.5+Math.random()*1.5)+'s';
     el.style.animationDelay=(Math.random()*.5)+'s';
     box.appendChild(el);
