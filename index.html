@@ -841,22 +841,43 @@ function shuffle(a){const b=a.slice();for(let i=b.length-1;i>0;i--){const j=Math
 /* identifiant stable dérivé du texte : survit à toute réorganisation du fichier */
 function qid(s){let h=0;for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))|0;return (h>>>0).toString(36)}
 
-/* Tirage : jamais vues d'abord, puis les moins vues.
-   Les questions du dernier essai de CE niveau sont fortement pénalisées,
-   pour ne pas retomber dessus quand on recommence après un échec.
+/* Difficulté visée par niveau : douce au début, corsée à la fin, +0,5 en
+   manche Bazar. Sert à orienter le tirage vers des questions 1/2/3. */
+function cibleDiff(l){
+  const p=LEVELS.length>1?l.id/(LEVELS.length-1):0;   // 0 → 1
+  return Math.min(3, 1 + p*1.8 + (l.boss?0.5:0));      // ~1,0 → ~2,8 (3 au Bazar final)
+}
+
+/* Tirage : d'abord la difficulté visée par le niveau, puis les jamais vues,
+   puis les moins vues. Les questions du dernier essai de CE niveau sont
+   pénalisées pour ne pas y retomber après un échec.
    Chaque niveau voyage : au plus deux questions d'un même thème. */
 function buildDeck(l){
-  const pool=Object.entries(Q).flatMap(([k,v])=>v.map(q=>({...q,t:k})))
-    .map(q=>({...q,id:qid(q.q)}));
   const dernier=new Set(state.last[l.id]||[]);
-  const notes=pool.map(q=>({q,s:(state.seen[q.id]||0)*10+(dernier.has(q.id)?6:0)+Math.random()}));
-  notes.sort((a,b)=>a.s-b.s);
-  const parTheme={},choix=[];
-  for(const o of notes){
-    if(choix.length>=l.count) break;
-    if((parTheme[o.q.t]||0)>=2) continue;
-    parTheme[o.q.t]=(parTheme[o.q.t]||0)+1;
-    choix.push(o.q);
+  const pool=Object.entries(Q).flatMap(([k,v])=>v.map(q=>({...q,t:k,id:qid(q.q)})));
+  // priorité de chaque question : jamais vue d'abord, puis moins vue, le
+  // dernier essai de ce niveau pénalisé ; classée par difficulté.
+  pool.forEach(q=>{q._s=(state.seen[q.id]||0)*10+(dernier.has(q.id)?6:0)+Math.random()});
+  const seau={1:[],2:[],3:[]};
+  for(const q of pool) seau[q.d||2].push(q);
+  for(const d of [1,2,3]) seau[d].sort((a,b)=>a._s-b._s);
+
+  // distribution de difficulté du niveau : cloche centrée sur la cible, si
+  // bien que chaque slot tire une difficulté (surtout la cible, un peu les voisines)
+  const cible=cibleDiff(l), spread=1.15;
+  const w=d=>Math.max(0,1-Math.abs(d-cible)/spread);
+  const wsum=w(1)+w(2)+w(3)||1;
+  const tirerDiff=()=>{let r=Math.random()*wsum;for(const d of [1,2,3]){r-=w(d);if(r<=0)return d}return 2};
+
+  const parTheme={},choix=[],pris=new Set();
+  const prendre=d=>{ for(const q of seau[d]){ if(pris.has(q.id)) continue;
+    if((parTheme[q.t]||0)>=2) continue; return q; } return null; };
+  let garde=0;
+  while(choix.length<l.count && garde++<200){
+    const d=tirerDiff();
+    let q=prendre(d) || prendre(2) || prendre(1) || prendre(3);  // repli si épuisé/capé
+    if(!q) break;
+    pris.add(q.id); parTheme[q.t]=(parTheme[q.t]||0)+1; choix.push(q);
   }
   state.last[l.id]=choix.map(q=>q.id);
   choix.forEach(q=>{state.seen[q.id]=(state.seen[q.id]||0)+1});

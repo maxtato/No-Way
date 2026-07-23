@@ -31,7 +31,8 @@ const Q = {
       q: "Énoncé de la question ?",
       a: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
       c: 0,            // index (0-3) de la bonne réponse
-      e: "Explication affichée après la réponse."
+      e: "Explication affichée après la réponse.",
+      d: 2             // difficulté : 1 facile · 2 moyen · 3 difficile
     },
     // ...
   ],
