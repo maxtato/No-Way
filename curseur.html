@@ -299,9 +299,15 @@ const sfx={
 
 /* ---------- nombres ---------- */
 const NBSP=' ';
+/* écriture compacte : « 2,5 milliards » tient à l'écran là où
+   « 2 500 000 000 » déborde, et se lit bien mieux à voix haute */
+function grp(n){return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,NBSP)}
+function dec(v){return (Math.round(v*100)/100).toString().replace('.',',')}
 function fmt(n){
-  const r=Math.round(n);
-  return r.toString().replace(/\B(?=(\d{3})+(?!\d))/g,NBSP);
+  const a=Math.abs(n);
+  if(a>=1e9){const v=n/1e9;return dec(v)+' milliard'+(Math.abs(v)>=2?'s':'')}
+  if(a>=1e6){const v=n/1e6;return dec(v)+' million'+(Math.abs(v)>=2?'s':'')}
+  return Number.isInteger(n)?grp(n):dec(n);
 }
 /* pas d'arrondi « joli » selon l'amplitude de l'échelle.
    Au-delà d'une vingtaine d'unités on reste sur des entiers : on ne compte
@@ -343,7 +349,10 @@ function afficher(){
 }
 function majVal(){
   const q=run.deck[run.idx];
-  $('val').innerHTML=fmt(run.val)+`<small>${q.u}</small>`;
+  const txt=fmt(run.val), el=$('val');
+  el.innerHTML=txt+`<small>${q.u}</small>`;
+  const L=txt.length;                                  // un long nombre rétrécit plutôt que de déborder
+  el.style.fontSize=(L<=7?52:L<=10?42:L<=14?34:28)+'px';
   const t=(run.val-q.min)/(q.max-q.min);
   const w=$('slider').clientWidth||300;
   $('knob').style.left=(t*w)+'px';
