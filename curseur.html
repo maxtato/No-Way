@@ -44,6 +44,10 @@ svg.fr{position:absolute !important;overflow:visible;pointer-events:none;z-index
   color:var(--encre);display:block;transform:rotate(1.6deg);opacity:.85;letter-spacing:.03em}
 .pts{margin-left:auto;position:relative;padding:5px 13px;font-family:var(--f-disp);
   font-size:16px;font-weight:800;transform:rotate(1.3deg)}
+.mini{width:36px;height:36px;display:grid;place-items:center;position:relative;flex:none;
+  transform:rotate(-2deg);text-decoration:none;color:inherit}
+.mini:active{transform:rotate(-2deg) translate(2px,2px)}
+.mini svg:not(.fr){position:relative;z-index:1;display:block}
 .segs{display:flex;gap:3px;flex:none;margin-bottom:12px;transform:rotate(-.5deg)}
 .segs b{flex:1;height:11px;position:relative}
 
@@ -166,6 +170,7 @@ svg.fr{position:absolute !important;overflow:visible;pointer-events:none;z-index
   <div class="top">
     <div class="logo">NO WAY!<em>à vue de nez</em></div>
     <div class="pts" id="ptsBox"><span id="pts">0 pts</span></div>
+    <a class="mini" id="homeBtn" href="index.html" aria-label="Retour au jeu de base" title="Retour au jeu de base"></a>
   </div>
   <div class="segs" id="segs"></div>
 
@@ -375,7 +380,15 @@ function dessinerPiste(){
     <path d="${scribbleCircle(28,28,19,run.idx*7+83,2.2)}" fill="none" stroke="#2A3229" stroke-width="2.2"/>
     <path d="M 20 28 L 36 28 M 24 24 L 20 28 L 24 32 M 32 24 L 36 28 L 32 32" stroke="#2A3229" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 }
+const ICO_CARTE='M2.9 6.1c2.1-1 4.3-1.6 6.6-1.7c2.9.9 5.8 1.5 8.8 1.7c1.3-.3 2.6-.6 3.8-1.1c.3 4.6.3 9.2 0 13.8c-1.2.5-2.5.9-3.8 1.1c-3-.2-5.9-.8-8.8-1.7c-2.3.1-4.5.7-6.6 1.7c-.3-4.6-.3-9.2 0-13.8Z M9.5 4.4c-.2 4.6-.2 9.2 0 13.8 M18.3 6.1c.2 4.6.2 9.2 0 13.8';
 function peindre(){
+  const h=$('homeBtn');
+  if(h && !h.dataset.pret){
+    h.innerHTML=`<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" style="filter:url(#peint)">
+      <path d="${ICO_CARTE}" fill="none" stroke="#2A3229" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    h.dataset.pret='1';
+  }
+  paintFrame(h,HEX.papier,HEX.encre,29,1.05,-1);
   paintFrame($('qCard'),HEX.jaune,HEX.encre,run.idx*37+7,1.5);
   paintFrame($('okBtn'),HEX.rouge,HEX.encre,run.idx*29+2);
   paintFrame($('ptsBox'),HEX.papier,HEX.encre,11,1.05,-1);
