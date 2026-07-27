@@ -1,27 +1,302 @@
 [
-{"q":"Quelle est la hauteur de La Joconde ?","n":77,"u":"cm","e":"77 sur 53 cm, la taille d’un sous-main. Les visiteurs traversent des salles de fresques monumentales pour finir devant un petit panneau de peuplier, protégé par une vitrine bien plus grande que le tableau lui-même."},
-{"q":"Quelle largeur fait Guernica de Picasso ?","n":776,"u":"cm","e":"Presque 7,8 mètres de long pour 3,5 de haut. L’atelier parisien était si bas de plafond que Picasso devait incliner la toile contre le mur et peindre le sommet perché sur une échelle."},
-{"q":"En combien de jours Picasso a-t-il peint Guernica ?","n":35,"u":"jours","e":"Du 1er mai au 4 juin 1937, dans l’urgence, après le bombardement de la ville basque. Dora Maar a photographié chaque état de la toile : on connaît ce tableau comme on connaît un film."},
-{"q":"Quelle largeur fait Les Noces de Cana, le plus grand tableau du Louvre ?","n":994,"u":"cm","e":"Près de 10 mètres de large et 67 mètres carrés de toile. Décroché à Venise par les troupes de Bonaparte en 1797, il fut découpé en deux pour le voyage, puis recousu à Paris."},
-{"q":"Quelle largeur fait Le Radeau de La Méduse de Géricault ?","n":716,"u":"cm","e":"Plus de 7 mètres. Géricault s’est rasé le crâne pour ne plus oser sortir de son atelier, où il entassait des membres et des têtes récupérés à l’hôpital afin de peindre la chair des morts."},
-{"q":"Quelle est la hauteur de La Persistance de la mémoire, les montres molles de Dalí ?","n":24,"u":"cm","e":"24 sur 33 cm : le tableau surréaliste le plus célèbre du monde tient dans une feuille A4. Dalí racontait l’avoir peint en quelques heures, après avoir contemplé un camembert qui coulait au soleil."},
-{"q":"Quelle est la hauteur de La Jeune Fille à la perle de Vermeer ?","n":44.5,"u":"cm","e":"44,5 sur 39 cm. En 1881, ce panneau noirci a été adjugé deux florins et trente cents à La Haye. L’acheteur l’a légué au Mauritshuis, qui en a fait l’icône que l’on sait."},
-{"q":"Quelle largeur fait La Cène de Léonard de Vinci ?","n":880,"u":"cm","e":"8,8 mètres sur 4,6, peints à même le mur d’un réfectoire milanais. Léonard a refusé la fresque, trop rapide pour lui, au profit d’une technique à l’huile : elle s’écaillait déjà de son vivant."},
-{"q":"Combien de temps a duré la dernière restauration de La Cène de Léonard ?","n":21,"u":"ans","e":"De 1978 à 1999. Pinin Brambilla Barcilon a gratté au scalpel, sous microscope, les repeints de cinq siècles. Résultat : un tableau fantôme, où ne subsiste qu’une fraction de la main de Léonard."},
-{"q":"Combien de temps Michel-Ange a-t-il mis pour peindre le plafond de la chapelle Sixtine ?","n":4,"u":"ans","e":"De 1508 à 1512, debout sur un échafaudage de sa conception, pas allongé contrairement à la légende. Il en est sorti le cou tordu, et un poème de sa main se plaint que la peinture lui dégoulinait au visage."},
-{"q":"Combien de temps a duré la restauration de la chapelle Sixtine ?","n":14,"u":"ans","e":"De 1980 à 1994. Sous la suie des bougies et des siècles, on a découvert des couleurs criardes, presque acidulées. Des historiens ont hurlé au massacre : ils avaient appris à aimer la crasse."},
-{"q":"Combien de personnages Michel-Ange a-t-il peints au plafond de la chapelle Sixtine ?","n":300,"u":"personnages","e":"Plus de 300, sur environ 500 mètres carrés de voûte. Michel-Ange se disait sculpteur, pas peintre, et a accepté le chantier en râlant. Quatre ans plus tard, il parlait encore d’une corvée."},
-{"q":"Combien de tableaux de Vermeer nous sont parvenus ?","n":34,"u":"tableaux","e":"Trente-quatre, dont un contesté. Vermeer achevait deux ou trois toiles par an, est mort criblé de dettes avec onze enfants, puis fut oublié pendant deux siècles avant d’être redécouvert vers 1860."},
-{"q":"Combien de tableaux Van Gogh a-t-il vendus de son vivant ?","n":1,"u":"tableau","e":"Un seul, selon la version admise : La Vigne rouge, acheté 400 francs par la peintre belge Anna Boch. Il est mort quelques mois plus tard, persuadé d’avoir raté sa vie et ruiné son frère."},
-{"q":"Combien de peintures à l’huile Van Gogh a-t-il laissées ?","n":860,"u":"peintures","e":"Environ 860 huiles, plus un millier de dessins, en dix ans de carrière seulement. Certaines semaines il achevait un tableau tous les deux jours, tout en écrivant à Theo qu’il n’avançait pas."},
-{"q":"Combien d’autoportraits peints Van Gogh a-t-il laissés ?","n":35,"u":"autoportraits","e":"Plus de trente-cinq, en quatre ans. Ce n’était pas du narcissisme : un modèle coûtait cher, un miroir ne coûtait rien. Dans ses lettres, il s’excuse presque de se prendre pour sujet."},
-{"q":"Combien d’étoiles Van Gogh a-t-il peintes dans La Nuit étoilée ?","n":11,"u":"étoiles","e":"Onze, plus un croissant de lune. Le paysage est vu depuis la fenêtre grillagée de sa chambre d’asile à Saint-Rémy, mais le village au clocher pointu, lui, est entièrement inventé."},
-{"q":"Combien de tableaux Picasso a-t-il peints au cours de sa vie ?","n":13500,"u":"tableaux","e":"Environ 13 500, auxquels s’ajoutent des dizaines de milliers de gravures et de dessins : le peintre le plus prolifique jamais recensé. Soixante-quinze ans de travail, parfois plusieurs toiles dans la même journée."},
-{"q":"Combien de toiles Monet a-t-il consacrées aux Nymphéas ?","n":250,"u":"toiles","e":"Environ 250, peintes durant les trente dernières années de sa vie, presque toutes dans son jardin de Giverny. À la fin, la cataracte brouillait tellement ses couleurs qu’il peignait de mémoire."},
-{"q":"Quelle longueur totale développent les Nymphéas de Monet au musée de l’Orangerie ?","n":100,"u":"mètres","e":"Près de 100 mètres de toiles courbes, en huit panneaux répartis dans deux salles ovales. Monet a offert l’ensemble à la France au lendemain de l’armistice de 1918, comme un monument à la paix."},
-{"q":"Combien de tableaux Frida Kahlo a-t-elle peints ?","n":143,"u":"tableaux","e":"143 seulement, dont 55 autoportraits. Elle a commencé alitée, après un accident de bus, avec un miroir fixé au-dessus de son lit : c’est ce miroir qui explique tous ces visages."},
-{"q":"Combien d’années Camille Claudel a-t-elle passées enfermée en asile ?","n":30,"u":"ans","e":"Trente ans, de 1913 à sa mort en 1943, internée à la demande de sa famille alors que les médecins jugeaient sa sortie possible. Elle n’a plus jamais sculpté et repose dans une fosse commune."},
-{"q":"Quelle taille faisait Toulouse-Lautrec ?","n":152,"u":"cm","e":"Environ 1,52 m. Une maladie osseuse a stoppé la croissance de ses jambes après deux fractures adolescentes, laissant un buste d’adulte sur des jambes d’enfant. Les tables des cabarets, elles, étaient à sa hauteur."},
-{"q":"À quel âge Grandma Moses s’est-elle mise à peindre ?","n":78,"u":"ans","e":"À 78 ans, quand l’arthrite l’a empêchée de continuer à broder. Elle a produit plus de mille tableaux, exposé à New York, fait la une des magazines et travaillé jusqu’à sa mort, à 101 ans."},
-{"q":"Quel âge avait Michel-Ange à sa mort ?","n":88,"u":"ans","e":"88 ans, trois semaines avant son quatre-vingt-neuvième anniversaire, à une époque où l’on vivait rarement au-delà de quarante. Il sculptait encore une Pietà quelques jours avant la fin."}
+ {
+  "q": "Quelle est la hauteur de La Joconde ?",
+  "n": 77,
+  "u": "cm",
+  "e": "77 sur 53 cm, la taille d’un sous-main. Les visiteurs traversent des salles de fresques monumentales pour finir devant un petit panneau de peuplier, protégé par une vitrine bien plus grande que le tableau lui-même."
+ },
+ {
+  "q": "Quelle largeur fait Guernica de Picasso ?",
+  "n": 776,
+  "u": "cm",
+  "e": "Presque 7,8 mètres de long pour 3,5 de haut. L’atelier parisien était si bas de plafond que Picasso devait incliner la toile contre le mur et peindre le sommet perché sur une échelle."
+ },
+ {
+  "q": "En combien de jours Picasso a-t-il peint Guernica ?",
+  "n": 35,
+  "u": "jours",
+  "e": "Du 1er mai au 4 juin 1937, dans l’urgence, après le bombardement de la ville basque. Dora Maar a photographié chaque état de la toile : on connaît ce tableau comme on connaît un film."
+ },
+ {
+  "q": "Quelle largeur fait Les Noces de Cana, le plus grand tableau du Louvre ?",
+  "n": 994,
+  "u": "cm",
+  "e": "Près de 10 mètres de large et 67 mètres carrés de toile. Décroché à Venise par les troupes de Bonaparte en 1797, il fut découpé en deux pour le voyage, puis recousu à Paris."
+ },
+ {
+  "q": "Quelle largeur fait Le Radeau de La Méduse de Géricault ?",
+  "n": 716,
+  "u": "cm",
+  "e": "Plus de 7 mètres. Géricault s’est rasé le crâne pour ne plus oser sortir de son atelier, où il entassait des membres et des têtes récupérés à l’hôpital afin de peindre la chair des morts."
+ },
+ {
+  "q": "Quelle est la hauteur de La Persistance de la mémoire, les montres molles de Dalí ?",
+  "n": 24,
+  "u": "cm",
+  "e": "24 sur 33 cm : le tableau surréaliste le plus célèbre du monde tient dans une feuille A4. Dalí racontait l’avoir peint en quelques heures, après avoir contemplé un camembert qui coulait au soleil."
+ },
+ {
+  "q": "Quelle est la hauteur de La Jeune Fille à la perle de Vermeer ?",
+  "n": 44.5,
+  "u": "cm",
+  "e": "44,5 sur 39 cm. En 1881, ce panneau noirci a été adjugé deux florins et trente cents à La Haye. L’acheteur l’a légué au Mauritshuis, qui en a fait l’icône que l’on sait."
+ },
+ {
+  "q": "Quelle largeur fait La Cène de Léonard de Vinci ?",
+  "n": 880,
+  "u": "cm",
+  "e": "8,8 mètres sur 4,6, peints à même le mur d’un réfectoire milanais. Léonard a refusé la fresque, trop rapide pour lui, au profit d’une technique à l’huile : elle s’écaillait déjà de son vivant."
+ },
+ {
+  "q": "Combien de temps a duré la dernière restauration de La Cène de Léonard ?",
+  "n": 21,
+  "u": "ans",
+  "e": "De 1978 à 1999. Pinin Brambilla Barcilon a gratté au scalpel, sous microscope, les repeints de cinq siècles. Résultat : un tableau fantôme, où ne subsiste qu’une fraction de la main de Léonard."
+ },
+ {
+  "q": "Combien de temps Michel-Ange a-t-il mis pour peindre le plafond de la chapelle Sixtine ?",
+  "n": 4,
+  "u": "ans",
+  "e": "De 1508 à 1512, debout sur un échafaudage de sa conception, pas allongé contrairement à la légende. Il en est sorti le cou tordu, et un poème de sa main se plaint que la peinture lui dégoulinait au visage."
+ },
+ {
+  "q": "Combien de temps a duré la restauration de la chapelle Sixtine ?",
+  "n": 14,
+  "u": "ans",
+  "e": "De 1980 à 1994. Sous la suie des bougies et des siècles, on a découvert des couleurs criardes, presque acidulées. Des historiens ont hurlé au massacre : ils avaient appris à aimer la crasse."
+ },
+ {
+  "q": "Combien de personnages Michel-Ange a-t-il peints au plafond de la chapelle Sixtine ?",
+  "n": 300,
+  "u": "personnages",
+  "e": "Plus de 300, sur environ 500 mètres carrés de voûte. Michel-Ange se disait sculpteur, pas peintre, et a accepté le chantier en râlant. Quatre ans plus tard, il parlait encore d’une corvée."
+ },
+ {
+  "q": "Combien de tableaux de Vermeer nous sont parvenus ?",
+  "n": 34,
+  "u": "tableaux",
+  "e": "Trente-quatre, dont un contesté. Vermeer achevait deux ou trois toiles par an, est mort criblé de dettes avec onze enfants, puis fut oublié pendant deux siècles avant d’être redécouvert vers 1860."
+ },
+ {
+  "q": "Combien de tableaux Van Gogh a-t-il vendus de son vivant ?",
+  "n": 1,
+  "u": "tableau",
+  "e": "Un seul, selon la version admise : La Vigne rouge, acheté 400 francs par la peintre belge Anna Boch. Il est mort quelques mois plus tard, persuadé d’avoir raté sa vie et ruiné son frère."
+ },
+ {
+  "q": "Combien de peintures à l’huile Van Gogh a-t-il laissées ?",
+  "n": 860,
+  "u": "peintures",
+  "e": "Environ 860 huiles, plus un millier de dessins, en dix ans de carrière seulement. Certaines semaines il achevait un tableau tous les deux jours, tout en écrivant à Theo qu’il n’avançait pas."
+ },
+ {
+  "q": "Combien d’autoportraits peints Van Gogh a-t-il laissés ?",
+  "n": 35,
+  "u": "autoportraits",
+  "e": "Plus de trente-cinq, en quatre ans. Ce n’était pas du narcissisme : un modèle coûtait cher, un miroir ne coûtait rien. Dans ses lettres, il s’excuse presque de se prendre pour sujet."
+ },
+ {
+  "q": "Combien d’étoiles Van Gogh a-t-il peintes dans La Nuit étoilée ?",
+  "n": 11,
+  "u": "étoiles",
+  "e": "Onze, plus un croissant de lune. Le paysage est vu depuis la fenêtre grillagée de sa chambre d’asile à Saint-Rémy, mais le village au clocher pointu, lui, est entièrement inventé."
+ },
+ {
+  "q": "Combien de tableaux Picasso a-t-il peints au cours de sa vie ?",
+  "n": 13500,
+  "u": "tableaux",
+  "e": "Environ 13 500, auxquels s’ajoutent des dizaines de milliers de gravures et de dessins : le peintre le plus prolifique jamais recensé. Soixante-quinze ans de travail, parfois plusieurs toiles dans la même journée."
+ },
+ {
+  "q": "Combien de toiles Monet a-t-il consacrées aux Nymphéas ?",
+  "n": 250,
+  "u": "toiles",
+  "e": "Environ 250, peintes durant les trente dernières années de sa vie, presque toutes dans son jardin de Giverny. À la fin, la cataracte brouillait tellement ses couleurs qu’il peignait de mémoire."
+ },
+ {
+  "q": "Quelle longueur totale développent les Nymphéas de Monet au musée de l’Orangerie ?",
+  "n": 100,
+  "u": "mètres",
+  "e": "Près de 100 mètres de toiles courbes, en huit panneaux répartis dans deux salles ovales. Monet a offert l’ensemble à la France au lendemain de l’armistice de 1918, comme un monument à la paix."
+ },
+ {
+  "q": "Combien de tableaux Frida Kahlo a-t-elle peints ?",
+  "n": 143,
+  "u": "tableaux",
+  "e": "143 seulement, dont 55 autoportraits. Elle a commencé alitée, après un accident de bus, avec un miroir fixé au-dessus de son lit : c’est ce miroir qui explique tous ces visages."
+ },
+ {
+  "q": "Combien d’années Camille Claudel a-t-elle passées enfermée en asile ?",
+  "n": 30,
+  "u": "ans",
+  "e": "Trente ans, de 1913 à sa mort en 1943, internée à la demande de sa famille alors que les médecins jugeaient sa sortie possible. Elle n’a plus jamais sculpté et repose dans une fosse commune."
+ },
+ {
+  "q": "Quelle taille faisait Toulouse-Lautrec ?",
+  "n": 152,
+  "u": "cm",
+  "e": "Environ 1,52 m. Une maladie osseuse a stoppé la croissance de ses jambes après deux fractures adolescentes, laissant un buste d’adulte sur des jambes d’enfant. Les tables des cabarets, elles, étaient à sa hauteur."
+ },
+ {
+  "q": "À quel âge Grandma Moses s’est-elle mise à peindre ?",
+  "n": 78,
+  "u": "ans",
+  "e": "À 78 ans, quand l’arthrite l’a empêchée de continuer à broder. Elle a produit plus de mille tableaux, exposé à New York, fait la une des magazines et travaillé jusqu’à sa mort, à 101 ans."
+ },
+ {
+  "q": "Quel âge avait Michel-Ange à sa mort ?",
+  "n": 88,
+  "u": "ans",
+  "e": "88 ans, trois semaines avant son quatre-vingt-neuvième anniversaire, à une époque où l’on vivait rarement au-delà de quarante. Il sculptait encore une Pietà quelques jours avant la fin."
+ },
+ {
+  "q": "Combien pèse le David de Michel-Ange ?",
+  "n": 5660,
+  "u": "kg",
+  "e": "Près de 5,7 tonnes de marbre de Carrare, tirées d’un bloc que deux sculpteurs avaient déjà entamé puis abandonné comme irrécupérable. Michel-Ange a récupéré ce rebut et en a fait la statue la plus célèbre du monde."
+ },
+ {
+  "q": "Quelle hauteur fait le David de Michel-Ange, socle non compris ?",
+  "n": 517,
+  "u": "cm",
+  "e": "5,17 mètres : on l’imagine à taille humaine, il fait trois hommes. Il devait couronner la cathédrale de Florence, vu d’en bas, d’où sa tête et ses mains volontairement surdimensionnées."
+ },
+ {
+  "q": "Combien d’années le David est-il resté en plein air sur une place de Florence ?",
+  "n": 369,
+  "u": "ans",
+  "e": "De 1504 à 1873, exposé à la pluie et au soleil devant le Palazzo Vecchio, avant d’être mis à l’abri. Ce qui trône aujourd’hui sur la place est une copie que personne ne regarde vraiment."
+ },
+ {
+  "q": "Quel âge avait Michel-Ange quand il a commencé le David ?",
+  "n": 26,
+  "u": "ans",
+  "e": "Vingt-six ans. Le bloc traînait depuis des décennies dans la cour de la cathédrale, jugé bon à rien par les maîtres en place. Le jeune homme a emporté le contrat et travaillé plus de deux ans, souvent la nuit."
+ },
+ {
+  "q": "Combien de coups de marteau la Pietà de Michel-Ange a-t-elle reçus en 1972 ?",
+  "n": 15,
+  "u": "coups",
+  "e": "Quinze, portés par un géologue australien qui hurlait qu’il était Jésus-Christ. Le bras gauche de la Vierge s’est brisé, son nez et sa paupière ont volé en éclats, et des touristes ont emporté des morceaux."
+ },
+ {
+  "q": "Combien de temps a duré la restauration de la Pietà après l’attaque au marteau ?",
+  "n": 10,
+  "u": "mois",
+  "e": "Dix mois de puzzle. Les restaurateurs ont recollé une centaine d’éclats et comblé les manques avec de la poussière de marbre prélevée sur la statue elle-même. Elle vit depuis derrière une vitre blindée."
+ },
+ {
+  "q": "Combien de temps a duré la restauration de la Victoire de Samothrace au Louvre ?",
+  "n": 10,
+  "u": "mois",
+  "e": "Dix mois, en 2013 et 2014, pour nettoyer un marbre grisonnant et redresser la proue de navire qui lui sert de socle. La statue a retrouvé sa blancheur, et beaucoup l’ont trouvée méconnaissable."
+ },
+ {
+  "q": "Combien de temps Ghiberti a-t-il mis pour réaliser les Portes du Paradis de Florence ?",
+  "n": 27,
+  "u": "ans",
+  "e": "Vingt-sept ans, de 1425 à 1452, après en avoir déjà passé vingt et un sur une première porte. Michel-Ange, en les découvrant, aurait dit qu’elles méritaient d’ouvrir le paradis : le surnom est resté."
+ },
+ {
+  "q": "Pendant combien d’années Rodin a-t-il travaillé à La Porte de l’Enfer ?",
+  "n": 37,
+  "u": "ans",
+  "e": "Trente-sept ans, de 1880 jusqu’à sa mort, sans jamais la livrer : le musée qui l’avait commandée n’a même pas vu le jour. Le Penseur et Le Baiser en sont des fragments devenus autonomes."
+ },
+ {
+  "q": "Combien de temps a duré la sculpture du mont Rushmore ?",
+  "n": 14,
+  "u": "ans",
+  "e": "Quatorze ans, de 1927 à 1941, avec environ quatre cents ouvriers et beaucoup de dynamite : neuf dixièmes de la roche ont été arrachés à l’explosif. Aucun mort sur le chantier, ce qui tient du miracle."
+ },
+ {
+  "q": "Combien a coûté la sculpture du mont Rushmore ?",
+  "n": 989992.32,
+  "u": "dollars",
+  "e": "989 992,32 dollars, au centime près, pour quatre visages de dix-huit mètres taillés dans une falaise. Le sculpteur Gutzon Borglum est mort quelques mois avant la fin, et son fils a arrêté le chantier."
+ },
+ {
+  "q": "Combien pèse la statue du Christ Rédempteur de Rio ?",
+  "n": 635,
+  "u": "tonnes",
+  "e": "635 tonnes de béton armé et de stéatite, hissées au sommet du Corcovado par un petit train à crémaillère. Ses bras ouverts font vingt-huit mètres d’envergure, presque autant que sa hauteur."
+ },
+ {
+  "q": "Quelle est l’épaisseur de la peau de cuivre de la statue de la Liberté ?",
+  "n": 2.4,
+  "u": "mm",
+  "e": "2,4 millimètres, l’épaisseur de deux pièces de monnaie. Les feuilles de cuivre ont été martelées à la main sur des moules en bois, à Paris, puis expédiées à New York dans 214 caisses."
+ },
+ {
+  "q": "Combien pèse le masque funéraire de Toutânkhamon ?",
+  "n": 10.23,
+  "u": "kg",
+  "e": "10,23 kg d’or massif, incrusté de lapis-lazuli et de cornaline. Sa barbe postiche s’est détachée en 2014 : des employés du musée du Caire l’ont recollée à la colle époxy, puis grattée au cutter."
+ },
+ {
+  "q": "Combien pèse le cercueil en or massif de Toutânkhamon ?",
+  "n": 110.4,
+  "u": "kg",
+  "e": "110,4 kg d’or pur, troisième sarcophage emboîté dans les deux autres, pour un roi mort vers dix-huit ans après un règne sans éclat. On n’ose imaginer ce que contenaient les tombes des grands pharaons, toutes pillées."
+ },
+ {
+  "q": "Combien pèse la pierre de Rosette ?",
+  "n": 760,
+  "u": "kg",
+  "e": "Environ 760 kg de granodiorite, et ce n’est qu’un fragment de stèle brisée, trouvé par hasard dans le mur d’un fort par des soldats de Bonaparte. Champollion a mis une vingtaine d’années à en tirer les hiéroglyphes."
+ },
+ {
+  "q": "Combien pèse le Codex Gigas, surnommé la Bible du Diable ?",
+  "n": 75,
+  "u": "kg",
+  "e": "75 kg pour 92 cm de haut : il faut deux personnes pour le soulever. Environ 160 peaux de bêtes ont servi à le fabriquer, et la légende veut qu’un moine l’ait copié en une nuit, aidé par Satan."
+ },
+ {
+  "q": "Quelle proportion de la lumière le Vantablack, le noir le plus profond, absorbe-t-il ?",
+  "n": 99.965,
+  "u": "%",
+  "e": "99,965 % : un objet recouvert de ce noir perd tout relief, l’œil ne voit plus qu’un trou. Anish Kapoor s’en est offert l’exclusivité artistique, déclenchant une guerre de pigments avec les autres artistes."
+ },
+ {
+  "q": "Combien d’ambre contenait la Chambre d’ambre disparue en 1945 ?",
+  "n": 6,
+  "u": "tonnes",
+  "e": "Six tonnes d’ambre de la Baltique sur 55 mètres carrés de panneaux, offerts par la Prusse au tsar. Démontée par les nazis à Tsarskoïe Selo puis évacuée vers Königsberg, elle n’a jamais reparu."
+ },
+ {
+  "q": "Combien de temps a duré la reconstruction à l’identique de la Chambre d’ambre ?",
+  "n": 24,
+  "u": "ans",
+  "e": "Vingt-quatre ans, de 1979 à 2003, par des artisans russes qui ont dû réinventer des techniques oubliées. Le chantier, à court d’argent, a été sauvé in extremis par un mécène allemand."
+ },
+ {
+  "q": "Combien de temps la grotte de Lascaux est-elle restée ouverte au public ?",
+  "n": 15,
+  "u": "ans",
+  "e": "Quinze ans, de 1948 à 1963. Le souffle de plus d’un millier de visiteurs par jour a fait proliférer algues et calcite sur des peintures intactes depuis dix-sept millénaires. On a refermé en catastrophe."
+ },
+ {
+  "q": "Combien de temps a-t-il fallu pour construire le fac-similé Lascaux II ?",
+  "n": 11,
+  "u": "ans",
+  "e": "Onze ans, de 1972 à 1983, à deux cents mètres de la vraie grotte. Les parois de béton ont été moulées au millimètre, puis repeintes avec les pigments et les gestes du Paléolithique."
+ },
+ {
+  "q": "Combien a coûté la réplique de la grotte Chauvet, ouverte en 2015 ?",
+  "n": 55,
+  "u": "millions d’euros",
+  "e": "55 millions d’euros pour le plus grand fac-similé du monde : trois mille mètres carrés reproduisant une caverne que presque personne n’a le droit de voir. L’original abrite des peintures vieilles de 36 000 ans."
+ },
+ {
+  "q": "Quel âge a la plus ancienne peinture figurative connue, découverte en Indonésie ?",
+  "n": 45500,
+  "u": "ans",
+  "e": "45 500 ans : un cochon verruqueux grandeur nature, peint à l’ocre sur une paroi de Sulawesi et daté en 2021. Il devance de plusieurs millénaires les fresques européennes qu’on croyait pionnières."
+ },
+ {
+  "q": "Quelle est la hauteur de la Vénus de Willendorf ?",
+  "n": 11.1,
+  "u": "cm",
+  "e": "11,1 cm : la plus célèbre statuette de la préhistoire tient dans une paume. Sculptée voici environ 30 000 ans dans un calcaire absent de la région, elle a voyagé sur des centaines de kilomètres."
+ }
 ]

@@ -448,5 +448,155 @@
   "n": 18,
   "u": "kilomètres",
   "e": "Épuisé, il monte dans une auto, redescend frais comme un gardon et franchit la ligne en vainqueur. Démasqué au moment de la remise du prix, il jura que c’était une blague."
+ },
+ {
+  "q": "Combien d’années Shizo Kanakuri a-t-il mis pour terminer le marathon olympique de 1912 ?",
+  "n": 54,
+  "u": "ans",
+  "e": "Malade sur le parcours, le Japonais s’arrête boire chez des riverains, s’endort et rentre au pays sans prévenir. La Suède l’invite en 1967 : il coupe enfin la ligne, cinquante-quatre ans plus tard."
+ },
+ {
+  "q": "Combien de secondes Éric l’Anguille a-t-il mis pour nager son 100 mètres olympique ?",
+  "n": 112.72,
+  "u": "secondes",
+  "e": "Le Guinéen équatorial Eric Moussambani avait appris à nager huit mois plus tôt, dans un bassin de vingt mètres. Seul dans l’eau, il a fini deux fois plus lentement que le record, sous les acclamations."
+ },
+ {
+  "q": "Combien d’or contenait la cuvette de toilettes en état de marche volée au palais de Blenheim ?",
+  "n": 98,
+  "u": "kg",
+  "e": "Une œuvre de Maurizio Cattelan en or 18 carats, installée pour que le public puisse réellement s’en servir. Volée en 2019 après une nuit de fête, elle n’a jamais été retrouvée : sans doute fondue."
+ },
+ {
+  "q": "Combien s’est vendu aux enchères le violon retrouvé du chef d’orchestre du Titanic ?",
+  "n": 900000,
+  "u": "livres",
+  "e": "Wallace Hartley jouait pour calmer les passagers pendant le naufrage. L’instrument, sanglé dans un étui de cuir retrouvé sur son corps, s’est vendu en 2013 en dix minutes d’enchères."
+ },
+ {
+  "q": "Combien de mois a duré l’épidémie de rire du Tanganyika, en 1962 ?",
+  "n": 18,
+  "u": "mois",
+  "e": "Partie d’un pensionnat de filles, la crise de fou rire contagieux a fermé quatorze écoles et touché près d’un millier de personnes. Diagnostic retenu : une hystérie collective liée au stress scolaire."
+ },
+ {
+  "q": "Combien de personnes le lac Nyos a-t-il tuées en une seule nuit, en 1986 ?",
+  "n": 1746,
+  "u": "morts",
+  "e": "Un lac de cratère camerounais a relâché d’un coup un nuage de CO₂ dissous. Plus lourd que l’air, il a dévalé les vallées et asphyxié villages et troupeaux dans leur sommeil."
+ },
+ {
+  "q": "Combien d’années encore l’incendie souterrain de Centralia pourrait-il brûler ?",
+  "n": 250,
+  "u": "ans",
+  "e": "Un feu de décharge a atteint une veine de charbon en 1962, en Pennsylvanie. La ville a été évacuée et rayée des cartes. Le filon sous terre a de quoi alimenter les flammes deux siècles et demi."
+ },
+ {
+  "q": "Combien de jours de marche compte l’épreuve du kaihōgyō, chez les moines du mont Hiei ?",
+  "n": 1000,
+  "u": "jours",
+  "e": "Sept ans de course-marche autour de la montagne, jusqu’à 84 kilomètres par jour sur la fin. Le moine porte une corde et une lame : la tradition veut qu’il renonce à la vie s’il abandonne."
+ },
+ {
+  "q": "Combien pèse la boule de cristal qui descend à Times Square pour le Nouvel An ?",
+  "n": 5386,
+  "u": "kg",
+  "e": "Plus de cinq tonnes de triangles de cristal et de LED, pour une chute de vingt-trois mètres en soixante secondes. La toute première boule, en 1907, était en fer et en bois, avec cent ampoules."
+ },
+ {
+  "q": "Combien de masse le prototype international du kilogramme a-t-il perdu en un siècle ?",
+  "n": 50,
+  "u": "microgrammes",
+  "e": "Le cylindre de platine iridié gardé sous trois cloches à Sèvres a maigri par rapport à ses copies. Comme il définissait le kilo, c’est le monde entier qui grossissait. On a changé la définition."
+ },
+ {
+  "q": "Combien d’heures dure « Logistics », le film le plus long jamais tourné ?",
+  "n": 857,
+  "u": "heures",
+  "e": "Trente-cinq jours de projection. Deux Suédois ont remonté à l’envers le trajet d’un podomètre, du magasin à l’usine chinoise, dont plusieurs semaines de plans fixes sur un cargo."
+ },
+ {
+  "q": "Combien de prises Stanley Kubrick a-t-il exigées pour la scène de l’escalier dans « Shining » ?",
+  "n": 127,
+  "u": "prises",
+  "e": "Shelley Duvall a brandi sa batte de baseball cent vingt-sept fois, en larmes et perdant ses cheveux par poignées. Le tournage a duré plus d’un an pour un huis clos."
+ },
+ {
+  "q": "Combien de minutes a duré le plus long discours prononcé à l’Assemblée générale de l’ONU ?",
+  "n": 269,
+  "u": "minutes",
+  "e": "Fidel Castro, en 1960 : quatre heures et vingt-neuf minutes au pupitre, alors que le temps de parole conseillé est de quinze minutes. Les traducteurs se sont relayés plusieurs fois."
+ },
+ {
+  "q": "Combien de jours a duré le monstrueux embouteillage de Pékin, en 2010 ?",
+  "n": 12,
+  "u": "jours",
+  "e": "Cent kilomètres de bouchon sur l’autoroute Pékin-Tibet, à cause de travaux et de convois de charbon. Des vendeurs ambulants sillonnaient les files, vendant nouilles et eau au triple du prix."
+ },
+ {
+  "q": "Combien de marches compte l’escalier du Niesen, le plus long escalier du monde ?",
+  "n": 11674,
+  "u": "marches",
+  "e": "Il longe le funiculaire suisse sur 1 669 mètres de dénivelé. Interdit au public toute l’année, sauf un jour de course annuel : les meilleurs le grimpent en moins d’une heure."
+ },
+ {
+  "q": "Quel âge avait le plus vieux message dans une bouteille jamais retrouvé ?",
+  "n": 132,
+  "u": "ans",
+  "e": "Jetée d’un navire allemand en 1886 pour étudier les courants, la bouteille a été ramassée en 2018 sur une plage australienne par une famille en pique-nique. Le formulaire à l’intérieur était encore lisible."
+ },
+ {
+  "q": "Combien de canards en plastique sont tombés d’un cargo dans le Pacifique en 1992 ?",
+  "n": 28800,
+  "u": "canards",
+  "e": "Un conteneur passé par-dessus bord. Les jouets ont dérivé pendant des années, franchi le détroit de Béring pris dans les glaces, et échoué jusqu’en Écosse. Les océanographes s’en servent encore."
+ },
+ {
+  "q": "Combien de pièces de Lego un cargo a-t-il perdues au large de la Cornouailles en 1997 ?",
+  "n": 4756940,
+  "u": "pièces",
+  "e": "Une vague scélérate emporte un conteneur du Tokio Express. Ironie du sort : le chargement comprenait des milliers de pièces sur le thème de la mer. On ramasse encore des poulpes verts sur les plages."
+ },
+ {
+  "q": "Combien de kilomètres le chien Bobbie a-t-il parcourus pour rentrer chez lui ?",
+  "n": 4100,
+  "u": "kilomètres",
+  "e": "Perdu dans l’Indiana pendant les vacances de ses maîtres, il traverse les États-Unis en six mois, l’hiver, et retrouve leur maison en Oregon, pattes en sang. Il est devenu une star nationale."
+ },
+ {
+  "q": "Quel âge avait Annie Edson Taylor quand elle a franchi les chutes du Niagara dans un tonneau ?",
+  "n": 63,
+  "u": "ans",
+  "e": "Institutrice sans le sou, elle espérait faire fortune. Elle a testé le tonneau avec un chat, y est entrée avec un matelas et un coussin, et en est ressortie vivante. Elle est morte pauvre."
+ },
+ {
+  "q": "De quelle altitude Felix Baumgartner s’est-il jeté lors de son saut stratosphérique ?",
+  "n": 38969,
+  "u": "mètres",
+  "e": "Une capsule sous ballon d’hélium, une combinaison pressurisée, et une chute où il a passé le mur du son en tombant : 1 357 km/h, en vrille pendant plusieurs dizaines de secondes."
+ },
+ {
+  "q": "De combien d’étages Betty Lou Oliver est-elle tombée dans un ascenseur, en survivant ?",
+  "n": 75,
+  "u": "étages",
+  "e": "Un bombardier B-25 percute l’Empire State Building en 1945. Blessée, elle est placée dans un ascenseur dont les câbles ont fondu. Les câbles entassés au fond de la cage ont amorti la chute."
+ },
+ {
+  "q": "Quelle longueur faisait le tunnel creusé pour le braquage de la Banque centrale de Fortaleza ?",
+  "n": 78,
+  "u": "mètres",
+  "e": "Trois mois de creusement sous une fausse entreprise de gazon synthétique, avec éclairage et ventilation. Repartis avec 3,5 tonnes de billets usagés, non traçables : le plus gros butin de l’histoire du Brésil."
+ },
+ {
+  "q": "Combien d’heures a duré le plus long baiser homologué ?",
+  "n": 58,
+  "u": "heures",
+  "e": "Un couple thaïlandais, en 2013 : cinquante-huit heures et trente-cinq minutes lèvres collées, debout, sans dormir. Boire à la paille était autorisé, se séparer une seconde non. Deux concurrents ont été hospitalisés."
+ },
+ {
+  "q": "Combien de jours un petit Cessna est-il resté en vol sans jamais se poser ?",
+  "n": 64,
+  "u": "jours",
+  "e": "En 1958, deux hommes ont volé au-dessus du Nevada pendant plus de deux mois. Ravitaillement en essence et en nourriture en frôlant une voiture lancée sur une route droite du désert."
  }
 ]

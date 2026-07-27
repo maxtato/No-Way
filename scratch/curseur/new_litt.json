@@ -148,5 +148,155 @@
   "n": 250,
   "u": "exemplaires",
   "e": "Deux cent cinquante, payés de sa poche après six refus d’éditeurs. Le petit lapin en veste bleue s’est depuis vendu à des dizaines de millions d’exemplaires."
+ },
+ {
+  "q": "Combien d’exemplaires de « Moby Dick » se sont vendus aux États-Unis du vivant de Melville ?",
+  "n": 3215,
+  "u": "exemplaires",
+  "e": "3215 exemplaires en quarante ans, soit environ 556 dollars de droits d’auteur. Melville finit inspecteur des douanes à New York ; sa nécrologie orthographiait mal son nom."
+ },
+ {
+  "q": "Combien Ray Bradbury a-t-il dépensé en location de machine à écrire pour taper « Fahrenheit 451 » ?",
+  "n": 9.8,
+  "u": "dollars",
+  "e": "Neuf dollars quatre-vingts, à dix cents la demi-heure sur une machine à pièces, au sous-sol de la bibliothèque d’UCLA. Il y descendait pour fuir le vacarme de ses enfants."
+ },
+ {
+  "q": "Combien Stephen King a-t-il touché comme avance pour l’édition reliée de « Carrie » ?",
+  "n": 2500,
+  "u": "dollars",
+  "e": "2500 dollars. Il vivait en caravane et enseignait l’anglais. Quelques mois plus tard, les droits de poche partaient pour 400000 dollars : il dut s’asseoir pour encaisser la nouvelle."
+ },
+ {
+  "q": "Combien Bloomsbury a-t-il avancé à J. K. Rowling pour le premier « Harry Potter » ?",
+  "n": 1500,
+  "u": "livres sterling",
+  "e": "1500 livres, avec le conseil de garder un vrai métier : la littérature jeunesse ne nourrit pas son auteur. La décision de publier avait été emportée par la fille de huit ans du patron."
+ },
+ {
+  "q": "Combien Jane Austen a-t-elle touché en vendant les droits d’« Orgueil et Préjugés » ?",
+  "n": 110,
+  "u": "livres sterling",
+  "e": "Cent dix livres, à forfait, en 1812. Elle ne vit jamais un centime des ventes suivantes et publia toute sa vie anonymement, signée « une dame »."
+ },
+ {
+  "q": "Combien Milton a-t-il touché en tout pour « Le Paradis perdu » ?",
+  "n": 10,
+  "u": "livres sterling",
+  "e": "Dix livres, en deux versements de cinq. Devenu aveugle, il composait la nuit dans sa tête une dizaine de vers et attendait le matin qu’on vienne, disait-il, le traire."
+ },
+ {
+  "q": "Combien vaut le chèque remis au lauréat du prix Goncourt ?",
+  "n": 10,
+  "u": "euros",
+  "e": "Dix euros, un chèque que les lauréats encadrent au lieu de l’encaisser. Le vrai prix est ailleurs : quelques centaines de milliers d’exemplaires vendus dans les semaines qui suivent."
+ },
+ {
+  "q": "Combien Mark Twain a-t-il perdu en investissant dans une machine à composer les caractères ?",
+  "n": 300000,
+  "u": "dollars",
+  "e": "Environ 300000 dollars de l’époque engloutis dans la machine Paige, rendue obsolète par la Linotype. Ruiné, Twain repartit en tournée de conférences autour du monde pour éponger ses dettes."
+ },
+ {
+  "q": "Quel a été le premier tirage de « Harry Potter à l’école des sorciers » ?",
+  "n": 500,
+  "u": "exemplaires",
+  "e": "Cinq cents exemplaires, dont trois cents expédiés en bibliothèque. Les rares survivants en bon état se négocient aujourd’hui plusieurs dizaines de milliers d’euros pièce."
+ },
+ {
+  "q": "Quel a été le premier tirage du « Hobbit » de Tolkien ?",
+  "n": 1500,
+  "u": "exemplaires",
+  "e": "1500 exemplaires en 1937, épuisés en trois mois. Le manuscrit avait été validé par le fils de dix ans de l’éditeur, payé un shilling pour son rapport de lecture."
+ },
+ {
+  "q": "Quel a été le premier tirage de « Frankenstein » de Mary Shelley ?",
+  "n": 500,
+  "u": "exemplaires",
+  "e": "Cinq cents exemplaires, publiés anonymement en 1818. Beaucoup crurent l’auteur masculin : Mary Shelley avait dix-huit ans quand elle commença le roman, lors d’un concours d’histoires de fantômes."
+ },
+ {
+  "q": "Combien d’exemplaires comptait la première édition d’« Ulysse » de Joyce ?",
+  "n": 1000,
+  "u": "exemplaires",
+  "e": "Mille, imprimés à Paris par la libraire Sylvia Beach parce qu’aucun éditeur anglophone n’osait s’y risquer. Des exemplaires furent saisis et brûlés par la douane américaine."
+ },
+ {
+  "q": "Combien d’exemplaires d’« Un chant de Noël » se sont vendus dans la première semaine ?",
+  "n": 6000,
+  "u": "exemplaires",
+  "e": "Six mille, écoulés avant même le soir de Noël 1843. Mais Dickens avait exigé une reliure luxueuse à prix cassé : le triomphe ne lui rapporta presque rien."
+ },
+ {
+  "q": "À combien d’exemplaires les livraisons mensuelles des « Papiers posthumes du Pickwick Club » sont-elles montées ?",
+  "n": 40000,
+  "u": "exemplaires",
+  "e": "De quatre cents exemplaires au premier fascicule à quarante mille au dernier. Dickens avait vingt-quatre ans ; son illustrateur s’était suicidé après le deuxième numéro."
+ },
+ {
+  "q": "À combien d’exemplaires « L’Aurore » a-t-elle tiré le jour du « J’accuse » de Zola ?",
+  "n": 300000,
+  "u": "exemplaires",
+  "e": "Trois cent mille, contre trente mille d’ordinaire, vendus à la criée dans Paris en quelques heures. Zola fut condamné à un an de prison et s’enfuit à Londres."
+ },
+ {
+  "q": "Combien d’exemplaires du « Petit Livre rouge » de Mao ont été imprimés ?",
+  "n": 1000000000,
+  "u": "exemplaires",
+  "e": "Plus d’un milliard, ce qui en fait l’un des livres les plus imprimés de l’histoire. Circuler sans l’avoir sur soi pouvait valoir de très sérieux ennuis."
+ },
+ {
+  "q": "Combien de mots compte la plus longue phrase des « Misérables » ?",
+  "n": 823,
+  "u": "mots",
+  "e": "823 mots d’un seul souffle, souvent citée comme la plus longue phrase de la littérature française. Hugo y déroule tout le Paris politique en une cascade de propositions."
+ },
+ {
+  "q": "Combien de mots compte la plus longue phrase jamais publiée dans un roman anglais, signée Jonathan Coe ?",
+  "n": 13955,
+  "u": "mots",
+  "e": "13955 mots sans le moindre point, à la fin de « Bienvenue au club ». Coe voulait détrôner le monologue final d’« Ulysse » : c’est fait, et très largement."
+ },
+ {
+  "q": "Combien de mots compte « Gadsby », le roman écrit sans jamais employer la lettre e ?",
+  "n": 50110,
+  "u": "mots",
+  "e": "50110 mots sans un seul e, en anglais. Wright avait bloqué la touche E de sa machine pour ne pas tricher. Paru en 1939, le livre fut un échec complet."
+ },
+ {
+  "q": "Combien de mots compte « Harry Potter et l’Ordre du Phénix », le plus long de la série ?",
+  "n": 257045,
+  "u": "mots",
+  "e": "257045 mots, soit plus de trois fois le premier tome. Rowling refusa la moindre coupe et ses éditeurs, devant le succès, n’insistèrent pas."
+ },
+ {
+  "q": "Combien de mots compte l’ensemble des sept « Harry Potter » ?",
+  "n": 1084170,
+  "u": "mots",
+  "e": "1084170 mots. Lus à voix haute, cela représente environ cent vingt heures : cinq jours et cinq nuits sans dormir ni cesser de parler."
+ },
+ {
+  "q": "Combien de mots compte « Guerre et Paix » ?",
+  "n": 587000,
+  "u": "mots",
+  "e": "Environ 587000 mots, soit une soixantaine d’heures de lecture. Tolstoï refusait d’appeler cela un roman : ni roman, disait-il, ni poème, ni chronique historique."
+ },
+ {
+  "q": "Combien de mots compte la Bible du roi Jacques ?",
+  "n": 783137,
+  "u": "mots",
+  "e": "783137 mots, traduits en sept ans par quarante-sept savants répartis en six comités séparés. Une bonne part des expressions courantes de l’anglais en sort directement."
+ },
+ {
+  "q": "Combien de mots compte l’œuvre complète de Shakespeare ?",
+  "n": 884647,
+  "u": "mots",
+  "e": "884647 mots pour l’ensemble des pièces et des poèmes, dont environ 31000 mots différents. On lui attribue le premier emploi écrit de près de 1700 d’entre eux."
+ },
+ {
+  "q": "Combien de mots compte le Mahabharata, la plus longue épopée du monde ?",
+  "n": 1800000,
+  "u": "mots",
+  "e": "Environ 1,8 million de mots : près de dix fois l’Iliade et l’Odyssée réunies. Le texte a été récité de mémoire pendant des siècles avant d’être fixé par écrit."
  }
 ]

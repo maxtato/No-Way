@@ -148,5 +148,155 @@
   "n": 1000000,
   "u": "dollars",
   "e": "Un million de dollars chacun, par épisode. Les six comédiens négociaient en bloc pour que personne ne soit payé moins que les autres : une stratégie devenue légendaire à Hollywood."
+ },
+ {
+  "q": "Combien de jours de tournage a-t-il fallu pour Les Dents de la mer ?",
+  "n": 159,
+  "u": "jours",
+  "e": "Cinquante-cinq jours étaient prévus, il en a fallu 159. Tourner en pleine mer avec un requin hydraulique capricieux a bien failli coûter sa carrière à Spielberg, alors âgé de vingt-sept ans."
+ },
+ {
+  "q": "Combien de jours a duré le tournage d’Eyes Wide Shut, record homologué ?",
+  "n": 400,
+  "u": "jours",
+  "e": "Quatre cents jours, le plus long tournage continu jamais homologué par le Guinness. Kubrick refaisait les scènes des dizaines de fois ; deux acteurs ont abandonné et ont dû être remplacés."
+ },
+ {
+  "q": "Combien de jours de tournage a nécessité Metropolis, de Fritz Lang ?",
+  "n": 310,
+  "u": "jours",
+  "e": "310 jours et 60 nuits, un budget qui a failli ruiner le studio UFA. Les figurants ont passé des journées entières dans l’eau glacée pour la scène de l’inondation."
+ },
+ {
+  "q": "Combien de figurants ont été engagés sur le tournage de Metropolis ?",
+  "n": 36000,
+  "u": "figurants",
+  "e": "Environ 36 000 figurants, dont 750 enfants. Pour la seule scène de la tour de Babel, 1 100 hommes ont accepté de se faire raser le crâne, contre un cachet dérisoire."
+ },
+ {
+  "q": "En combien de jours le premier Rocky a-t-il été tourné ?",
+  "n": 28,
+  "u": "jours",
+  "e": "Vingt-huit jours. Faute d’autorisations et d’argent, plusieurs scènes de course dans Philadelphie sont volées caméra à l’épaule, sans que les passants soient prévenus de rien."
+ },
+ {
+  "q": "En combien de jours Whiplash a-t-il été tourné ?",
+  "n": 19,
+  "u": "jours",
+  "e": "Dix-neuf jours seulement. Miles Teller, batteur depuis l’enfance, a joué lui-même ses parties et terminé le tournage avec les mains couvertes d’ampoules. J.K. Simmons y a gagné un Oscar."
+ },
+ {
+  "q": "En combien de jours Le Projet Blair Witch a-t-il été tourné ?",
+  "n": 8,
+  "u": "jours",
+  "e": "Huit jours. Les trois acteurs, lâchés seuls en forêt, recevaient leurs consignes dans des boîtes cachées et ignoraient totalement ce que l’équipe leur réservait pendant la nuit."
+ },
+ {
+  "q": "Combien de jours a duré le tournage principal de la trilogie du Seigneur des anneaux ?",
+  "n": 438,
+  "u": "jours",
+  "e": "Environ 438 jours, les trois films tournés d’un seul bloc en Nouvelle-Zélande. Jusqu’à sept équipes filmaient parfois le même jour sur des sites différents du pays."
+ },
+ {
+  "q": "Combien de nuits de tournage a demandé la bataille de Winterfell, dans Game of Thrones ?",
+  "n": 55,
+  "u": "nuits",
+  "e": "Cinquante-cinq nuits dans le froid et la boue, pour un seul épisode. L’équipe a reçu un badge de « survivant » ; la bataille dure 82 minutes à l’écran."
+ },
+ {
+  "q": "Combien de mois le tournage de Seul au monde a-t-il été interrompu ?",
+  "n": 12,
+  "u": "mois",
+  "e": "Un an de pause pour laisser Tom Hanks perdre vingt-cinq kilos et laisser pousser sa barbe. Pendant ce temps, Zemeckis a tourné un autre long-métrage entier avec la même équipe."
+ },
+ {
+  "q": "Combien de kilos Robert De Niro a-t-il pris pour la fin de Raging Bull ?",
+  "n": 27,
+  "u": "kg",
+  "e": "Vingt-sept kilos, gagnés en quelques mois en s’empiffrant à travers la France et l’Italie. Scorsese a arrêté le tournage le temps de la métamorphose ; De Niro a eu l’Oscar."
+ },
+ {
+  "q": "Combien de kilos Christian Bale a-t-il perdus pour The Machinist ?",
+  "n": 28,
+  "u": "kg",
+  "e": "Vingt-huit kilos : pommes, thon en boîte, café et cigarettes. Il voulait descendre encore, la production a refusé. Six mois plus tard, il tournait Batman Begins musclé."
+ },
+ {
+  "q": "Combien d’heures de maquillage Jim Carrey subissait-il chaque jour pour Le Grinch ?",
+  "n": 8.5,
+  "u": "heures",
+  "e": "Huit heures et demie au début, réduites ensuite. Au bord de la crise de nerfs sous le costume en poils de yak, Carrey a pris des cours auprès d’un spécialiste de la résistance à la torture."
+ },
+ {
+  "q": "Combien de prises Kubrick a-t-il exigées pour la scène de la batte, dans Shining ?",
+  "n": 127,
+  "u": "prises",
+  "e": "127 prises pour une seule scène dialoguée, record homologué. Shelley Duvall en a perdu ses cheveux par poignées, et Kubrick recommençait sans jamais expliquer pourquoi."
+ },
+ {
+  "q": "Combien de jours a demandé le tournage de la scène de la douche, dans Psychose ?",
+  "n": 7,
+  "u": "jours",
+  "e": "Sept jours de tournage pour quarante-cinq secondes à l’écran, découpées en dizaines de plans. Le couteau ne touche jamais la peau, et le sang est du sirop de chocolat Bosco."
+ },
+ {
+  "q": "Combien de candidates ont été auditionnées pour le rôle de Scarlett dans Autant en emporte le vent ?",
+  "n": 1400,
+  "u": "candidates",
+  "e": "Environ 1 400 actrices vues en deux ans de casting national. C’est finalement une Anglaise, Vivien Leigh, qui a décroché le rôle, alors que le tournage avait déjà commencé."
+ },
+ {
+  "q": "Combien de réalisateurs se sont succédé sur Le Magicien d’Oz ?",
+  "n": 5,
+  "u": "réalisateurs",
+  "e": "Cinq, dont George Cukor resté quelques jours à peine. Victor Fleming, le seul crédité, a lui-même quitté le plateau en cours de route pour aller sauver Autant en emporte le vent."
+ },
+ {
+  "q": "Combien d’acteurs de petite taille jouaient les Munchkins dans Le Magicien d’Oz ?",
+  "n": 124,
+  "u": "acteurs",
+  "e": "Cent vingt-quatre, recrutés dans toute l’Amérique et parfois en Europe. Leurs voix ont été accélérées en post-production, et leurs frasques à l’hôtel sont devenues une légende hollywoodienne."
+ },
+ {
+  "q": "En combien de semaines le jeu Atari E.T. a-t-il été programmé ?",
+  "n": 5,
+  "u": "semaines",
+  "e": "Cinq semaines et demie, Noël approchait. Le résultat, jugé injouable, a été enterré par milliers dans le désert du Nouveau-Mexique — des cartouches exhumées trente ans plus tard."
+ },
+ {
+  "q": "Combien d’années a duré le développement de Duke Nukem Forever ?",
+  "n": 15,
+  "u": "ans",
+  "e": "Quinze ans, trois moteurs graphiques successifs, un studio coulé en route. Annoncé comme révolutionnaire, le jeu est sorti en 2011 et s’est fait démolir par la critique entière."
+ },
+ {
+  "q": "En combien de jours est fabriqué un épisode de South Park ?",
+  "n": 6,
+  "u": "jours",
+  "e": "Six jours entre le premier storyboard et la diffusion. Cette cadence permet à la série de réagir à l’actualité de la semaine, quitte à livrer l’épisode quelques heures avant l’antenne."
+ },
+ {
+  "q": "Combien d’heures machine a demandé le calcul des images du premier Toy Story ?",
+  "n": 800000,
+  "u": "heures",
+  "e": "Environ 800 000 heures machine pour 81 minutes de film, réparties sur une ferme de plus de cent ordinateurs. Certaines images ont demandé jusqu’à trente heures de calcul, chacune."
+ },
+ {
+  "q": "Quelle proportion de Toy Story 2 a été effacée par erreur pendant la production ?",
+  "n": 90,
+  "u": "%",
+  "e": "Une commande mal tapée a supprimé 90 % du film sur les serveurs, et les sauvegardes ne fonctionnaient pas. Le film a été retrouvé sur l’ordinateur personnel d’une employée en congé maternité."
+ },
+ {
+  "q": "Combien de poils compte Sulley, le monstre bleu de Monstres et Cie ?",
+  "n": 2320413,
+  "u": "poils",
+  "e": "2 320 413 poils animés individuellement. Chaque image demandait des heures de calcul rien que pour faire onduler sa fourrure de façon crédible : Pixar a dû écrire un logiciel exprès."
+ },
+ {
+  "q": "Combien de taches ont été comptées dans le dessin animé Les 101 Dalmatiens ?",
+  "n": 6469952,
+  "u": "taches",
+  "e": "6 469 952 taches sur l’ensemble du film. Pour éviter de les redessiner une par une, Disney a adopté la xérographie : c’est de là que vient le trait crayonné si reconnaissable."
  }
 ]
