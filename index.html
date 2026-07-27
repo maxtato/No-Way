@@ -274,14 +274,8 @@ a.mini-btn{text-decoration:none;color:inherit}
 .menu .logo em{font-size:calc(16px * var(--hand-scale))}
 .menu .accroche{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
   font-size:15px;opacity:.8;margin-bottom:0;text-align:center;max-width:280px;text-wrap:balance}
-/* le titre en haut, le décor en bas, les cartes centrées dans ce qui reste */
+/* le titre reste en haut, les cartes se centrent dans la place restante */
 .modes{display:flex;flex-direction:column;gap:16px;width:100%;max-width:340px;margin:auto 0}
-/* le bas de page revient au carnet de voyage : un sol tracé et le début du sentier */
-.menu .sol{margin-top:auto;width:100%;max-width:360px;height:112px;position:relative;
-  line-height:0;pointer-events:none}
-.menu .sol span{position:absolute;line-height:0;opacity:.72}
-.menu .sol .mot{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
-  font-size:calc(16px * var(--hand-scale));color:var(--rouge);opacity:.9;line-height:1;white-space:nowrap}
 .mode{position:relative;display:flex;align-items:center;gap:15px;padding:21px 19px;
   text-decoration:none;color:inherit;text-align:left;--rot:-.8deg;transform:rotate(var(--rot))}
 .mode:nth-child(2){--rot:.7deg}
@@ -419,7 +413,6 @@ a.mini-btn{text-decoration:none;color:inherit}
         <span class="txt"><strong>Le duel</strong><span>À deux ou plus : chacun place son curseur, le plus proche gagne la manche.</span></span>
       </a>
     </div>
-    <div class="sol" id="menuSol" aria-hidden="true"></div>
   </section>
 
   <div class="hud">
@@ -1353,29 +1346,9 @@ if(document.fonts && document.fonts.ready){
   requestAnimationFrame(()=>{
     paintFrame($('modeAventure'),HEX.jaune,HEX.ombre,7,1.4,14);
     paintFrame($('modeDuel'),HEX.jaune,HEX.ombre,23,1.4,14);
-    dessinerSol();
   });
   /** le choix se voit avant de partir : la carte retenue est ré-encrée et rebondit,
       l'autre s'efface. On n'enchaîne qu'une fois la petite animation jouée. */
-  /** le sol du menu : une ligne tracée à main levée et quelques bricoles posées dessus */
-  function dessinerSol(){
-    const el=$('menuSol'), w=el?el.offsetWidth:0; if(!w) return;
-    const h=el.offsetHeight, y=h-12, n=7;
-    let d=`M 2 ${y.toFixed(1)}`;
-    for(let i=1;i<=n;i++){
-      const x=2+(w-4)*i/n;
-      d+=` Q ${(x-(w-4)/n/2).toFixed(1)} ${(y+wob(i*7.3,3.4)).toFixed(1)} ${x.toFixed(1)} ${(y+wob(i*3.1,2.2)).toFixed(1)}`;
-    }
-    const bricoles=[['herbe','#8A9A48',30,.07],['pancarte','#2A3229',44,.26],
-                    ['empreinte','#2C6E7F',24,.50],['caillou','#9AA0A6',27,.68],
-                    ['fossile','#B5533C',26,.83],['herbe','#8A9A48',26,.95]];
-    el.innerHTML=svgEl(w,h,`<path d="${d}" fill="none" stroke="#8A9A48" stroke-width="2.6" stroke-linecap="round"/>`,
-        `width="${w}" height="${h}" style="position:absolute;left:0;top:0;filter:url(#peint)"`)
-      + bricoles.map(([k,c,s,t],i)=>
-          `<span style="left:${(t*100).toFixed(1)}%;bottom:${11+(i%2?5:0)}px;transform:translateX(-50%) rotate(${wob(i*9+2,7).toFixed(1)}deg)">${pictoSVG(k,s,c)}</span>`
-        ).join('')
-      + `<span class="mot" style="left:50%;bottom:${h-28}px;transform:translateX(-50%) rotate(-3.4deg);opacity:1">le sentier commence ici</span>`;
-  }
   const MODE_SEEDS={modeAventure:7,modeDuel:23};
   function choisirMode(id,suite){
     const el=$(id), autre=$(id==='modeAventure'?'modeDuel':'modeAventure');
@@ -1395,7 +1368,7 @@ if(document.fonts && document.fonts.ready){
   renderMap();
   setTimeout(scrollToCurrent,120);
   let rid; window.addEventListener('resize',()=>{clearTimeout(rid);rid=setTimeout(()=>{
-    renderMap(); dessinerSol();
+    renderMap();
     if(run && $('quizScreen').classList.contains('on')) renderQuestion();
   },150)});
 })();
