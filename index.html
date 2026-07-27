@@ -118,19 +118,22 @@ a.mini-btn{text-decoration:none;color:inherit}
 /* ---------- SHEET ---------- */
 .scrim{position:absolute;inset:0;background:rgba(42,50,41,.4);z-index:40;opacity:0;pointer-events:none;transition:opacity .2s}
 .scrim.on{opacity:1;pointer-events:auto}
-.sheet{position:absolute;left:12px;right:12px;bottom:0;z-index:50;
-  padding:24px 21px calc(env(safe-area-inset-bottom) + 46px);
-  transform:translateY(115%) rotate(-.4deg);transition:transform .26s cubic-bezier(.2,.9,.3,1)}
+/* décollée du bas : posée à même le bord, son contour tremblé était rogné */
+.sheet{position:absolute;left:18px;right:18px;bottom:calc(env(safe-area-inset-bottom) + 46px);z-index:50;
+  padding:18px 19px 19px;
+  transform:translateY(calc(100% + 68px)) rotate(-.4deg);transition:transform .26s cubic-bezier(.2,.9,.3,1)}
 .sheet.on{transform:translateY(0) rotate(-.4deg)}
 .tape{position:absolute;width:94px;height:20px;background:var(--jaune);opacity:.9;
   border-radius:42% 58% 45% 55%/60% 42% 58% 40%;pointer-events:none;filter:url(#peint)}
-.sheet-head{display:flex;align-items:center;gap:14px;margin-bottom:42px}
-.sheet-badge{width:58px;height:58px;position:relative;display:grid;place-items:center;flex:none}
+.sheet-head{display:flex;align-items:center;gap:13px;margin-bottom:9px}
+.sheet-badge{width:52px;height:52px;position:relative;display:grid;place-items:center;flex:none}
 .sheet-badge span{line-height:0;display:grid;place-items:center}
 .sheet-badge > svg{position:absolute;inset:-6px;width:calc(100% + 12px);height:calc(100% + 12px);overflow:visible}
 .sheet-badge span{position:relative;z-index:2}
-.sheet h2{font-size:calc(20px * var(--disp-scale));line-height:1.05;margin-bottom:4px}
-.sheet .sub{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;font-size:calc(15.5px * var(--hand-scale));color:var(--bleu)}
+.sheet h2{font-size:calc(21px * var(--disp-scale));line-height:1.05}
+/* la ligne d'infos passe sous l'en-tête : sur trois mots de large elle cassait en quatre lignes */
+.sheet .sub{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:calc(14.5px * var(--hand-scale));line-height:1.35;color:var(--bleu);margin-bottom:15px}
 .cta{display:block;width:100%;text-align:center;position:relative;color:var(--papier);
   font-family:var(--f-disp);font-size:calc(19px * var(--disp-scale));text-transform:var(--disp-case);
   letter-spacing:var(--disp-ls);font-weight:var(--disp-w);
@@ -235,27 +238,64 @@ a.mini-btn{text-decoration:none;color:inherit}
 .result .score{font-family:var(--f-disp);font-size:calc(56px * var(--disp-scale));font-weight:var(--disp-w);line-height:.9;color:var(--rouge);filter:url(#peint-fort)}
 .result .score small{display:block;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;font-size:calc(17px * var(--hand-scale));color:var(--encre);text-shadow:none;margin-top:2px}
 .result .actions{width:100%;max-width:330px;display:flex;flex-direction:column;gap:11px;margin-top:26px}
+
+/* ---------- CARNET : où on est fort, où on l'est moins ---------- */
+.carnet-top{display:flex;align-items:center;gap:11px;margin-bottom:12px;flex:none}
+.carnet-top h2{font-size:calc(25px * var(--disp-scale));transform:rotate(-1.1deg);filter:url(#peint)}
+.carnet-top .mini-btn{margin-left:auto}
+.bilan{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:calc(15px * var(--hand-scale));line-height:1.45;color:var(--bleu);
+  margin-bottom:14px;flex:none;text-wrap:balance}
+.bilan b{font-style:normal;font-weight:800;color:var(--encre)}
+.themes{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:13px;padding:2px 2px 6px}
+.tline{display:flex;align-items:center;gap:12px}
+.tline .pastille{width:40px;height:40px;flex:none;position:relative;display:grid;place-items:center;line-height:0}
+.tline .pastille > svg.rond{position:absolute;inset:-4px;width:48px;height:48px;overflow:visible}
+.tline .pastille > svg:not(.rond){position:relative;z-index:2}
+.tline .corps{flex:1;min-width:0}
+.tline .nom{display:block;font-family:var(--f-disp);font-weight:var(--disp-w);font-size:calc(16px * var(--disp-scale));
+  letter-spacing:var(--disp-ls);text-transform:var(--disp-case);line-height:1}
+.tline .jauge{display:block;height:13px;margin-top:6px;line-height:0}
+.tline .chiffre{flex:none;text-align:right;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:calc(14px * var(--hand-scale));color:var(--bleu);font-variant-numeric:tabular-nums;min-width:62px}
+.tline .chiffre b{display:block;font-family:var(--f-disp);font-weight:var(--disp-w);font-style:normal;
+  font-size:calc(17px * var(--disp-scale));color:var(--encre);line-height:1}
+.tline.vierge{opacity:.42}
+.tline.vierge .chiffre{min-width:62px}
+.carnet-pied{flex:none;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:calc(14px * var(--hand-scale));color:var(--bleu);text-align:center;padding-top:12px}
 /* ---------- ÉCRAN DE CHOIX DU MODE ---------- */
 .menu{position:absolute;inset:0;z-index:90;background:var(--papier);
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  padding:26px 22px calc(env(safe-area-inset-bottom) + 22px);
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+  padding:calc(env(safe-area-inset-top) + 52px) 22px calc(env(safe-area-inset-bottom) + 22px);
   transition:opacity .3s,transform .3s}
 .menu.off{opacity:0;transform:scale(1.03);pointer-events:none;visibility:hidden}
-.menu .logo{font-size:calc(46px * var(--disp-scale));margin:0 0 6px;transform:rotate(-2.2deg)}
-.menu .logo em{font-size:calc(15px * var(--hand-scale))}
+.menu .logo{font-size:calc(60px * var(--disp-scale));margin:0 0 9px;transform:rotate(-2.2deg)}
+.menu .logo em{font-size:calc(16px * var(--hand-scale))}
 .menu .accroche{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
-  font-size:15px;opacity:.8;margin-bottom:28px;text-align:center;max-width:280px;text-wrap:balance}
-.modes{display:flex;flex-direction:column;gap:14px;width:100%;max-width:340px}
-.mode{position:relative;display:flex;align-items:center;gap:14px;padding:17px 18px;
-  text-decoration:none;color:inherit;text-align:left}
-.mode:nth-child(1){transform:rotate(-.8deg)}
-.mode:nth-child(2){transform:rotate(.7deg)}
-.mode:nth-child(1):active{transform:rotate(-.8deg) translate(3px,3px)}
-.mode:nth-child(2):active{transform:rotate(.7deg) translate(3px,3px)}
-.mode .ico{width:48px;height:48px;flex:none;display:grid;place-items:center;line-height:0}
-.mode .ico svg{width:40px;height:40px}
+  font-size:15px;opacity:.8;margin:26px 0 0;text-align:center;max-width:280px;text-wrap:balance}
+/* le titre reste en haut, les cartes se centrent dans la place restante */
+.modes{display:flex;flex-direction:column;gap:16px;width:100%;max-width:340px;margin:auto 0}
+.mode{position:relative;display:flex;align-items:center;gap:15px;padding:21px 19px;
+  text-decoration:none;color:inherit;text-align:left;--rot:-.8deg;transform:rotate(var(--rot))}
+.mode:nth-child(2){--rot:.7deg}
+.mode:active{transform:rotate(var(--rot)) translate(3px,3px)}
+/* au choix : la carte retenue s'enfonce puis rebondit, l'autre s'efface */
+.mode.choisi{animation:choix .34s cubic-bezier(.3,1.45,.4,1) both;z-index:2}
+.mode.ecarte{opacity:.3;transform:rotate(var(--rot)) scale(.97);transition:opacity .26s,transform .26s}
+@keyframes choix{
+  0%  {transform:rotate(var(--rot)) scale(1)}
+  32% {transform:rotate(var(--rot)) scale(.94) translate(2px,3px)}
+  100%{transform:rotate(var(--rot)) scale(1.05)}
+}
+@media (prefers-reduced-motion:reduce){
+  .mode.choisi{animation:none}
+  .mode.ecarte{transition:none}
+}
+.mode .ico{width:54px;height:54px;flex:none;display:grid;place-items:center;line-height:0}
+.mode .ico svg{width:46px;height:46px}
 .mode .txt strong{display:block;font-family:var(--f-disp);font-weight:var(--disp-w);
-  font-size:calc(21px * var(--disp-scale));letter-spacing:var(--disp-ls);line-height:1.05}
+  font-size:calc(23px * var(--disp-scale));letter-spacing:var(--disp-ls);line-height:1.05}
 .mode .txt span{display:block;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
   font-size:13.5px;opacity:.75;margin-top:3px;line-height:1.3}
 
@@ -379,6 +419,7 @@ a.mini-btn{text-decoration:none;color:inherit}
     <div class="logo">NO WAY!<em>des faits à peine croyables</em></div>
     <div class="chip" id="starCount"></div>
     <div class="chip" id="coinCount" style="transform:rotate(-1.4deg);background:var(--papier)"></div>
+    <button class="mini-btn" id="carnetBtn" aria-label="Voir le carnet : mes résultats par thème" title="Le carnet — mes résultats par thème"></button>
     <a class="mini-btn" id="modeBtn" href="curseur.html" aria-label="Jouer au mode curseur, à vue de nez" title="Mode curseur — à vue de nez"></a>
     <button class="mini-btn" id="soundBtn" aria-label="Couper le son"></button>
   </div>
@@ -389,12 +430,10 @@ a.mini-btn{text-decoration:none;color:inherit}
   <div class="sheet" id="sheet">
     <div class="sheet-head">
       <div class="sheet-badge" id="sheetBadge"><span></span></div>
-      <div>
-        <h2 id="sheetTitle">Géographie</h2>
-        <div class="sub" id="sheetSub">6 questions · 3 vies</div>
-      </div>
+      <h2 id="sheetTitle">Niveau 1</h2>
       <div class="stars" id="sheetStars" style="margin-left:auto;display:flex;gap:2px"></div>
     </div>
+    <div class="sub" id="sheetSub">6 questions · 3 vies</div>
     <button class="cta" id="playBtn"><span class="lbl">Jouer</span></button>
   </div>
 
@@ -420,6 +459,16 @@ a.mini-btn{text-decoration:none;color:inherit}
       <p id="explainText"></p>
       <button class="cta" id="nextBtn"><span class="lbl">Continuer</span></button>
     </div>
+  </section>
+
+  <section class="screen" id="carnetScreen">
+    <div class="carnet-top">
+      <h2>Le carnet</h2>
+      <button class="mini-btn" id="carnetClose" aria-label="Fermer le carnet"></button>
+    </div>
+    <p class="bilan" id="carnetBilan"></p>
+    <div class="themes" id="carnetThemes"></div>
+    <div class="carnet-pied" id="carnetPied"></div>
   </section>
 
   <section class="screen result" id="resultScreen">
@@ -614,19 +663,22 @@ const ICO = {
  empreinte:'M12 13.4c2.4 0 4.1 2.4 3.6 4.7c-.4 1.9-2 2.7-3.6 2.7s-3.2-.8-3.6-2.7c-.5-2.3 1.2-4.7 3.6-4.7Z M8.2 9c.8 0 1.4.8 1.3 1.7c-.1.9-.8 1.5-1.6 1.4c-.7-.1-1.2-.9-1.1-1.8c.1-.8.7-1.3 1.4-1.3Z M15.8 9c.7 0 1.3.5 1.4 1.3c.1.9-.4 1.7-1.1 1.8c-.8.1-1.5-.5-1.6-1.4c-.1-.9.5-1.7 1.3-1.7Z',
  pancarte:'M6.5 3.4c-.2 5.7-.2 11.4 0 17.1 M4.3 5.5c4-.3 8-.3 12 0l2.7 2.6l-2.7 2.7c-4 .3-8 .3-12 0 M8.4 8.1c2.3-.2 4.6-.2 6.9 0',
  des:'M6.4 6.3c3.8-.2 7.5-.2 11.3 0c.2 3.8.2 7.5 0 11.3c-3.8.2-7.5.2-11.3 0c-.2-3.8-.2-7.5 0-11.3Z M9.5 9.6h.05 M14.5 9.6h.05 M12 12h.05 M9.5 14.4h.05 M14.5 14.4h.05',
- /* le mode « à vue de nez » : une piste et sa molette */
- /* le mode « à vue de nez » : la piste, ses crans, et la molette posée dessus */
- curseur:{d:'M2.3 13c6.6-.38 13.1-.38 19.4 0 M4.4 13.66v2.2 M12 13.5v2.2 M19.6 13.66v2.2',plein:'M7.9 10.92C9.005 10.92 9.9 11.815 9.9 12.92C9.9 14.025 9.005 14.92 7.9 14.92C6.795 14.92 5.9 14.025 5.9 12.92C5.9 11.815 6.795 10.92 7.9 10.92Z'},
+ /* le mode « à vue de nez » : la piste d'un bord à l'autre, ses trois crans,
+    et la molette en petit cercle. Le cercle est tracé plus fin que le reste,
+    sinon l'encre du jeu vient boucher son trou. */
+ curseur:{d:'M1.6 13c7-.4 13.9-.4 20.8 0 M4 13.74v2.2 M12 13.5v2.2 M20 13.74v2.2',
+   fin:'M7.9 10.5C9.226 10.5 10.3 11.574 10.3 12.9C10.3 14.226 9.226 15.3 7.9 15.3C6.574 15.3 5.5 14.226 5.5 12.9C5.5 11.574 6.574 10.5 7.9 10.5Z'},
  /* le parcours de la carte : trois étapes reliées par un chemin qui serpente */
  carte:'M7 20.5C7 16.5 16.4 17.1 16.2 11.8C16 7.7 9.6 9.1 11 3.3 M7 18.2C8.27 18.2 9.3 19.23 9.3 20.5C9.3 21.77 8.27 22.8 7 22.8C5.73 22.8 4.7 21.77 4.7 20.5C4.7 19.23 5.73 18.2 7 18.2Z M16.2 9.5C17.47 9.5 18.5 10.53 18.5 11.8C18.5 13.07 17.47 14.1 16.2 14.1C14.93 14.1 13.9 13.07 13.9 11.8C13.9 10.53 14.93 9.5 16.2 9.5Z M11 1C12.27 1 13.3 2.03 13.3 3.3C13.3 4.57 12.27 5.6 11 5.6C9.73 5.6 8.7 4.57 8.7 3.3C8.7 2.03 9.73 1 11 1Z'
 };
 function pictoSVG(k,size,couleur){
   const ico=ICO[k]; if(!ico) return '';
-  const d=typeof ico==='string'?ico:ico.d, plein=typeof ico==='string'?null:ico.plein;
+  /* une icône est un chemin, ou un couple { trait normal, trait affiné } */
+  const d=typeof ico==='string'?ico:ico.d, fin=typeof ico==='string'?null:ico.fin;
   const c=couleur||'#2A3229';
   return `<svg viewBox="0 0 24 24" width="${size}" height="${size}" aria-hidden="true" style="filter:url(#peint)">
     <path d="${d}" fill="none" stroke="${c}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>`
-    + (plein?`<path d="${plein}" fill="${c}" stroke="${c}" stroke-width="1.2"/>`:'')
+    + (fin?`<path d="${fin}" fill="none" stroke="${c}" stroke-width="1.35" stroke-linejoin="round"/>`:'')
     + `</svg>`;
 }
 
@@ -682,7 +734,7 @@ const SCENERY=[['herbe','#8A9A48',28],['caillou','#B79B6B',24],['fossile','#B553
 function peindreUI(){
   paintUI($('starCount'),HEX.jaune,3,HEX.ombre);
   paintUI($('coinCount'),HEX.papier,11,HEX.ombre);
-  ['soundBtn','quitBtn','modeBtn'].forEach((id,k)=>paintUI($(id),HEX.papier,k*13+7,HEX.ombre));
+  ['soundBtn','quitBtn','modeBtn','carnetBtn','carnetClose'].forEach((id,k)=>paintUI($(id),HEX.papier,k*13+7,HEX.ombre));
   document.querySelectorAll('.node .tag').forEach((t,k)=>paintUI(t,HEX.papier,k*5+3,null,1.7));
   const tm=$('timer'); if(tm && tm.classList.contains('on')) paintUI(tm,null,57,null,1.8);
   document.querySelectorAll('.segs b').forEach((s,k)=>{
@@ -715,7 +767,8 @@ const BOOSTS=[
 ];
 
 /* ---------- état ---------- */
-let state={stars:{},unlocked:0,sound:true,seen:{},last:{},jetons:0};
+/* themes : pour chaque thème, {n: questions posées, ok: bonnes réponses} */
+let state={stars:{},unlocked:0,sound:true,seen:{},last:{},jetons:0,themes:{}};
 const mem={};
 async function save(){
   const p=JSON.stringify(state);
@@ -726,7 +779,7 @@ async function load(){
     if(window.storage){const r=await window.storage.get('borne:riso'); if(r&&r.value) state=JSON.parse(r.value);}
     else if(mem.s) state=JSON.parse(mem.s);
   }catch(e){}
-  state.seen=state.seen||{}; state.last=state.last||{};
+  state.seen=state.seen||{}; state.last=state.last||{}; state.themes=state.themes||{};
   if(typeof state.jetons!=='number') state.jetons=0;
 }
 
@@ -874,7 +927,7 @@ function openSheet(i){
     `<path d="${scribbleCircle(S/2,S/2,26,i+11,3.2)}" fill="#2A3229" opacity=".18" transform="translate(3,4)"/>
      <path d="${scribbleCircle(S/2,S/2,26,i+43,3)}" fill="${hex}" stroke="${hex}" stroke-width="3" transform="translate(-.9,.6)"/>
      <path d="${scribbleCircle(S/2,S/2,26,i+77,2.9)}" fill="none" stroke="#2A3229" stroke-width="2" opacity=".85"/>`,
-    `style="filter:url(#peint)"`)+`<span>${l.boss?pictoSVG('des',30):`<b class="lvl-num" style="font-size:27px">${i+1}</b>`}</span>`;
+    `style="filter:url(#peint)"`)+`<span>${l.boss?pictoSVG('des',27):`<b class="lvl-num" style="font-size:24px">${i+1}</b>`}</span>`;
   $('sheetTitle').textContent=l.boss?`Niveau ${i+1} · Bazar`:`Niveau ${i+1}`;
   const banque=Object.values(Q).flat();
   const inedites=banque.filter(q=>!state.seen[qid(q.q)]).length;
@@ -891,6 +944,82 @@ function openSheet(i){
 }
 function closeSheet(){$('sheet').classList.remove('on');$('scrim').classList.remove('on')}
 $('scrim').addEventListener('click',closeSheet);
+
+/* ---------- carnet : le bilan thème par thème ---------- */
+/** une jauge tracée : fond papier, aplat d'encre légèrement décalé, contour crayon */
+function jaugeSVG(w,h,part,hex,seed){
+  /* à zéro on ne pose aucune encre : sinon le bout arrondi ment sur le score */
+  const plein=part>0?Math.max(h,Math.round(w*part)):0;
+  return svgEl(w,h,
+    `<path d="${scribbleRound(w,h,h/2,seed,.9)}" fill="#FAF2DC" stroke="#2A3229" stroke-width="1.6" stroke-linejoin="round" opacity=".9"/>`
+    +(plein?`<path d="${scribbleRound(plein,h,h/2,seed+13,.9)}" fill="${hex}" stroke="${hex}" stroke-width="2.4" stroke-linejoin="round" transform="translate(-.9,.7)"/>`:'')
+    +`<path d="${scribbleRound(w,h,h/2,seed+29,.9)}" fill="none" stroke="#2A3229" stroke-width="1.7" stroke-linejoin="round"/>`,
+    `width="${w}" height="${h}" style="filter:url(#peint)"`);
+}
+/* en dessous de ce nombre de questions, un pourcentage ne veut encore rien dire */
+const SEUIL_FIABLE=5;
+function renderCarnet(){
+  const lignes=Object.entries(THEMES).map(([k,th])=>{
+    const b=state.themes[k]||{n:0,ok:0};
+    return {k,th,n:b.n,ok:b.ok,part:b.n?b.ok/b.n:0};
+  });
+  const parScore=(a,b)=>b.part-a.part||b.n-a.n;
+  /* trois blocs : ce qui est établi, ce qui ne l'est pas encore, ce qui n'a pas été joué */
+  const solides=lignes.filter(l=>l.n>=SEUIL_FIABLE).sort(parScore);
+  const minces =lignes.filter(l=>l.n&&l.n<SEUIL_FIABLE).sort(parScore);
+  const vierges=lignes.filter(l=>!l.n).sort((a,b)=>a.th.name.localeCompare(b.th.name,'fr'));
+  const joues=solides.concat(minces);
+  const total=joues.reduce((s,l)=>s+l.n,0), justes=joues.reduce((s,l)=>s+l.ok,0);
+
+  const pc=l=>Math.round(l.part*100);
+  let bilan;
+  if(!total){
+    bilan="Rien à lire pour l'instant : le carnet se remplit à mesure que tu réponds.";
+  }else if(solides.length<2){
+    const l=solides[0];
+    bilan=l ? `Pour l'instant, une seule habitude se dessine : <b>${l.th.name}</b>, ${pc(l)} % de réussite. Joue encore pour voir le reste se préciser.`
+            : `Encore trop peu de questions par thème pour trancher. À partir de ${SEUIL_FIABLE} questions, chaque thème se met à parler.`;
+  }else{
+    const fort=solides[0], faible=solides[solides.length-1];
+    bilan=`Tu es surtout à l'aise en <b>${fort.th.name}</b>, ${pc(fort)} % de réussite. C'est <b>${faible.th.name}</b> qui te résiste le plus, ${pc(faible)} %.`;
+  }
+  $('carnetBilan').innerHTML=bilan;
+
+  const S=40, R=15;
+  const ligne=(l,i)=>{
+    const hex=INK_HEX[l.th.ink], clair=INK_CLAIR.has(l.th.ink), enc=clair?'#2A3229':'#FAF2DC';
+    /* un pourcentage tiré de deux questions ne veut rien dire : on montre la fraction */
+    const chiffre=!l.n ? `<b>—</b>pas encore`
+      : l.n>=SEUIL_FIABLE ? `<b>${pc(l)} %</b>${l.ok} / ${l.n}`
+      : `<b>${l.ok} / ${l.n}</b>à confirmer`;
+    return `<div class="tline${l.n?'':' vierge'}">
+      <span class="pastille">${
+        svgEl(S,S,`<path d="${scribbleCircle(S/2,S/2,R,i*7+11,2.4)}" fill="${hex}" stroke="${hex}" stroke-width="2.6" transform="translate(-.8,.6)"/>
+                   <path d="${scribbleCircle(S/2,S/2,R,i*7+41,2.2)}" fill="none" stroke="#2A3229" stroke-width="1.8" opacity=".85"/>`,
+          `class="rond" width="${S}" height="${S}" style="filter:url(#peint)"`)
+      }${pictoSVG(l.th.ico,21,enc)}</span>
+      <span class="corps">
+        <span class="nom">${l.th.name}</span>
+        <span class="jauge" data-part="${l.part.toFixed(4)}" data-hex="${hex}" data-seed="${i*17+5}"></span>
+      </span>
+      <span class="chiffre">${chiffre}</span>
+    </div>`;
+  };
+  $('carnetThemes').innerHTML=joues.concat(vierges).map(ligne).join('');
+  $('carnetPied').textContent=total
+    ? `${total} question${total>1?'s':''} posée${total>1?'s':''} · ${Math.round(justes/total*100)} % de réussite`
+    : `14 thèmes t'attendent`;
+  // les jauges se tracent une fois leur largeur connue
+  requestAnimationFrame(()=>{
+    $('carnetThemes').querySelectorAll('.jauge').forEach(j=>{
+      const w=j.offsetWidth; if(!w) return;
+      j.innerHTML=jaugeSVG(w,13,+j.dataset.part,j.dataset.hex,+j.dataset.seed);
+    });
+  });
+}
+function openCarnet(){ renderCarnet(); $('carnetScreen').classList.add('on'); }
+$('carnetBtn').addEventListener('click',()=>{sfx.tap();$('carnetBtn').blur();openCarnet()});
+$('carnetClose').addEventListener('click',()=>{sfx.tap();$('carnetClose').blur();$('carnetScreen').classList.remove('on')});
 
 /* ---------- quiz ---------- */
 let run=null;
@@ -1087,6 +1216,10 @@ function answer(i){
   clearInterval(run.timerId);
   const c=run.deck[run.idx], ok=i===c.c;
   run.res[run.idx]=ok; run.repondu=true; majBoosts();
+  // le carnet se tient à jour question par question, même si on quitte en route
+  const bilan=state.themes[c.t]||(state.themes[c.t]={n:0,ok:0});
+  bilan.n++; if(ok) bilan.ok++;
+  save();
   const seed0=run.idx*37+run.lvl*101;
   $('answers').querySelectorAll('.ans').forEach((b,k)=>{
     b.disabled=true;
@@ -1204,15 +1337,33 @@ if(document.fonts && document.fonts.ready){
   majSon();
   majJetons();
   $('quitBtn').innerHTML=pictoSVG('croix',15);
+  $('carnetClose').innerHTML=pictoSVG('croix',15);
+  $('carnetBtn').innerHTML=pictoSVG('livre',18);
   $('modeBtn').innerHTML=pictoSVG('curseur',18);
   // écran de choix du mode, à l'ouverture
-  $('icoAventure').innerHTML=pictoSVG('carte',40,'#2A3229');
-  $('icoDuel').innerHTML=pictoSVG('curseur',40,'#2A3229');
+  $('icoAventure').innerHTML=pictoSVG('carte',46,'#2A3229');
+  $('icoDuel').innerHTML=pictoSVG('curseur',46,'#2A3229');
   requestAnimationFrame(()=>{
     paintFrame($('modeAventure'),HEX.jaune,HEX.ombre,7,1.4,14);
-    paintFrame($('modeDuel'),HEX.papier,HEX.ombre,23,1.4,14);
+    paintFrame($('modeDuel'),HEX.jaune,HEX.ombre,23,1.4,14);
   });
-  $('modeAventure').addEventListener('click',()=>{ sfx.tap(); $('menu').classList.add('off'); });
+  /** le choix se voit avant de partir : la carte retenue est ré-encrée et rebondit,
+      l'autre s'efface. On n'enchaîne qu'une fois la petite animation jouée. */
+  const MODE_SEEDS={modeAventure:7,modeDuel:23};
+  function choisirMode(id,suite){
+    const el=$(id), autre=$(id==='modeAventure'?'modeDuel':'modeAventure');
+    if(el.classList.contains('choisi')) return;
+    sfx.tap();
+    autre.classList.add('ecarte');
+    el.classList.add('choisi');
+    paintFrame(el,HEX.rouge,HEX.ombre,MODE_SEEDS[id],1.4,14);
+    el.querySelector('.ico').innerHTML=pictoSVG(id==='modeAventure'?'carte':'curseur',46,'#FAF2DC');
+    el.style.color='#FAF2DC';
+    const doux=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    setTimeout(suite,doux?60:330);
+  }
+  $('modeAventure').addEventListener('click',()=>choisirMode('modeAventure',()=>$('menu').classList.add('off')));
+  $('modeDuel').addEventListener('click',e=>{ e.preventDefault(); choisirMode('modeDuel',()=>{location.href='curseur.html'}) });
   requestAnimationFrame(peindreUI);
   renderMap();
   setTimeout(scrollToCurrent,120);
