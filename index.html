@@ -118,11 +118,15 @@ a.mini-btn{text-decoration:none;color:inherit}
 /* ---------- SHEET ---------- */
 .scrim{position:absolute;inset:0;background:rgba(42,50,41,.4);z-index:40;opacity:0;pointer-events:none;transition:opacity .2s}
 .scrim.on{opacity:1;pointer-events:auto}
-/* décollée du bas : posée à même le bord, son contour tremblé était rogné */
+/* décollée du bas : posée à même le bord, son contour tremblé était rogné.
+   Sur un téléphone à barre du bas, la course de sortie doit aussi franchir
+   cette barre — sinon le cadre fermé dépasse encore dans l'écran. */
 .sheet{position:absolute;left:18px;right:18px;bottom:calc(env(safe-area-inset-bottom) + 46px);z-index:50;
-  padding:18px 19px 19px;
-  transform:translateY(calc(100% + 68px)) rotate(-.4deg);transition:transform .26s cubic-bezier(.2,.9,.3,1)}
-.sheet.on{transform:translateY(0) rotate(-.4deg)}
+  padding:18px 19px 19px;visibility:hidden;
+  transform:translateY(calc(100% + env(safe-area-inset-bottom) + 74px)) rotate(-.4deg);
+  transition:transform .26s cubic-bezier(.2,.9,.3,1),visibility 0s linear .26s}
+.sheet.on{visibility:visible;transform:translateY(0) rotate(-.4deg);
+  transition:transform .26s cubic-bezier(.2,.9,.3,1),visibility 0s}
 .tape{position:absolute;width:94px;height:20px;background:var(--jaune);opacity:.9;
   border-radius:42% 58% 45% 55%/60% 42% 58% 40%;pointer-events:none;filter:url(#peint)}
 .sheet-head{display:flex;align-items:center;gap:13px;margin-bottom:9px}
@@ -420,7 +424,7 @@ a.mini-btn{text-decoration:none;color:inherit}
     <div class="chip" id="starCount"></div>
     <div class="chip" id="coinCount" style="transform:rotate(-1.4deg);background:var(--papier)"></div>
     <button class="mini-btn" id="carnetBtn" aria-label="Voir le carnet : mes résultats par thème" title="Le carnet — mes résultats par thème"></button>
-    <a class="mini-btn" id="modeBtn" href="curseur.html" aria-label="Jouer au mode curseur, à vue de nez" title="Mode curseur — à vue de nez"></a>
+    <button class="mini-btn" id="modeBtn" aria-label="Revenir au choix du mode de jeu" title="Changer de mode"></button>
     <button class="mini-btn" id="soundBtn" aria-label="Couper le son"></button>
   </div>
 
@@ -1339,7 +1343,7 @@ if(document.fonts && document.fonts.ready){
   $('quitBtn').innerHTML=pictoSVG('croix',15);
   $('carnetClose').innerHTML=pictoSVG('croix',15);
   $('carnetBtn').innerHTML=pictoSVG('livre',18);
-  $('modeBtn').innerHTML=pictoSVG('curseur',18);
+  $('modeBtn').innerHTML=pictoSVG('pancarte',18);
   // écran de choix du mode, à l'ouverture
   $('icoAventure').innerHTML=pictoSVG('carte',46,'#2A3229');
   $('icoDuel').innerHTML=pictoSVG('curseur',46,'#2A3229');
@@ -1364,6 +1368,19 @@ if(document.fonts && document.fonts.ready){
   }
   $('modeAventure').addEventListener('click',()=>choisirMode('modeAventure',()=>$('menu').classList.add('off')));
   $('modeDuel').addEventListener('click',e=>{ e.preventDefault(); choisirMode('modeDuel',()=>{location.href='curseur.html'}) });
+  /** retour à l'écran de choix : on efface les traces de la sélection précédente */
+  function rouvrirMenu(){
+    closeSheet();
+    ['modeAventure','modeDuel'].forEach(id=>{
+      const el=$(id);
+      el.classList.remove('choisi','ecarte');
+      el.style.color='';
+      el.querySelector('.ico').innerHTML=pictoSVG(id==='modeAventure'?'carte':'curseur',46,'#2A3229');
+      paintFrame(el,HEX.jaune,HEX.ombre,MODE_SEEDS[id],1.4,14);
+    });
+    $('menu').classList.remove('off');
+  }
+  $('modeBtn').addEventListener('click',()=>{ sfx.tap(); $('modeBtn').blur(); rouvrirMenu(); });
   requestAnimationFrame(peindreUI);
   renderMap();
   setTimeout(scrollToCurrent,120);
