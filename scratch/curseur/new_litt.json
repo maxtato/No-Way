@@ -1,0 +1,152 @@
+[
+ {
+  "q": "Combien de semaines Anthony Burgess a-t-il mis à écrire « Orange mécanique » ?",
+  "n": 3,
+  "u": "semaines",
+  "e": "Trois semaines, en 1961. On venait de lui diagnostiquer une tumeur au cerveau : il écrivait à toute vitesse pour laisser des droits d’auteur à sa femme. Le diagnostic était faux."
+ },
+ {
+  "q": "Combien de jours Stevenson a-t-il mis à écrire la première version de « L’Étrange Cas du docteur Jekyll » ?",
+  "n": 3,
+  "u": "jours",
+  "e": "Trois jours de transe, après un cauchemar. Sa femme trouva le texte raté : il jeta le manuscrit au feu et recommença tout, en trois jours de plus."
+ },
+ {
+  "q": "Quelle longueur faisait le rouleau de papier sur lequel Kerouac a tapé « Sur la route » ?",
+  "n": 36,
+  "u": "mètres",
+  "e": "Trente-six mètres de feuilles collées bout à bout, tapées en trois semaines et quasiment sans ponctuation. Kerouac refusait de perdre le fil en changeant de page."
+ },
+ {
+  "q": "Combien de jours Stendhal a-t-il mis à dicter « La Chartreuse de Parme » ?",
+  "n": 52,
+  "u": "jours",
+  "e": "Cinquante-deux jours, fin 1838. Près de cinq cents pages dictées d’une traite à un secrétaire. Balzac, enthousiaste, lui suggéra ensuite de tout réécrire : Stendhal n’en fit rien."
+ },
+ {
+  "q": "Combien de jours Dostoïevski a-t-il mis à écrire « Le Joueur » ?",
+  "n": 26,
+  "u": "jours",
+  "e": "Vingt-six jours, sous un contrat léonin : sans livre à la date prévue, il perdait les droits sur toute son œuvre. Il dicta le roman à une sténographe… qu’il épousa."
+ },
+ {
+  "q": "Combien de jours Faulkner a-t-il mis à écrire « Tandis que j’agonise » ?",
+  "n": 47,
+  "u": "jours",
+  "e": "Quarante-sept jours, écrits la nuit sur une brouette renversée pendant ses gardes à la centrale électrique de l’université. Il affirmait n’avoir ensuite changé aucun mot."
+ },
+ {
+  "q": "Combien de jours le marquis de Sade a-t-il mis à écrire « Les Cent Vingt Journées de Sodome » à la Bastille ?",
+  "n": 37,
+  "u": "jours",
+  "e": "Trente-sept nuits de l’automne 1785, à la bougie. Il crut le manuscrit perdu lors de la prise de la Bastille et dit en avoir pleuré des larmes de sang."
+ },
+ {
+  "q": "Quelle longueur faisait le rouleau de papier que Sade cachait dans sa cellule de la Bastille ?",
+  "n": 12,
+  "u": "mètres",
+  "e": "Douze mètres de feuillets collés, larges de onze centimètres, couverts recto verso d’une écriture minuscule, puis enroulés pour tenir dans une fente du mur de sa cellule."
+ },
+ {
+  "q": "Combien d’heures d’affilée Kafka a-t-il mis à écrire « Le Verdict » ?",
+  "n": 8,
+  "u": "heures",
+  "e": "Huit heures d’une seule traite, de vingt-deux heures à six heures du matin. Il nota dans son journal que seule cette façon d’écrire, corps et âme ouverts, valait quelque chose."
+ },
+ {
+  "q": "Combien de mois García Márquez a-t-il mis à écrire « Cent ans de solitude » ?",
+  "n": 18,
+  "u": "mois",
+  "e": "Dix-huit mois enfermé, sa femme faisant crédit chez les commerçants. Au moment de poster le manuscrit, il n’avait de quoi n’en envoyer que la moitié — et envoya la mauvaise."
+ },
+ {
+  "q": "Combien de semaines Dickens a-t-il mis à écrire « Un chant de Noël » ?",
+  "n": 6,
+  "u": "semaines",
+  "e": "Six semaines, à l’automne 1843, en marchant la nuit dans Londres. Endetté, il finança lui-même une édition dorée sur tranche : triomphe immédiat, bénéfices dérisoires."
+ },
+ {
+  "q": "Combien d’années Tolstoï a-t-il mis à écrire « Guerre et Paix » ?",
+  "n": 6,
+  "u": "années",
+  "e": "Six ans. Sa femme Sofia aurait recopié le manuscrit entier sept fois à la main, à la bougie, en déchiffrant des ratures que lui seul comprenait."
+ },
+ {
+  "q": "Combien de pages de brouillon Flaubert a-t-il noircies pour « Madame Bovary » ?",
+  "n": 4500,
+  "u": "pages",
+  "e": "Environ 4500 pages de brouillons conservées à Rouen, pour un roman d’à peine cinq cents. Flaubert gueulait ses phrases à voix haute pour en éprouver le rythme."
+ },
+ {
+  "q": "Combien d’années Tolkien a-t-il mis à écrire « Le Seigneur des anneaux » ?",
+  "n": 12,
+  "u": "années",
+  "e": "Douze ans, de 1937 à 1949, entre deux copies d’étudiants. Il tapa deux fois le manuscrit entier avec deux doigts, en équilibre sur son lit, faute de bureau."
+ },
+ {
+  "q": "Combien d’années Joyce a-t-il mis à écrire « Ulysse » ?",
+  "n": 7,
+  "u": "années",
+  "e": "Sept ans pour raconter une seule journée à Dublin, le 16 juin 1904. Joyce disait y avoir mis assez d’énigmes pour occuper les professeurs pendant des siècles."
+ },
+ {
+  "q": "Combien d’années Joyce a-t-il mis à écrire « Finnegans Wake » ?",
+  "n": 17,
+  "u": "années",
+  "e": "Dix-sept ans, quasi aveugle, traçant d’énormes lettres au crayon gras. Le livre mêle une soixantaine de langues et reste, un siècle plus tard, largement illisible."
+ },
+ {
+  "q": "Combien de mots Anthony Trollope s’imposait-il d’écrire par quart d’heure ?",
+  "n": 250,
+  "u": "mots",
+  "e": "Deux cent cinquante mots tous les quarts d’heure, montre posée devant lui, de cinq heures et demie à huit heures du matin — avant de partir travailler à la poste."
+ },
+ {
+  "q": "Combien de mots Ian Fleming s’imposait-il chaque jour en écrivant ses James Bond ?",
+  "n": 2000,
+  "u": "mots",
+  "e": "Deux mille mots par jour, pendant deux mois d’hiver dans sa villa jamaïcaine. Il s’interdisait de se relire avant la fin : un Bond était bouclé en huit semaines."
+ },
+ {
+  "q": "Combien d’éditeurs ont refusé « Dune » de Frank Herbert ?",
+  "n": 23,
+  "u": "éditeurs",
+  "e": "Vingt-trois refus, avant qu’un éditeur de manuels de réparation automobile n’accepte le pari. « Dune » est depuis le roman de science-fiction le plus vendu de l’histoire."
+ },
+ {
+  "q": "Combien d’éditeurs ont refusé « Traité du zen et de l’entretien des motocyclettes » ?",
+  "n": 121,
+  "u": "éditeurs",
+  "e": "Cent vingt et un refus, record homologué par le Guinness pour un futur best-seller. Le suivant versa 3000 dollars en pensant ne jamais les revoir : il s’en vendit des millions."
+ },
+ {
+  "q": "Combien de fois « Carrie » de Stephen King a-t-il été refusé avant d’être publié ?",
+  "n": 30,
+  "u": "refus",
+  "e": "Trente refus. King avait jeté les premières pages à la poubelle ; sa femme les en sortit et l’obligea à continuer. Les droits de poche rapportèrent ensuite 400000 dollars."
+ },
+ {
+  "q": "Combien d’éditeurs ont refusé « Autant en emporte le vent » de Margaret Mitchell ?",
+  "n": 38,
+  "u": "éditeurs",
+  "e": "Trente-huit refus. Le manuscrit dormait en piles désordonnées sous un divan et l’héroïne s’appelait Pansy. Le roman décrocha le Pulitzer ; Mitchell n’en écrivit jamais d’autre."
+ },
+ {
+  "q": "Combien d’éditeurs ont refusé « Gens de Dublin » de James Joyce ?",
+  "n": 22,
+  "u": "éditeurs",
+  "e": "Vingt-deux refus en neuf ans. Un imprimeur, effrayé par le texte, détruisit les feuilles déjà composées. Joyce dut attendre 1914 pour voir ses nouvelles enfin paraître."
+ },
+ {
+  "q": "Combien d’exemplaires s’est-il vendu du premier recueil de poèmes des sœurs Brontë ?",
+  "n": 2,
+  "u": "exemplaires",
+  "e": "Deux. Publié à compte d’auteur sous les pseudonymes masculins Currer, Ellis et Acton Bell. L’année suivante paraissaient « Jane Eyre » et « Les Hauts de Hurlevent »."
+ },
+ {
+  "q": "Combien d’exemplaires de « Pierre Lapin » Beatrix Potter a-t-elle fait imprimer à ses frais ?",
+  "n": 250,
+  "u": "exemplaires",
+  "e": "Deux cent cinquante, payés de sa poche après six refus d’éditeurs. Le petit lapin en veste bleue s’est depuis vendu à des dizaines de millions d’exemplaires."
+ }
+]

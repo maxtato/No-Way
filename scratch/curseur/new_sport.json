@@ -448,5 +448,155 @@
   "n": 2500000,
   "u": "litres",
   "e": "Environ 2,5 millions de litres. Il faut plus d’une journée pour le remplir, et l’eau est filtrée en continu : le volume complet passe dans les filtres toutes les quatre heures."
+ },
+ {
+  "q": "Quelle longueur fait une piste de curling, de la ligne de lancer à la cible ?",
+  "n": 45.72,
+  "u": "mètres",
+  "e": "45,72 mètres de glace, arrosée en gouttelettes qui gèlent en petites bosses. C’est sur ces aspérités que la pierre glisse et tourne ; les balais réchauffent la glace pour la faire courir plus loin."
+ },
+ {
+  "q": "Combien pèse une pierre de curling de compétition ?",
+  "n": 20,
+  "u": "kilos",
+  "e": "Environ 20 kilos de granite, extrait presque exclusivement de l’îlot écossais d’Ailsa Craig. Cette roche ne retient pas l’eau et ne gèle donc pas de l’intérieur : aucune autre carrière ne convient."
+ },
+ {
+  "q": "Quelle longueur fait la piste sur laquelle s’affrontent deux escrimeurs ?",
+  "n": 14,
+  "u": "mètres",
+  "e": "14 mètres sur deux de large. Reculer jusqu’au bout de la piste donne une touche à l’adversaire : le duel ne se gagne pas seulement à l’épée, mais aussi en gérant ses arrières."
+ },
+ {
+  "q": "Quel diamètre fait le cercle central valant 10 points, en tir à l’arc olympique ?",
+  "n": 12.2,
+  "u": "centimètres",
+  "e": "12,2 cm, visés à 70 mètres. À cette distance, la cible entière paraît large comme une pièce tenue à bout de bras, et le dix comme une tête d’épingle."
+ },
+ {
+  "q": "Quel diamètre fait la cible que les biathlètes doivent toucher en position couchée ?",
+  "n": 45,
+  "u": "millimètres",
+  "e": "45 millimètres à 50 mètres, avec un cœur à 150 pulsations. En position debout, la cible passe à 115 mm : c’est le seul répit accordé à des skieurs à bout de souffle."
+ },
+ {
+  "q": "À quelle distance de la cible se tient un joueur de fléchettes professionnel ?",
+  "n": 2.37,
+  "u": "mètres",
+  "e": "2,37 mètres, mesurés depuis la ligne de lancer, la cible étant accrochée à 1,73 m du sol. Le triple 20 visé mesure moins d’un centimètre de large."
+ },
+ {
+  "q": "Quel diamètre fait le cercle de combat, le dohyo, où s’affrontent les lutteurs de sumo ?",
+  "n": 4.55,
+  "u": "mètres",
+  "e": "4,55 mètres, délimités par des ballots de paille de riz enterrés dans l’argile. Deux colosses de 150 kilos disposent donc d’un espace plus petit qu’une chambre pour se pousser dehors."
+ },
+ {
+  "q": "Combien pesait Konishiki, le lutteur de sumo le plus lourd de l’histoire de la discipline ?",
+  "n": 287,
+  "u": "kilos",
+  "e": "287 kilos au sommet de sa carrière, ce qui lui a valu le surnom de « camion à vidange ». Hawaïen, il fut le premier étranger à atteindre le rang d’ozeki."
+ },
+ {
+  "q": "Combien pèse un gant de boxe professionnel dans les catégories légères ?",
+  "n": 227,
+  "u": "grammes",
+  "e": "8 onces, soit 227 grammes de rembourrage. Contrairement à l’intuition, le gant protège surtout les mains du frappeur : il permet de cogner plus souvent, pas moins fort."
+ },
+ {
+  "q": "Combien de temps a duré le combat Mike Tyson - Michael Spinks en 1988 ?",
+  "n": 91,
+  "u": "secondes",
+  "e": "91 secondes. Spinks, invaincu, est tombé deux fois. Des spectateurs venus en jet privé sont repartis en ayant vu moins de deux minutes de boxe pour plus de mille dollars la place."
+ },
+ {
+  "q": "Combien de combats professionnels le boxeur Len Wickwar a-t-il disputés au cours de sa carrière ?",
+  "n": 463,
+  "u": "combats",
+  "e": "463 combats entre 1928 et 1947, parfois plusieurs par semaine. Record absolu de la boxe professionnelle : les boxeurs modernes en disputent une cinquantaine dans toute leur vie."
+ },
+ {
+  "q": "Combien de temps a duré le KO le plus rapide de l’histoire de l’UFC ?",
+  "n": 5,
+  "u": "secondes",
+  "e": "Cinq secondes : Jorge Masvidal traverse la cage en courant et place un coup de genou sauté sur Ben Askren, encore accroupi. Le combat était terminé avant que l’arbitre n’ait fait trois pas."
+ },
+ {
+  "q": "Quelle distance a parcourue l’équipage recordman des 24 Heures du Mans ?",
+  "n": 5410,
+  "u": "kilomètres",
+  "e": "5410 km en 2010, soit 397 tours et l’équivalent d’un Paris-Moscou aller-retour, en un jour et une nuit. La moyenne dépasse 225 km/h, arrêts au stand compris."
+ },
+ {
+  "q": "À quelle vitesse la WM P88 a-t-elle été chronométrée dans la ligne droite des Hunaudières, au Mans ?",
+  "n": 405,
+  "u": "km/h",
+  "e": "405 km/h en 1988, sur une portion de route départementale ouverte au public le reste de l’année. Deux chicanes ont été ajoutées dès 1990 pour que cela ne se reproduise jamais."
+ },
+ {
+  "q": "Combien de tours a duré le Grand Prix de Formule 1 le plus court jamais couru en 1991 ?",
+  "n": 14,
+  "u": "tours",
+  "e": "14 tours à Adélaïde, sous un déluge, avant l’arrêt définitif de la course. Ayrton Senna a gagné en 24 minutes et n’a reçu que la moitié des points."
+ },
+ {
+  "q": "Quelle longueur fait la boucle Nordschleife du Nürburgring ?",
+  "n": 20.832,
+  "u": "kilomètres",
+  "e": "20,832 km et plus de 70 virages, taillés dans une forêt de l’Eifel. Jackie Stewart l’avait surnommée « l’Enfer vert » ; la Formule 1 l’a désertée après l’accident de Lauda en 1976."
+ },
+ {
+  "q": "Quelle longueur fait un tour du circuit du Tourist Trophy de l’île de Man ?",
+  "n": 60.7,
+  "u": "kilomètres",
+  "e": "60,7 km de routes publiques bordées de murs de pierre, de trottoirs et de maisons. Les pilotes y roulent à plus de 300 km/h et mémorisent près de 200 virages."
+ },
+ {
+  "q": "De combien de longueurs Secretariat a-t-il gagné les Belmont Stakes en 1973 ?",
+  "n": 31,
+  "u": "longueurs",
+  "e": "31 longueurs, soit près de 80 mètres : les caméras ne parvenaient plus à cadrer le peloton et le vainqueur ensemble. Aucun cheval n’a jamais dominé une course classique à ce point."
+ },
+ {
+  "q": "À quelle vitesse a été chronométré le cheval de course le plus rapide jamais mesuré ?",
+  "n": 70.76,
+  "u": "km/h",
+  "e": "70,76 km/h sur 400 mètres, par une pouliche nommée Winning Brew, en 2008. Sur un sprint court, le pur-sang bat donc largement le guépard en endurance mais reste loin de sa pointe."
+ },
+ {
+  "q": "À quelle vitesse file la pelote lors d’une partie de cesta punta, la balle la plus rapide du sport ?",
+  "n": 302,
+  "u": "km/h",
+  "e": "302 km/h, propulsée par un gant d’osier long d’un demi-mètre. La pelote, en peau de chèvre sur noyau de caoutchouc, est plus dure qu’une balle de golf : le port du casque est obligatoire."
+ },
+ {
+  "q": "À quelle vitesse descend un skieur de vitesse au record du monde ?",
+  "n": 255,
+  "u": "km/h",
+  "e": "Près de 255 km/h sur une pente à 98 %, en position d’œuf, avec des skis de 2,40 m et un casque en goutte d’eau. Plus rapide qu’un parachutiste en chute libre."
+ },
+ {
+  "q": "De quelle hauteur a été effectué le plus haut plongeon jamais réalisé, en 2015 ?",
+  "n": 58.8,
+  "u": "mètres",
+  "e": "58,8 mètres depuis une cascade suisse par Laso Schaller, soit un immeuble de vingt étages. Trois secondes de chute, une entrée dans l’eau à près de 120 km/h, et une hanche luxée."
+ },
+ {
+  "q": "À quelle profondeur Herbert Nitsch est-il descendu en apnée « no limit » ?",
+  "n": 214,
+  "u": "mètres",
+  "e": "214 mètres en 2007, en descendant sur une gueuse lestée et en remontant grâce à un ballon gonflable. À cette profondeur, ses poumons étaient comprimés à la taille d’un poing."
+ },
+ {
+  "q": "Quelle est la pente maximale de la Streif de Kitzbühel, la descente la plus redoutée du ski alpin ?",
+  "n": 85,
+  "u": "%",
+  "e": "85 % dans la Mausefalle, où les skieurs décollent sur plus de soixante mètres deux secondes après le départ. La piste entière se dévale en moins de deux minutes."
+ },
+ {
+  "q": "À quelle vitesse peut dévaler la meule de fromage lors de la course de Cooper’s Hill ?",
+  "n": 112,
+  "u": "km/h",
+  "e": "Jusqu’à 112 km/h sur une pente à 50 %. Personne ne rattrape jamais le fromage : les concurrents dégringolent derrière lui et le premier arrivé en bas, souvent blessé, remporte la meule."
  }
 ]
