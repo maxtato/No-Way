@@ -29,11 +29,22 @@ function pas(mn,mx){
 /* générateur pseudo-aléatoire figé : le même lot donne toujours le même jeu */
 function rng(seed){let x=seed;return()=>{x=(x*1103515245+12345)&0x7fffffff;return x/0x7fffffff}}
 
+/* On cherche la borne « jolie » la plus proche de l'idéal QUI LAISSE la bonne
+   réponse atteignable au pas près : sinon le 100 devient impossible. */
 function echelle(n,unite,cible){
   if(unite==='%') return [0,100];
-  let mx=nice(n/cible);
-  if(mx<=n*1.05) mx=nice(n*1.15);
-  return [0,mx];
+  const ideal=n/cible, k0=Math.floor(Math.log10(ideal));
+  const cands=[];
+  for(const k of [k0-1,k0,k0+1]){
+    const p=Math.pow(10,k);
+    for(const m of [1,1.2,1.5,2,2.5,3,4,5,6,8,10]) cands.push(m*p);
+  }
+  const ok=cands.filter(mx=>mx>n*1.05).sort((a,b)=>Math.abs(a-ideal)-Math.abs(b-ideal));
+  for(const mx of ok){
+    const s=pas(0,mx);
+    if(Math.abs(Math.round(n/s)*s-n)/mx<=0.015) return [0,mx];
+  }
+  return [0, ok[0]||nice(n*1.15)];
 }
 
 /* --- lecture, validation, dédup --- */
