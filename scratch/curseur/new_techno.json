@@ -1,27 +1,458 @@
 [
-  {"q":"Combien pesait l’ENIAC, le premier grand calculateur électronique ?","n":27,"u":"tonnes","e":"27 tonnes étalées sur 167 m² pour moins de puissance qu’une calculette de supermarché. Les techniciens marchaient à l’intérieur de la machine pour aller remplacer les tubes grillés."},
-  {"q":"Combien de tubes à vide contenait l’ENIAC ?","n":17468,"u":"tubes","e":"17 468 tubes, dont plusieurs claquaient chaque jour. L’équipe finit par ne plus jamais éteindre la machine : c’est l’allumage à froid qui tuait les tubes, pas le calcul."},
-  {"q":"Après combien d’essais les chimistes ont-ils obtenu la formule du WD-40 ?","n":40,"u":"essais","e":"WD-40 signifie « Water Displacement, 40th formula ». Le nom du produit est littéralement un compte-rendu d’échec : trente-neuf ratages affichés sur chaque bombe vendue depuis."},
-  {"q":"Quelle capacité avait le tout premier disque dur, l’IBM 350 de 1956 ?","n":5,"u":"mégaoctets","e":"5 mégaoctets, soit une seule photo de smartphone, dans une armoire d’une tonne louée des milliers de dollars par mois. Sa livraison exigeait un avion cargo."},
-  {"q":"Combien de plateaux tournaient dans le premier disque dur d’IBM ?","n":50,"u":"plateaux","e":"Cinquante disques de 61 cm empilés, tournant à 1 200 tours par minute, balayés par une tête unique qui se déplaçait de l’un à l’autre. Un juke-box en acier."},
-  {"q":"Combien de pièces mécaniques comptait le calculateur Harvard Mark I ?","n":765000,"u":"pièces","e":"765 000 composants, 800 km de fil et quinze mètres de long. Grace Hopper y programmait dans un vacarme d’horlogerie qu’on entendait dans tout le bâtiment."},
-  {"q":"Combien de tubes électroniques comptait le Colossus Mark 2 de Bletchley Park ?","n":2400,"u":"tubes","e":"2 400 tubes pour casser les codes allemands. Machine si secrète que Churchill ordonna de détruire les exemplaires : l’Angleterre a effacé son propre premier ordinateur."},
-  {"q":"Combien de mots de mémoire avait le Manchester Baby, premier ordinateur à programme enregistré ?","n":32,"u":"mots","e":"32 mots, soit 1 024 bits en tout, moins qu’un SMS. Sa mémoire était un tube cathodique : les données étaient littéralement des points lumineux sur un écran."},
-  {"q":"Combien de temps a tourné le tout premier programme informatique enregistré, en 1948 ?","n":52,"u":"minutes","e":"52 minutes et 3,5 millions d’opérations pour trouver le plus grand diviseur d’un nombre. Un téléphone d’aujourd’hui règle le même calcul en une fraction de milliseconde."},
-  {"q":"Combien pesait l’UNIVAC I, premier ordinateur commercial américain ?","n":13,"u":"tonnes","e":"13 tonnes et 5 200 tubes. En 1952, il prédit correctement l’élection d’Eisenhower ; la chaîne CBS, incrédule, refusa de diffuser la prévision avant d’avoir le résultat."},
-  {"q":"Combien pesait l’AN/FSQ-7 du réseau SAGE, le plus gros ordinateur jamais construit ?","n":250,"u":"tonnes","e":"250 tonnes, 60 000 tubes, trois mégawatts : un ordinateur de la taille d’un immeuble pour surveiller le ciel américain. Chaque centre en abritait deux, pour ne jamais s’arrêter."},
-  {"q":"Combien pesait le Cray-1, superordinateur star des années 1970 ?","n":5.5,"u":"tonnes","e":"5,5 tonnes, dont une bonne part de circuit de refroidissement au fréon. Sa forme en C n’était pas du design : elle raccourcissait les câbles pour gagner des nanosecondes."},
-  {"q":"Combien coûtait un Cray-1 à sa sortie ?","n":8800000,"u":"dollars","e":"8,8 millions de dollars pièce, banquette en cuir comprise autour de la machine. Seuls des laboratoires nationaux et des météorologues pouvaient s’en offrir un."},
-  {"q":"Combien de transistors comptait l’Intel 4004, le premier microprocesseur ?","n":2300,"u":"transistors","e":"2 300 transistors sur une puce plus petite qu’un ongle, conçue à l’origine pour une calculatrice japonaise. Les processeurs actuels en alignent des dizaines de milliards."},
-  {"q":"Combien de mots de mémoire vive avait l’ordinateur de bord d’Apollo 11 ?","n":2048,"u":"mots","e":"2 048 mots de mémoire effaçable, soit environ 4 ko. La mémoire fixe était tissée à la main, fil par fil, par des ouvrières : on l’appelait la « mémoire des petites vieilles »."},
-  {"q":"À quelle fréquence tournait le processeur de l’ordinateur d’Apollo 11 ?","n":2.048,"u":"mégahertz","e":"2,048 MHz, environ mille fois moins qu’un téléphone actuel. Cette machine a quand même géré une descente lunaire en gérant ses alarmes de surcharge en direct."},
-  {"q":"Combien de kilooctets de mémoire embarque la sonde Voyager 1 ?","n":70,"u":"kilooctets","e":"Environ 70 ko au total, moins qu’une petite image. Avec ça, la sonde pilote ses instruments depuis presque cinquante ans, à plus de vingt milliards de kilomètres."},
-  {"q":"Combien de mémoire vive avait le premier Macintosh, en 1984 ?","n":128,"u":"kilooctets","e":"128 ko, si juste que le système et une application se disputaient chaque octet. Les développeurs surnommaient la machine « le Mac à 128 ko » comme un défi personnel."},
-  {"q":"Combien coûtait l’Apple I à sa mise en vente ?","n":666.66,"u":"dollars","e":"666,66 dollars. Wozniak a choisi ce prix parce qu’il aimait les chiffres répétés et que c’était un tiers au-dessus du prix de gros, pas pour invoquer le diable."},
-  {"q":"Combien coûtait l’Apple Lisa au lancement ?","n":9995,"u":"dollars","e":"9 995 dollars de 1983, le prix d’une voiture neuve, pour un échec commercial retentissant. Apple finit par enterrer près de trois mille Lisa invendues dans une décharge de l’Utah."},
-  {"q":"Combien coûtaient trois minutes du premier service téléphonique transatlantique, en 1927 ?","n":75,"u":"dollars","e":"75 dollars les trois minutes, soit plusieurs semaines de salaire ouvrier. La liaison passait par radio à ondes longues et le moindre orage rendait la conversation inaudible."},
-  {"q":"Combien coûtait le kit de l’Altair 8800, l’ordinateur qui a lancé la micro-informatique ?","n":439,"u":"dollars","e":"439 dollars, livré en pièces détachées, sans clavier ni écran : on le programmait avec des interrupteurs. C’est pour lui que Gates et Allen écrivirent leur premier logiciel."},
-  {"q":"De combien une seule pièce d’un penny posée sur le balancier de Big Ben modifie-t-elle son avance quotidienne ?","n":0.4,"u":"secondes","e":"Quatre dixièmes de seconde par jour et par penny. Les horlogers ajustent encore la plus célèbre horloge du monde en empilant de la petite monnaie sur le balancier."},
-  {"q":"Combien de brevets américains Thomas Edison a-t-il déposés ?","n":1093,"u":"brevets","e":"1 093 brevets à son nom, soit environ un tous les quinze jours pendant quarante ans. Son laboratoire de Menlo Park fonctionnait comme une usine à inventions salariée."},
-  {"q":"Combien a coûté à IBM le développement de la gamme System/360 ?","n":5000000000,"u":"dollars","e":"Environ cinq milliards de dollars des années 1960, davantage que le projet Manhattan. IBM a littéralement misé l’entreprise entière sur une seule famille d’ordinateurs."}
+ {
+  "q": "Combien pesait l’ENIAC, le premier grand calculateur électronique ?",
+  "n": 27,
+  "u": "tonnes",
+  "e": "27 tonnes étalées sur 167 m² pour moins de puissance qu’une calculette de supermarché. Les techniciens marchaient à l’intérieur de la machine pour aller remplacer les tubes grillés."
+ },
+ {
+  "q": "Combien de tubes à vide contenait l’ENIAC ?",
+  "n": 17468,
+  "u": "tubes",
+  "e": "17 468 tubes, dont plusieurs claquaient chaque jour. L’équipe finit par ne plus jamais éteindre la machine : c’est l’allumage à froid qui tuait les tubes, pas le calcul."
+ },
+ {
+  "q": "Après combien d’essais les chimistes ont-ils obtenu la formule du WD-40 ?",
+  "n": 40,
+  "u": "essais",
+  "e": "WD-40 signifie « Water Displacement, 40th formula ». Le nom du produit est littéralement un compte-rendu d’échec : trente-neuf ratages affichés sur chaque bombe vendue depuis."
+ },
+ {
+  "q": "Quelle capacité avait le tout premier disque dur, l’IBM 350 de 1956 ?",
+  "n": 5,
+  "u": "mégaoctets",
+  "e": "5 mégaoctets, soit une seule photo de smartphone, dans une armoire d’une tonne louée des milliers de dollars par mois. Sa livraison exigeait un avion cargo."
+ },
+ {
+  "q": "Combien de plateaux tournaient dans le premier disque dur d’IBM ?",
+  "n": 50,
+  "u": "plateaux",
+  "e": "Cinquante disques de 61 cm empilés, tournant à 1 200 tours par minute, balayés par une tête unique qui se déplaçait de l’un à l’autre. Un juke-box en acier."
+ },
+ {
+  "q": "Combien de pièces mécaniques comptait le calculateur Harvard Mark I ?",
+  "n": 765000,
+  "u": "pièces",
+  "e": "765 000 composants, 800 km de fil et quinze mètres de long. Grace Hopper y programmait dans un vacarme d’horlogerie qu’on entendait dans tout le bâtiment."
+ },
+ {
+  "q": "Combien de tubes électroniques comptait le Colossus Mark 2 de Bletchley Park ?",
+  "n": 2400,
+  "u": "tubes",
+  "e": "2 400 tubes pour casser les codes allemands. Machine si secrète que Churchill ordonna de détruire les exemplaires : l’Angleterre a effacé son propre premier ordinateur."
+ },
+ {
+  "q": "Combien de mots de mémoire avait le Manchester Baby, premier ordinateur à programme enregistré ?",
+  "n": 32,
+  "u": "mots",
+  "e": "32 mots, soit 1 024 bits en tout, moins qu’un SMS. Sa mémoire était un tube cathodique : les données étaient littéralement des points lumineux sur un écran."
+ },
+ {
+  "q": "Combien de temps a tourné le tout premier programme informatique enregistré, en 1948 ?",
+  "n": 52,
+  "u": "minutes",
+  "e": "52 minutes et 3,5 millions d’opérations pour trouver le plus grand diviseur d’un nombre. Un téléphone d’aujourd’hui règle le même calcul en une fraction de milliseconde."
+ },
+ {
+  "q": "Combien pesait l’UNIVAC I, premier ordinateur commercial américain ?",
+  "n": 13,
+  "u": "tonnes",
+  "e": "13 tonnes et 5 200 tubes. En 1952, il prédit correctement l’élection d’Eisenhower ; la chaîne CBS, incrédule, refusa de diffuser la prévision avant d’avoir le résultat."
+ },
+ {
+  "q": "Combien pesait l’AN/FSQ-7 du réseau SAGE, le plus gros ordinateur jamais construit ?",
+  "n": 250,
+  "u": "tonnes",
+  "e": "250 tonnes, 60 000 tubes, trois mégawatts : un ordinateur de la taille d’un immeuble pour surveiller le ciel américain. Chaque centre en abritait deux, pour ne jamais s’arrêter."
+ },
+ {
+  "q": "Combien pesait le Cray-1, superordinateur star des années 1970 ?",
+  "n": 5.5,
+  "u": "tonnes",
+  "e": "5,5 tonnes, dont une bonne part de circuit de refroidissement au fréon. Sa forme en C n’était pas du design : elle raccourcissait les câbles pour gagner des nanosecondes."
+ },
+ {
+  "q": "Combien coûtait un Cray-1 à sa sortie ?",
+  "n": 8800000,
+  "u": "dollars",
+  "e": "8,8 millions de dollars pièce, banquette en cuir comprise autour de la machine. Seuls des laboratoires nationaux et des météorologues pouvaient s’en offrir un."
+ },
+ {
+  "q": "Combien de transistors comptait l’Intel 4004, le premier microprocesseur ?",
+  "n": 2300,
+  "u": "transistors",
+  "e": "2 300 transistors sur une puce plus petite qu’un ongle, conçue à l’origine pour une calculatrice japonaise. Les processeurs actuels en alignent des dizaines de milliards."
+ },
+ {
+  "q": "Combien de mots de mémoire vive avait l’ordinateur de bord d’Apollo 11 ?",
+  "n": 2048,
+  "u": "mots",
+  "e": "2 048 mots de mémoire effaçable, environ 4 ko. La mémoire fixe, elle, était tissée à la main fil par fil par des ouvrières : on l’appelait la mémoire « petites vieilles »."
+ },
+ {
+  "q": "À quelle fréquence tournait le processeur de l’ordinateur d’Apollo 11 ?",
+  "n": 2.048,
+  "u": "mégahertz",
+  "e": "2,048 MHz, environ mille fois moins qu’un téléphone actuel. Cette machine a pourtant géré une descente lunaire tout en encaissant ses alarmes de surcharge en direct."
+ },
+ {
+  "q": "Combien de kilooctets de mémoire embarque la sonde Voyager 1 ?",
+  "n": 70,
+  "u": "kilooctets",
+  "e": "Environ 70 ko au total, moins qu’une petite image. Avec ça, la sonde pilote ses instruments depuis presque cinquante ans, à plus de vingt milliards de kilomètres de nous."
+ },
+ {
+  "q": "Combien de mémoire vive avait le premier Macintosh, en 1984 ?",
+  "n": 128,
+  "u": "kilooctets",
+  "e": "128 ko, si juste que le système et une application se disputaient chaque octet. Les développeurs parlaient du « Mac 128 » comme d’une épreuve sportive."
+ },
+ {
+  "q": "Combien coûtait l’Apple I à sa mise en vente ?",
+  "n": 666.66,
+  "u": "dollars",
+  "e": "666,66 dollars. Wozniak a choisi ce prix parce qu’il aimait les chiffres répétés et que cela faisait un tiers de marge sur le prix de gros. Aucun rapport avec le diable."
+ },
+ {
+  "q": "Combien coûtait l’Apple Lisa au lancement ?",
+  "n": 9995,
+  "u": "dollars",
+  "e": "9 995 dollars de 1983, le prix d’une voiture neuve, pour un échec commercial retentissant. Apple finit par enterrer près de trois mille Lisa invendues dans une décharge de l’Utah."
+ },
+ {
+  "q": "Combien coûtaient trois minutes du premier service téléphonique transatlantique, en 1927 ?",
+  "n": 75,
+  "u": "dollars",
+  "e": "75 dollars les trois minutes, soit plusieurs semaines de salaire ouvrier. La liaison passait par radio en ondes longues et le moindre orage rendait la conversation inaudible."
+ },
+ {
+  "q": "Combien coûtait le kit de l’Altair 8800, l’ordinateur qui a lancé la micro-informatique ?",
+  "n": 439,
+  "u": "dollars",
+  "e": "439 dollars, livré en pièces détachées, sans clavier ni écran : on le programmait avec des interrupteurs. C’est pour lui que Gates et Allen écrivirent leur premier logiciel."
+ },
+ {
+  "q": "De combien une pièce d’un penny posée sur le balancier de Big Ben modifie-t-elle son avance quotidienne ?",
+  "n": 0.4,
+  "u": "secondes",
+  "e": "Quatre dixièmes de seconde par jour et par penny. Les horlogers règlent encore la plus célèbre horloge du monde en empilant de la petite monnaie sur le balancier."
+ },
+ {
+  "q": "Combien de brevets américains Thomas Edison a-t-il déposés ?",
+  "n": 1093,
+  "u": "brevets",
+  "e": "1 093 brevets à son nom, soit environ un tous les quinze jours pendant quarante ans. Son laboratoire de Menlo Park fonctionnait comme une usine à inventions salariée."
+ },
+ {
+  "q": "Combien a coûté à IBM le développement de la gamme System/360 ?",
+  "n": 5000000000,
+  "u": "dollars",
+  "e": "Environ cinq milliards de dollars des années 1960, davantage que le projet Manhattan. IBM a littéralement misé l’existence de l’entreprise sur une seule famille d’ordinateurs."
+ },
+ {
+  "q": "Combien de positions par seconde Deep Blue pouvait-il évaluer face à Kasparov ?",
+  "n": 200000000,
+  "u": "positions",
+  "e": "200 millions de positions par seconde, contre deux ou trois pour un grand maître humain. Kasparov perdit surtout parce qu’un bug produisit un coup qu’il crut génial."
+ },
+ {
+  "q": "Combien pesait Deep Blue, l’ordinateur qui a battu Kasparov ?",
+  "n": 1.4,
+  "u": "tonnes",
+  "e": "1,4 tonne réparties en deux armoires noires de deux mètres. Le champion du monde d’échecs affrontait littéralement un réfrigérateur industriel de trente processeurs."
+ },
+ {
+  "q": "Combien de lettres du tout premier message envoyé sur ARPANET sont arrivées à destination ?",
+  "n": 2,
+  "u": "lettres",
+  "e": "Deux. Ils tapaient « LOGIN » ; le système a planté après le « L » et le « O ». Le premier mot d’Internet fut donc « LO », comme un « lo and behold » involontaire."
+ },
+ {
+  "q": "Combien d’ordinateurs étaient reliés à ARPANET à ses débuts ?",
+  "n": 4,
+  "u": "ordinateurs",
+  "e": "Quatre nœuds en Californie et dans l’Utah. Tout Internet descend d’un réseau qu’on pouvait dessiner intégralement sur un coin de nappe."
+ },
+ {
+  "q": "Combien de personnes ont reçu le tout premier courriel publicitaire non sollicité, en 1978 ?",
+  "n": 393,
+  "u": "destinataires",
+  "e": "393 utilisateurs d’ARPANET, invités à une démonstration d’ordinateurs. L’indignation fut immédiate et le premier spam de l’histoire valut un blâme officiel à son auteur."
+ },
+ {
+  "q": "Combien d’ordinateurs le ver Morris a-t-il infectés en 1988 ?",
+  "n": 6000,
+  "u": "ordinateurs",
+  "e": "Environ 6 000 machines, soit près d’un dixième de l’Internet de l’époque. L’étudiant voulait mesurer la taille du réseau ; une erreur de code fit se recopier le ver sans fin."
+ },
+ {
+  "q": "À quelle amende l’auteur du ver Morris a-t-il été condamné ?",
+  "n": 10050,
+  "u": "dollars",
+  "e": "10 050 dollars et du travail d’intérêt général : première condamnation au titre de la loi américaine sur la fraude informatique. Il est aujourd’hui professeur au MIT."
+ },
+ {
+  "q": "Quel taux de clic affichait la toute première bannière publicitaire du Web, en 1994 ?",
+  "n": 44,
+  "u": "%",
+  "e": "44 % des internautes cliquaient sur cette bannière d’AT&T qui demandait « Avez-vous déjà cliqué ici ? ». Trente ans plus tard, le taux moyen tourne autour de 0,05 %."
+ },
+ {
+  "q": "À combien de vues le compteur de YouTube a-t-il débordé avec « Gangnam Style » ?",
+  "n": 2147483647,
+  "u": "vues",
+  "e": "2 147 483 647 : la limite d’un entier signé sur 32 bits. Le clip a forcé YouTube à repasser tous ses compteurs en 64 bits, de quoi tenir jusqu’à 9 trillions de vues."
+ },
+ {
+  "q": "Combien de caractères peut contenir un SMS classique ?",
+  "n": 160,
+  "u": "caractères",
+  "e": "160, chiffre choisi par un ingénieur allemand qui a tapé au hasard des phrases sur sa machine à écrire et constaté qu’une pensée complète tenait presque toujours dessous."
+ },
+ {
+  "q": "Combien de boutons comptait la toute première souris d’ordinateur ?",
+  "n": 3,
+  "u": "boutons",
+  "e": "Trois, faute de place dans le boîtier de bois : Engelbart en rêvait cinq, un par doigt. Sa souris ne rapporta rien, le brevet ayant expiré avant que le grand public en achète."
+ },
+ {
+  "q": "Combien de temps a duré « la mère de toutes les démos » d’Engelbart en 1968 ?",
+  "n": 90,
+  "u": "minutes",
+  "e": "90 minutes où il présenta d’un coup la souris, le visioconférence, l’hypertexte, le copier-coller et l’édition collaborative. La salle a applaudi debout, puis a mis vingt ans à comprendre."
+ },
+ {
+  "q": "Combien de cartes perforées fallait-il pour tisser le célèbre portrait de Jacquard sur son propre métier ?",
+  "n": 24000,
+  "u": "cartes",
+  "e": "24 000 cartes perforées pour un seul portrait en soie. Babbage en possédait un exemplaire : cette image tissée est l’ancêtre direct du programme informatique."
+ },
+ {
+  "q": "Combien de pièces compte la machine à différences n°2 de Babbage, construite au XXe siècle d’après ses plans ?",
+  "n": 8000,
+  "u": "pièces",
+  "e": "8 000 pièces et cinq tonnes de laiton et de fonte. Assemblée en 1991 selon les dessins d’origine, elle a fonctionné du premier coup : Babbage avait raison depuis cent cinquante ans."
+ },
+ {
+  "q": "Combien d’engrenages en bronze a-t-on retrouvés dans la machine d’Anticythère ?",
+  "n": 30,
+  "u": "engrenages",
+  "e": "Trente roues dentées repêchées d’une épave antique, capables de prédire éclipses et positions planétaires. Il faudra attendre les horloges médiévales pour revoir une telle mécanique."
+ },
+ {
+  "q": "Combien de dents compte la plus grande roue de la machine d’Anticythère ?",
+  "n": 223,
+  "u": "dents",
+  "e": "223 dents, exactement le nombre de mois du cycle de Saros qui régit le retour des éclipses. Les Grecs avaient encodé l’astronomie dans du métal découpé à la main."
+ },
+ {
+  "q": "Combien d’exemplaires de la Bible à quarante-deux lignes Gutenberg a-t-il imprimés ?",
+  "n": 180,
+  "u": "exemplaires",
+  "e": "Environ 180 exemplaires, dont une quarantaine survivent. Chacun demandait la peau de plus de cent veaux pour le parchemin : l’imprimerie a d’abord été une affaire d’élevage."
+ },
+ {
+  "q": "Combien de temps après le lancement la fusée Ariane 5 s’est-elle autodétruite lors de son vol inaugural ?",
+  "n": 37,
+  "u": "secondes",
+  "e": "37 secondes. Un logiciel recyclé d’Ariane 4 a tenté de loger une vitesse trop grande dans un petit format de nombre ; l’ordinateur a rendu les armes en plein vol."
+ },
+ {
+  "q": "Combien a coûté l’explosion du vol inaugural d’Ariane 5 ?",
+  "n": 370000000,
+  "u": "dollars",
+  "e": "Environ 370 millions de dollars partis en fumée à cause de quelques lignes de code inutilisées, qui tournaient encore par simple héritage du modèle précédent."
+ },
+ {
+  "q": "Combien a coûté la perte de la sonde Mars Climate Orbiter, victime d’une confusion d’unités ?",
+  "n": 125000000,
+  "u": "dollars",
+  "e": "125 millions de dollars. Un sous-traitant calculait en livres-force, la NASA en newtons : la sonde a visé une orbite 170 km trop basse et s’est désintégrée dans l’atmosphère martienne."
+ },
+ {
+  "q": "Combien a coûté à Intel le bug de division du Pentium ?",
+  "n": 475000000,
+  "u": "dollars",
+  "e": "475 millions de dollars de provision pour remplacer les puces. L’erreur n’apparaissait qu’à la neuvième décimale d’une division, mais Intel avait d’abord répondu que cela n’avait aucune importance."
+ },
+ {
+  "q": "Au bout de combien d’heures allumé fallait-il redémarrer les systèmes de l’Airbus A350 selon une directive de sécurité ?",
+  "n": 149,
+  "u": "heures",
+  "e": "149 heures. Un compteur logiciel finissait par déborder ; l’autorité américaine a donc imposé d’éteindre et de rallumer l’avion, la solution la plus vieille de l’informatique."
+ },
+ {
+  "q": "De combien de mois le système automatisé de bagages a-t-il retardé l’ouverture de l’aéroport de Denver ?",
+  "n": 16,
+  "u": "mois",
+  "e": "Seize mois de retard pour des chariots robotisés qui déchiquetaient les valises pendant les essais. Le système fut finalement abandonné au profit de tapis roulants classiques."
+ },
+ {
+  "q": "Combien a coûté le fiasco du système de bagages automatisé de l’aéroport de Denver ?",
+  "n": 560000000,
+  "u": "dollars",
+  "e": "560 millions de dollars pour un labyrinthe de 40 km de rails. Pendant les tests, les chariots lançaient les bagages en l’air : les images ont fait le tour du monde."
+ },
+ {
+  "q": "De combien le miroir du télescope Hubble était-il mal poli au moment de son lancement ?",
+  "n": 2.2,
+  "u": "micromètres",
+  "e": "2,2 micromètres d’écart sur les bords, soit un cinquantième d’épaisseur de cheveu. Assez pour rendre floues toutes les images et exiger une mission de réparation en orbite."
+ },
+ {
+  "q": "Combien de points de défaillance unique comptait le déploiement du télescope James Webb ?",
+  "n": 344,
+  "u": "points",
+  "e": "344 mécanismes qui devaient tous fonctionner du premier coup, à un million et demi de kilomètres, sans possibilité de réparation. Les ingénieurs ont retenu leur souffle deux semaines."
+ },
+ {
+  "q": "Quelle est la circonférence de l’anneau du Grand collisionneur de hadrons ?",
+  "n": 26.659,
+  "u": "kilomètres",
+  "e": "26,659 km d’anneau enterré sous la frontière franco-suisse. Les protons y font environ onze mille tours par seconde, soit plus de trois cents millions de kilomètres par jour."
+ },
+ {
+  "q": "À quelle température, en kelvins, sont refroidis les aimants du Grand collisionneur de hadrons ?",
+  "n": 1.9,
+  "u": "kelvins",
+  "e": "1,9 kelvin, soit plus froid que l’espace intersidéral. L’accélérateur du CERN est l’endroit le plus glacial de tout le système solaire connu, et il est sous nos pieds."
+ },
+ {
+  "q": "Quel pourcentage de la vitesse de la lumière atteignent les protons du Grand collisionneur de hadrons ?",
+  "n": 99.9999991,
+  "u": "%",
+  "e": "99,9999991 %. Sur un tour d’anneau, ils ne perdent que quelques mètres par seconde face à un photon : la différence tient dans un mouchoir de poche relativiste."
+ },
+ {
+  "q": "Quelle puissance a produit Chicago Pile-1, le premier réacteur nucléaire de l’histoire ?",
+  "n": 0.5,
+  "u": "watts",
+  "e": "Un demi-watt lors de la première réaction en chaîne contrôlée, moins qu’une veilleuse. Le réacteur était empilé sous les gradins d’un terrain de squash universitaire."
+ },
+ {
+  "q": "Combien de blocs de graphite ont été empilés pour construire Chicago Pile-1 ?",
+  "n": 45000,
+  "u": "blocs",
+  "e": "45 000 blocs taillés à la main par des étudiants couverts de poussière noire. Le premier réacteur nucléaire ressemblait à un gigantesque jeu de construction en crayon à papier."
+ },
+ {
+  "q": "Quel diamètre faisait l’antenne du radiotélescope d’Arecibo ?",
+  "n": 305,
+  "u": "mètres",
+  "e": "305 mètres de réflecteur posés dans une cuvette naturelle de Porto Rico. Impossible de l’orienter : on attendait simplement que la Terre tourne pour viser une autre région du ciel."
+ },
+ {
+  "q": "Quelle hauteur faisait la fusée Saturn V ?",
+  "n": 110.6,
+  "u": "mètres",
+  "e": "110,6 mètres, plus haut que la Statue de la Liberté socle compris. Encore aujourd’hui, aucune fusée opérationnelle n’a dépassé sa capacité d’emport vers la Lune."
+ },
+ {
+  "q": "Combien pesait une fusée Saturn V au décollage ?",
+  "n": 2970,
+  "u": "tonnes",
+  "e": "Près de 2 970 tonnes, dont l’essentiel en carburant. La charge utile envoyée vers la Lune représentait à peine 1,5 % de cette masse : tout le reste servait à s’arracher du sol."
+ },
+ {
+  "q": "Quelle poussée développait le premier étage de la Saturn V ?",
+  "n": 34.5,
+  "u": "méganewtons",
+  "e": "34,5 méganewtons pour cinq moteurs F-1 avalant plusieurs tonnes de kérosène et d’oxygène par seconde. Les vibrations faisaient tomber des morceaux de plafond à cinq kilomètres."
+ },
+ {
+  "q": "À quelle vitesse le transporteur à chenilles de la NASA amène-t-il une fusée sur son pas de tir ?",
+  "n": 1.6,
+  "u": "km/h",
+  "e": "1,6 km/h en charge, soit trois fois moins vite qu’un marcheur tranquille. Ce mastodonte de plus de deux mille tonnes met une demi-journée pour parcourir six kilomètres."
+ },
+ {
+  "q": "Combien pesait Spoutnik 1, le premier satellite artificiel ?",
+  "n": 83.6,
+  "u": "kilogrammes",
+  "e": "83,6 kg pour une sphère de 58 cm munie de quatre antennes. Sa seule fonction était d’émettre un bip ; ce bip a suffi à déclencher la course à l’espace."
+ },
+ {
+  "q": "Pendant combien de jours Spoutnik 1 a-t-il émis son fameux bip ?",
+  "n": 21,
+  "u": "jours",
+  "e": "Vingt et un jours, jusqu’à épuisement des piles. Les radioamateurs du monde entier ont enregistré ce signal ; le satellite, lui, a continué de tourner muet pendant trois mois."
+ },
+ {
+  "q": "Combien de temps a duré le vol de Youri Gagarine, premier homme dans l’espace ?",
+  "n": 108,
+  "u": "minutes",
+  "e": "108 minutes, un seul tour de Terre. Gagarine ne pilotait rien : les commandes étaient verrouillées par un code, au cas où l’apesanteur lui ferait perdre la raison."
+ },
+ {
+  "q": "À quelle vitesse la Station spatiale internationale file-t-elle autour de la Terre ?",
+  "n": 27600,
+  "u": "km/h",
+  "e": "Environ 27 600 km/h, soit un tour complet en 90 minutes et seize levers de soleil par jour. À cette allure, Paris–New York prendrait un quart d’heure."
+ },
+ {
+  "q": "Quelle vitesse maximale a atteint le rover lunaire des missions Apollo ?",
+  "n": 18,
+  "u": "km/h",
+  "e": "18 km/h en descente, record établi par Eugene Cernan. Un garde-boue cassé fut réparé avec du ruban adhésif et des cartes plastifiées, sous peine de couvrir l’équipage de poussière."
+ },
+ {
+  "q": "À quelle vitesse maximale roule le rover martien Curiosity ?",
+  "n": 4,
+  "u": "cm/s",
+  "e": "Quatre centimètres par seconde, soit moins de 150 mètres par heure. Une tortue le distancerait sans effort, mais elle n’aurait pas à éviter les rochers avec dix minutes de décalage radio."
+ },
+ {
+  "q": "Combien de temps a duré la descente de Curiosity dans l’atmosphère martienne ?",
+  "n": 7,
+  "u": "minutes",
+  "e": "Sept minutes de terreur : parachute, rétrofusées puis grue volante déposant le rover au bout de câbles. Le signal mettant quatorze minutes à arriver, tout était joué avant qu’on le sache."
+ },
+ {
+  "q": "Quelle distance le rover Opportunity a-t-il parcourue sur Mars ?",
+  "n": 45.16,
+  "u": "kilomètres",
+  "e": "45,16 km au compteur pour un engin prévu pour rouler un kilomètre en quatre-vingt-dix jours. Il a tenu quinze ans, jusqu’à ce qu’une tempête de poussière le prive de soleil."
+ },
+ {
+  "q": "Combien de vols l’hélicoptère martien Ingenuity a-t-il effectués ?",
+  "n": 72,
+  "u": "vols",
+  "e": "72 vols pour une démonstration technologique qui n’en prévoyait que cinq. Il s’est arrêté sur une pale endommagée, après avoir prouvé qu’on peut voler dans un air cent fois plus ténu."
+ },
+ {
+  "q": "Quelle distance la sonde Rosetta a-t-elle parcourue avant d’atteindre sa comète ?",
+  "n": 6400000000,
+  "u": "kilomètres",
+  "e": "6,4 milliards de kilomètres et dix ans de voyage, avec trois passages près de la Terre pour prendre de l’élan. Elle a même hiberné trente et un mois pour économiser l’énergie."
+ },
+ {
+  "q": "Quelle vitesse record la sonde Parker Solar Probe a-t-elle atteinte près du Soleil ?",
+  "n": 692000,
+  "u": "km/h",
+  "e": "692 000 km/h, l’objet le plus rapide jamais construit : elle traverserait la France en moins de dix secondes. Son bouclier encaisse plus de mille degrés pendant la manœuvre."
+ },
+ {
+  "q": "Quelle est la puissance de l’émetteur radio de la sonde Voyager 1 ?",
+  "n": 23,
+  "u": "watts",
+  "e": "23 watts, comme une ampoule de réfrigérateur. Après vingt milliards de kilomètres, le signal reçu sur Terre est un milliardième de milliardième de watt, et on l’entend quand même."
+ },
+ {
+  "q": "Combien a coûté le développement privé du stylo à bille utilisable en apesanteur ?",
+  "n": 1000000,
+  "u": "dollars",
+  "e": "Environ un million de dollars, payés par Paul Fisher seul, pas par la NASA. L’agence a simplement acheté les stylos ensuite, à quelques dollars pièce, tout comme les Soviétiques."
+ },
+ {
+  "q": "De combien de microsecondes par jour les horloges des satellites GPS doivent-elles être corrigées à cause de la relativité ?",
+  "n": 38,
+  "u": "microsecondes",
+  "e": "38 microsecondes par jour. Sans cette correction d’Einstein, le GPS dériverait de dix kilomètres par jour et deviendrait inutilisable en une matinée."
+ },
+ {
+  "q": "Au bout de combien d’années l’horloge atomique NIST-F2 prendrait-elle une seconde d’écart ?",
+  "n": 300000000,
+  "u": "années",
+  "e": "300 millions d’années pour se tromper d’une seconde. Cette horloge au césium est si stable qu’elle détecte le ralentissement du temps quand on la soulève de quelques centimètres."
+ }
 ]
