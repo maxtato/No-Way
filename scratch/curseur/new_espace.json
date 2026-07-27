@@ -1,0 +1,602 @@
+[
+ {
+  "q": "Combien de mémoire vive avait l’ordinateur de bord qui a posé Apollo 11 sur la Lune ?",
+  "n": 4,
+  "u": "kilo-octets",
+  "e": "4 ko. Une carte de vœux musicale d’aujourd’hui en contient davantage. L’engin a quand même piloté un alunissage manuel avec deux alarmes de surcharge en pleine descente."
+ },
+ {
+  "q": "Quelle hauteur faisait la fusée Saturn V ?",
+  "n": 111,
+  "u": "mètres",
+  "e": "111 mètres, soit un immeuble de 36 étages posé debout sur un pas de tir. Elle reste la fusée opérationnelle la plus puissante jamais construite."
+ },
+ {
+  "q": "Combien pesait une Saturn V au décollage ?",
+  "n": 2970,
+  "u": "tonnes",
+  "e": "Près de 3 000 tonnes, dont 90 % de carburant. Le reste, la charge utile envoyée vers la Lune, tenait dans le petit cône du sommet."
+ },
+ {
+  "q": "De combien de pièces était composée une fusée Saturn V ?",
+  "n": 3000000,
+  "u": "pièces",
+  "e": "Environ trois millions. Avec une fiabilité de 99,9 %, cela laisserait quand même 3 000 pièces défaillantes par vol. Aucune Saturn V n’a pourtant échoué."
+ },
+ {
+  "q": "Combien de personnes ont travaillé sur le programme Apollo ?",
+  "n": 400000,
+  "u": "personnes",
+  "e": "400 000, réparties dans des milliers d’entreprises. La plupart n’ont jamais vu une fusée : elles cousaient des combinaisons, tressaient des mémoires à la main ou vérifiaient des soudures."
+ },
+ {
+  "q": "Combien d’êtres humains ont marché sur la Lune ?",
+  "n": 12,
+  "u": "hommes",
+  "e": "Douze, tous entre 1969 et 1972, en six missions. Plus personne depuis. Le douzième, Eugene Cernan, a laissé les dernières empreintes en remontant dans son module."
+ },
+ {
+  "q": "Combien de kilos de roches lunaires les missions Apollo ont-elles rapportés ?",
+  "n": 382,
+  "u": "kg",
+  "e": "382 kg, soit le poids de cinq adultes. Une partie dort encore sous vide, jamais ouverte, en attendant des instruments d’analyse plus fins que ceux des années 1970."
+ },
+ {
+  "q": "À quelle distance record de la Terre des humains se sont-ils déjà trouvés ?",
+  "n": 400171,
+  "u": "km",
+  "e": "400 171 km, l’équipage d’Apollo 13, contraint de contourner la Lune par une trajectoire plus large après l’explosion de son réservoir. Un record établi par accident."
+ },
+ {
+  "q": "Quelle était l’épaisseur de la paroi du module lunaire d’Apollo par endroits ?",
+  "n": 0.3,
+  "u": "mm",
+  "e": "0,3 mm, l’épaisseur de deux feuilles de papier aluminium. On pouvait la percer avec un tournevis. Chaque gramme gagné valait du carburant pour redécoller."
+ },
+ {
+  "q": "Combien pesait le module lunaire d’Apollo ?",
+  "n": 15,
+  "u": "tonnes",
+  "e": "15 tonnes au complet, dont l’essentiel en ergols. La cabine où vivaient deux hommes offrait à peine le volume de deux cabines téléphoniques, sans siège."
+ },
+ {
+  "q": "Combien de jours de quarantaine les astronautes d’Apollo 11 ont-ils subis au retour ?",
+  "n": 21,
+  "u": "jours",
+  "e": "21 jours enfermés, par crainte de microbes lunaires. Ils ont dû enfiler des combinaisons d’isolement dès la sortie de la capsule, puis vivre dans une caravane blindée."
+ },
+ {
+  "q": "Combien de couches comptait la combinaison lunaire des astronautes d’Apollo ?",
+  "n": 21,
+  "u": "couches",
+  "e": "21 couches superposées, du sous-vêtement refroidi par eau au tissu pare-micrométéorites. Chacune était cousue à la main par des couturières formées chez un fabricant de corsets."
+ },
+ {
+  "q": "Combien de drapeaux américains ont été plantés sur la Lune ?",
+  "n": 6,
+  "u": "drapeaux",
+  "e": "Six, un par mission. Cinq tiennent encore debout : celui d’Apollo 11 a été renversé par le souffle du décollage, sous les yeux d’Aldrin. Le soleil les a tous décolorés en blanc."
+ },
+ {
+  "q": "Combien de sacs d’excréments humains les missions Apollo ont-elles laissés sur la Lune ?",
+  "n": 96,
+  "u": "sacs",
+  "e": "96 sacs abandonnés pour alléger les modules au décollage. Des biologistes rêvent d’aller les récupérer : des bactéries y ont peut-être survécu un demi-siècle sous vide."
+ },
+ {
+  "q": "Quelle vitesse maximale le rover lunaire d’Apollo a-t-il atteint ?",
+  "n": 18,
+  "u": "km/h",
+  "e": "18 km/h, en descente, par Eugene Cernan. Un record de vitesse extraterrestre toujours debout. En rebondissant à cette allure, les roues quittaient le sol plusieurs mètres."
+ },
+ {
+  "q": "Combien de temps Apollo 11 a-t-il mis pour rejoindre l’orbite lunaire ?",
+  "n": 76,
+  "u": "heures",
+  "e": "76 heures, soit trois jours et quatre heures pour 384 000 km. Les astronautes flottaient, jouaient de la musique et faisaient des retransmissions télé pendant le trajet."
+ },
+ {
+  "q": "Combien de décibels le décollage d’une Saturn V produisait-il ?",
+  "n": 204,
+  "u": "décibels",
+  "e": "204 décibels mesurés au pas de tir, l’un des sons les plus forts jamais produits par l’homme. À 5 km, le grondement faisait vibrer les côtes des spectateurs."
+ },
+ {
+  "q": "Combien de personnes ont regardé en direct les premiers pas sur la Lune ?",
+  "n": 600000000,
+  "u": "spectateurs",
+  "e": "Environ 600 millions, un cinquième de l’humanité de l’époque. Beaucoup ont vu une image floue en noir et blanc, filmée par une caméra fixée à une trappe."
+ },
+ {
+  "q": "Combien d’années séparent le premier vol des frères Wright des premiers pas sur la Lune ?",
+  "n": 66,
+  "u": "ans",
+  "e": "66 ans. Des gens nés avant le premier avion motorisé ont vu un homme marcher sur la Lune. Le premier vol des Wright avait duré douze secondes."
+ },
+ {
+  "q": "Quelle distance moyenne sépare la Terre de la Lune ?",
+  "n": 384400,
+  "u": "km",
+  "e": "384 400 km. Toutes les planètes du système solaire, mises bout à bout, tiendraient dans cet intervalle. Sur les schémas d’école, la Lune est toujours dessinée bien trop près."
+ },
+ {
+  "q": "Combien de temps mettrait une voiture roulant à 100 km/h pour atteindre la Lune ?",
+  "n": 160,
+  "u": "jours",
+  "e": "160 jours sans jamais s’arrêter. Apollo 11 a fait le trajet en trois jours parce qu’il partait à 40 000 km/h, puis se laissait freiner par la gravité terrestre."
+ },
+ {
+  "q": "De combien la Lune s’éloigne-t-elle de la Terre chaque année ?",
+  "n": 3.8,
+  "u": "cm",
+  "e": "3,8 cm par an, mesuré au laser sur les réflecteurs posés par Apollo. C’est la vitesse à laquelle poussent les ongles. Les marées lui volent lentement de l’énergie."
+ },
+ {
+  "q": "Dans combien d’années la Lune sera-t-elle trop loin pour provoquer des éclipses totales ?",
+  "n": 600000000,
+  "u": "années",
+  "e": "Environ 600 millions d’années. Nous vivons dans la fenêtre où le disque lunaire couvre exactement le Soleil. Les dinosaures ont vu de meilleures éclipses que nos descendants."
+ },
+ {
+  "q": "Combien de fois le Soleil est-il plus éloigné de nous que la Lune ?",
+  "n": 400,
+  "u": "fois",
+  "e": "400 fois plus loin, et il se trouve aussi être 400 fois plus grand. Cette coïncidence sans explication est ce qui rend les éclipses totales possibles."
+ },
+ {
+  "q": "Combien pèserait sur la Lune un homme de 80 kg ?",
+  "n": 13,
+  "u": "kg",
+  "e": "13 kg, un sixième de son poids. Avec 90 kg de combinaison et de sac dorsal, les astronautes d’Apollo pesaient encore moins qu’un enfant et avançaient en sautillant."
+ },
+ {
+  "q": "Combien de temps a duré le tout premier vol spatial habité, celui de Youri Gagarine ?",
+  "n": 108,
+  "u": "minutes",
+  "e": "108 minutes, un seul tour de Terre. Gagarine n’a rien piloté : les commandes étaient verrouillées par un code, au cas où l’apesanteur lui ferait perdre la raison."
+ },
+ {
+  "q": "Combien de temps a duré la première sortie dans l’espace, celle d’Alexeï Leonov ?",
+  "n": 12,
+  "u": "minutes",
+  "e": "12 minutes, qui ont failli être les dernières : sa combinaison a gonflé au point qu’il ne pouvait plus rentrer par le sas. Il a purgé son air pour dégonfler."
+ },
+ {
+  "q": "Combien pesait Spoutnik 1, le premier satellite artificiel ?",
+  "n": 83.6,
+  "u": "kg",
+  "e": "83,6 kg pour une sphère de 58 cm munie de quatre antennes. Elle ne faisait que biper. Ce bip, capté par des radioamateurs du monde entier, a déclenché la course à l’espace."
+ },
+ {
+  "q": "Combien pèse le plus vieux satellite encore en orbite autour de la Terre ?",
+  "n": 1.47,
+  "u": "kg",
+  "e": "1,47 kg : Vanguard 1, lancé en 1958, surnommé « pamplemousse » par Khrouchtchev. Muet depuis 1964, il continue de tourner et tiendra encore des siècles."
+ },
+ {
+  "q": "Combien de jours Borman et Lovell ont-ils passé enfermés dans la capsule Gemini 7 ?",
+  "n": 14,
+  "u": "jours",
+  "e": "14 jours à deux dans un volume comparable à l’avant d’une petite voiture, sans pouvoir se lever. Ils ont fini par retirer leurs combinaisons tant la chaleur était insupportable."
+ },
+ {
+  "q": "Combien de temps le cosmonaute Sergueï Krikalev est-il resté bloqué en orbite pendant la chute de l’URSS ?",
+  "n": 311,
+  "u": "jours",
+  "e": "311 jours. Parti citoyen soviétique, il est revenu russe : le pays qui l’avait envoyé n’existait plus, et personne n’avait le budget pour le faire redescendre plus tôt."
+ },
+ {
+  "q": "Combien de temps a duré la plus longue sortie extravéhiculaire de l’histoire ?",
+  "n": 536,
+  "u": "minutes",
+  "e": "536 minutes, soit 8 heures 56, par Susan Helms et James Voss en 2001. Presque neuf heures dans une combinaison, sans s’asseoir, sans se gratter le nez."
+ },
+ {
+  "q": "Combien de vols la navette spatiale américaine a-t-elle effectués au total ?",
+  "n": 135,
+  "u": "vols",
+  "e": "135 missions en trente ans, avec cinq orbiteurs. La flotte devait voler une fois par semaine pour un coût modique : elle n’a jamais dépassé neuf vols par an."
+ },
+ {
+  "q": "Combien de tuiles de protection thermique recouvraient une navette spatiale ?",
+  "n": 24000,
+  "u": "tuiles",
+  "e": "Environ 24 000, chacune unique, numérotée et collée à la main. Elles encaissaient 1 500 °C à la rentrée tout en restant assez froides pour être tenues à main nue quelques secondes après."
+ },
+ {
+  "q": "Quelle amende la ville australienne d’Esperance a-t-elle infligée à la NASA après la chute de Skylab ?",
+  "n": 400,
+  "u": "dollars",
+  "e": "400 dollars pour dépôt sauvage d’ordures, la station s’étant désintégrée au-dessus de son territoire. La NASA n’a jamais payé ; un animateur radio américain a réglé la note trente ans plus tard."
+ },
+ {
+  "q": "Combien pèse la Station spatiale internationale ?",
+  "n": 420,
+  "u": "tonnes",
+  "e": "420 tonnes, l’équivalent de 300 voitures, assemblées pièce par pièce en orbite au fil de plus de quarante vols. C’est l’objet le plus cher jamais construit par l’humanité."
+ },
+ {
+  "q": "Quelle longueur de câbles électriques court à l’intérieur de la Station spatiale internationale ?",
+  "n": 13,
+  "u": "km",
+  "e": "Près de 13 km de câblage, davantage que dans un gros avion de ligne. Les astronautes passent une partie de leur temps à traquer des pannes derrière les panneaux."
+ },
+ {
+  "q": "De combien un astronaute grandit-il pendant un séjour prolongé en apesanteur ?",
+  "n": 5,
+  "u": "cm",
+  "e": "Jusqu’à 5 cm : sans gravité, les disques de la colonne vertébrale se décompriment. Le gain disparaît en quelques jours au retour, souvent accompagné de sérieux maux de dos."
+ },
+ {
+  "q": "Combien pèse sur Terre une combinaison de sortie extravéhiculaire de la NASA ?",
+  "n": 127,
+  "u": "kg",
+  "e": "127 kg avec son sac dorsal : impossible à porter debout au sol. En orbite elle ne pèse rien, mais reste si rigide que fermer le poing épuise les avant-bras."
+ },
+ {
+  "q": "Combien de couches superposées compose une combinaison spatiale moderne de sortie ?",
+  "n": 14,
+  "u": "couches",
+  "e": "14 couches, du refroidissement liquide au blindage anti-micrométéorites. C’est un vaisseau spatial individuel avec sa propre pression, son oxygène et son épurateur de gaz carbonique."
+ },
+ {
+  "q": "Combien de secondes reste-t-on conscient si l’on est exposé au vide spatial ?",
+  "n": 15,
+  "u": "secondes",
+  "e": "Environ 15 secondes de conscience utile : c’est le manque d’oxygène au cerveau qui frappe, pas le froid ni l’explosion des films. Un technicien de la NASA l’a vécu en 1966 et s’en est remis."
+ },
+ {
+  "q": "Quelle dose de radiations un aller-retour vers Mars ferait-il encaisser à un astronaute ?",
+  "n": 0.66,
+  "u": "sievert",
+  "e": "0,66 sievert, mesuré par la sonde Curiosity pendant son propre voyage. C’est l’équivalent d’un scanner du corps entier tous les cinq jours pendant tout le trajet."
+ },
+ {
+  "q": "À quelle vitesse Felix Baumgartner est-il tombé lors de son saut depuis la stratosphère ?",
+  "n": 1357,
+  "u": "km/h",
+  "e": "1 357 km/h, plus vite que le son, en chute libre. L’air était si rare à 39 km d’altitude qu’il n’y avait presque rien pour le freiner pendant les premières secondes."
+ },
+ {
+  "q": "À quelle altitude commence officiellement l’espace ?",
+  "n": 100,
+  "u": "km",
+  "e": "100 km, la ligne de Kármán : au-delà, il faudrait voler plus vite que la vitesse orbitale pour que des ailes portent encore. C’est un Paris-Rouen à la verticale."
+ },
+ {
+  "q": "À quelle altitude se trouvent les satellites géostationnaires ?",
+  "n": 35786,
+  "u": "km",
+  "e": "35 786 km, la seule altitude où un satellite tourne exactement à la vitesse de la Terre. C’est un dixième de la distance à la Lune, et c’est de là que vient la télévision par satellite."
+ },
+ {
+  "q": "De combien les horloges des satellites GPS se décalent-elles chaque jour à cause de la relativité ?",
+  "n": 38,
+  "u": "microsecondes",
+  "e": "38 microsecondes par jour : le temps passe plus vite là-haut. Sans cette correction d’Einstein, votre GPS vous placerait à 10 km de votre position après une seule journée."
+ },
+ {
+  "q": "À quelle vitesse faut-il lancer un objet pour qu’il échappe définitivement à la Terre ?",
+  "n": 11.2,
+  "u": "km/s",
+  "e": "11,2 km/s, soit 40 000 km/h : Paris-Marseille en une minute. En dessous, quelle que soit la puissance, l’objet finit toujours par retomber."
+ },
+ {
+  "q": "À quelle vitesse la surface de la Terre tourne-t-elle à l’équateur ?",
+  "n": 1670,
+  "u": "km/h",
+  "e": "1 670 km/h, soit plus vite qu’un avion de chasse, sans que personne ne le sente. C’est pour cela que les bases de lancement sont installées le plus près possible de l’équateur."
+ },
+ {
+  "q": "À quelle vitesse la Terre file-t-elle autour du Soleil ?",
+  "n": 107000,
+  "u": "km/h",
+  "e": "107 000 km/h, soit 30 km par seconde. Le temps de lire cette phrase, vous avez parcouru la distance Paris-Bruxelles, assis sans bouger."
+ },
+ {
+  "q": "Combien de temps peut durer au maximum la totalité d’une éclipse solaire ?",
+  "n": 7.5,
+  "u": "minutes",
+  "e": "7 minutes 32 secondes au grand maximum, et la plupart durent moins de trois minutes. Des gens traversent la planète et attendent des années pour ces quelques instants d’obscurité."
+ },
+ {
+  "q": "À quelle vitesse le Soleil entraîne-t-il le système solaire autour de la galaxie ?",
+  "n": 230,
+  "u": "km/s",
+  "e": "230 km par seconde, soit 828 000 km/h. Nous ne tournons pas seulement autour du Soleil : nous filons avec lui dans un immense virage de la Voie lactée."
+ },
+ {
+  "q": "Combien de temps le Soleil met-il à faire un tour complet de la Voie lactée ?",
+  "n": 225000000,
+  "u": "années",
+  "e": "Environ 225 millions d’années. Lors de son dernier passage au même endroit, les dinosaures venaient d’apparaître. Le Soleil n’a bouclé qu’une vingtaine de tours depuis sa naissance."
+ },
+ {
+  "q": "Quelle taille aurait la Terre si on la comprimait en trou noir ?",
+  "n": 9,
+  "u": "mm",
+  "e": "9 mm de rayon, une bille. Toute la masse de la planète tiendrait dans le creux de la main — enfin, si la main pouvait s’en approcher."
+ },
+ {
+  "q": "Combien de temps mettrait un avion de ligne pour atteindre le Soleil ?",
+  "n": 19,
+  "u": "ans",
+  "e": "19 ans de vol sans escale à 900 km/h pour couvrir 150 millions de km. Et le Soleil est, à l’échelle cosmique, notre voisin de palier."
+ },
+ {
+  "q": "Combien de Terres tiendraient à l’intérieur du Soleil ?",
+  "n": 1300000,
+  "u": "Terres",
+  "e": "Environ 1,3 million. Et pourtant le Soleil est une étoile parfaitement banale, plutôt petite : certaines géantes rouges engloberaient l’orbite de Jupiter."
+ },
+ {
+  "q": "Quel pourcentage de la masse du système solaire le Soleil représente-t-il ?",
+  "n": 99.86,
+  "u": "%",
+  "e": "99,86 %. Tout le reste — les huit planètes, les lunes, les astéroïdes, les comètes — se partage les miettes. Jupiter compte pour presque tout ce qui reste."
+ },
+ {
+  "q": "Combien de matière le Soleil transforme-t-il en pure énergie chaque seconde ?",
+  "n": 4000000,
+  "u": "tonnes",
+  "e": "Environ 4 millions de tonnes par seconde, converties en lumière selon E=mc². Le Soleil maigrit en permanence, mais il lui reste encore cinq milliards d’années de réserves."
+ },
+ {
+  "q": "Combien de tonnes d’hydrogène le Soleil consomme-t-il chaque seconde ?",
+  "n": 600000000,
+  "u": "tonnes",
+  "e": "600 millions de tonnes par seconde. Cela dure depuis 4,6 milliards d’années et le réservoir est à peine entamé : c’est l’échelle de l’étoile qui est démesurée."
+ },
+ {
+  "q": "Quelle température règne au cœur du Soleil ?",
+  "n": 15000000,
+  "u": "°C",
+  "e": "15 millions de degrés. La surface, elle, n’en fait que 5 500 — mais la couronne, bien plus haut, remonte à un million de degrés, un mystère qui occupe encore les physiciens."
+ },
+ {
+  "q": "Combien de neutrinos solaires traversent chaque centimètre carré de votre peau chaque seconde ?",
+  "n": 65000000000,
+  "u": "neutrinos",
+  "e": "65 milliards, jour et nuit, y compris à travers toute l’épaisseur de la Terre quand il fait sombre. Ils ne vous font rien : la matière leur est presque transparente."
+ },
+ {
+  "q": "Combien de Terres tiendraient à l’intérieur de Jupiter ?",
+  "n": 1321,
+  "u": "Terres",
+  "e": "1 321. Jupiter est si massive que le centre autour duquel elle tourne avec le Soleil se trouve légèrement au-dessus de la surface de celui-ci."
+ },
+ {
+  "q": "Combien pèserait un litre de Saturne ?",
+  "n": 0.69,
+  "u": "kg",
+  "e": "0,69 kg : moins qu’un litre d’eau. Saturne est la seule planète du système solaire qui flotterait dans une baignoire assez grande — en y laissant un fameux cerne."
+ },
+ {
+  "q": "Combien de temps dure une journée sur Vénus ?",
+  "n": 243,
+  "u": "jours",
+  "e": "243 jours terrestres, soit plus longtemps que son année, qui n’en dure que 225. Sur Vénus, une journée dure plus longtemps qu’une année, et le Soleil s’y lève à l’ouest."
+ },
+ {
+  "q": "De combien de minutes un jour martien est-il plus long qu’un jour terrestre ?",
+  "n": 39.6,
+  "u": "minutes",
+  "e": "39 minutes et 35 secondes. Les équipes des rovers ont vécu sur ce rythme, décalant leur réveil chaque jour : au bout de deux semaines, ils déjeunaient à trois heures du matin."
+ },
+ {
+  "q": "Combien de degrés sous zéro fait-il en moyenne à la surface de Mars ?",
+  "n": 63,
+  "u": "°C sous zéro",
+  "e": "-63 °C de moyenne, avec des pointes à -140 aux pôles l’hiver. Mais l’air y est si ténu qu’un thermomètre au soleil peut afficher des valeurs positives au niveau du sol."
+ },
+ {
+  "q": "Quelle hauteur atteint Olympus Mons, le plus haut volcan de Mars ?",
+  "n": 22,
+  "u": "km",
+  "e": "22 km, presque trois fois l’Everest, pour une base large comme la France. Ses pentes sont si douces qu’un promeneur à son sommet ne verrait qu’une plaine sans fin."
+ },
+ {
+  "q": "Combien de temps un signal radio met-il au maximum pour aller de Mars à la Terre ?",
+  "n": 22,
+  "u": "minutes",
+  "e": "Jusqu’à 22 minutes dans un sens. Impossible de piloter un rover en direct : on lui envoie sa journée de travail le matin et on découvre le résultat le soir."
+ },
+ {
+  "q": "À quelle vitesse soufflent les vents les plus rapides du système solaire, sur Neptune ?",
+  "n": 2100,
+  "u": "km/h",
+  "e": "2 100 km/h, six fois plus vite que les pires ouragans terrestres, sur une planète qui reçoit mille fois moins de lumière que nous. Personne ne sait bien ce qui les alimente."
+ },
+ {
+  "q": "Quel est le diamètre de Pluton ?",
+  "n": 2377,
+  "u": "km",
+  "e": "2 377 km, soit moins que notre Lune, et à peu près la largeur des États-Unis. Sa lune Charon fait la moitié de sa taille : les deux tournent autour d’un point situé dans le vide."
+ },
+ {
+  "q": "De combien de degrés l’axe d’Uranus est-il incliné ?",
+  "n": 98,
+  "u": "degrés",
+  "e": "98 degrés : la planète roule sur le flanc, sans doute après une collision colossale. Ses pôles connaissent 42 ans de jour continu, puis 42 ans de nuit."
+ },
+ {
+  "q": "Combien de jours de mission étaient prévus pour le rover martien Opportunity ?",
+  "n": 90,
+  "u": "jours",
+  "e": "90 jours. Il a tenu quinze ans. Son dernier message, après une tempête de poussière, a été traduit par ses ingénieurs : « ma batterie est faible et il commence à faire noir »."
+ },
+ {
+  "q": "Quelle distance le rover Opportunity a-t-il parcourue sur Mars ?",
+  "n": 45,
+  "u": "km",
+  "e": "45 km en quinze ans, soit environ huit mètres par jour : un record de conduite extraterrestre battu à la vitesse d’un escargot très prudent et très bien piloté."
+ },
+ {
+  "q": "Combien de temps a duré la descente périlleuse du rover Curiosity vers le sol martien ?",
+  "n": 7,
+  "u": "minutes",
+  "e": "Sept minutes, surnommées « les sept minutes de terreur ». Le signal mettant quatorze minutes à arriver, le rover était posé — ou détruit — depuis longtemps quand la Terre l’a appris."
+ },
+ {
+  "q": "Combien de vols l’hélicoptère martien Ingenuity devait-il effectuer au départ ?",
+  "n": 5,
+  "u": "vols",
+  "e": "Cinq, en démonstration technologique. Il en a réussi 72 en trois ans avant de casser une pale : le premier engin à voler dans une atmosphère cent fois plus fine que la nôtre."
+ },
+ {
+  "q": "Combien d’années la sonde Rosetta a-t-elle voyagé avant d’atteindre sa comète ?",
+  "n": 10,
+  "u": "ans",
+  "e": "Dix ans et six milliards de kilomètres, avec trois passages près de la Terre et deux ans d’hibernation, pour rejoindre un caillou de 4 km filant à 100 000 km/h."
+ },
+ {
+  "q": "Combien de temps la sonde Huygens a-t-elle émis depuis le sol de Titan ?",
+  "n": 72,
+  "u": "minutes",
+  "e": "72 minutes après s’être posée sur une lune de Saturne, à 1,2 milliard de km. Elle n’était garantie que quelques minutes : ses batteries ont tenu bien au-delà."
+ },
+ {
+  "q": "Combien d’années la sonde Cassini a-t-elle tourné autour de Saturne ?",
+  "n": 13,
+  "u": "ans",
+  "e": "Treize ans, après sept ans de voyage. Elle a fini volontairement plongée dans l’atmosphère de la planète, pour éviter de contaminer un jour une de ses lunes habitables."
+ },
+ {
+  "q": "De combien la sonde DART a-t-elle raccourci l’orbite de l’astéroïde qu’elle a percuté ?",
+  "n": 32,
+  "u": "minutes",
+  "e": "32 minutes, alors que les ingénieurs espéraient au minimum 73 secondes. Premier test de déviation d’astéroïde de l’histoire : l’humanité sait désormais bousculer un caillou céleste."
+ },
+ {
+  "q": "Quelle vitesse record la sonde Parker a-t-elle atteinte en frôlant le Soleil ?",
+  "n": 692000,
+  "u": "km/h",
+  "e": "692 000 km/h, soit 190 km par seconde : l’objet le plus rapide jamais construit. À cette allure, un Paris-New York prendrait une demi-seconde."
+ },
+ {
+  "q": "À quelle vitesse la sonde Voyager 1 s’éloigne-t-elle du Soleil ?",
+  "n": 17,
+  "u": "km/s",
+  "e": "17 km par seconde, soit 61 000 km/h. Lancée en 1977, elle est le premier objet humain à avoir quitté la bulle du vent solaire pour l’espace interstellaire."
+ },
+ {
+  "q": "Quelle est la puissance de l’émetteur radio de Voyager 1 ?",
+  "n": 23,
+  "u": "watts",
+  "e": "23 watts, comme l’ampoule d’un réfrigérateur. Le signal qui nous parvient après des milliards de kilomètres est mille milliards de fois plus faible qu’une pile de montre."
+ },
+ {
+  "q": "Combien de langues sont enregistrées sur le disque d’or emporté par les sondes Voyager ?",
+  "n": 55,
+  "u": "langues",
+  "e": "55 salutations, de l’akkadien au mandarin, plus des chants de baleines et du Chuck Berry. Un message glissé dans une bouteille lancée pour un milliard d’années."
+ },
+ {
+  "q": "Combien d’années la sonde New Horizons a-t-elle mis pour atteindre Pluton ?",
+  "n": 9.5,
+  "u": "ans",
+  "e": "Neuf ans et demi, malgré le lancement le plus rapide jamais réalisé. Elle a franchi l’orbite de la Lune en neuf heures, là où Apollo mettait trois jours."
+ },
+ {
+  "q": "Quel pourcentage de la masse de la Lune représente toute la ceinture d’astéroïdes ?",
+  "n": 4,
+  "u": "%",
+  "e": "Environ 4 %. Le champ d’astéroïdes des films n’existe pas : les corps y sont si dispersés qu’une sonde traverse la ceinture sans jamais rien apercevoir."
+ },
+ {
+  "q": "Quel diamètre fait le cratère laissé par l’astéroïde qui a éliminé les dinosaures ?",
+  "n": 180,
+  "u": "km",
+  "e": "180 km, enfoui sous le Yucatán. L’objet ne mesurait que 10 km, mais il est arrivé à 20 km par seconde : l’impact a soulevé une vague de roche vaporisée."
+ },
+ {
+  "q": "Combien d’arbres l’explosion de la Toungouska a-t-elle abattus en Sibérie ?",
+  "n": 80000000,
+  "u": "arbres",
+  "e": "80 millions d’arbres couchés sur 2 000 km². L’objet, une vingtaine de mètres, a explosé en altitude sans laisser de cratère. Personne n’est allé voir avant dix-neuf ans."
+ },
+ {
+  "q": "Combien pèse la plus grosse météorite jamais retrouvée sur Terre ?",
+  "n": 60,
+  "u": "tonnes",
+  "e": "60 tonnes de fer, la météorite de Hoba en Namibie. Elle n’a laissé aucun cratère : elle a probablement ricoché dans l’atmosphère et s’est posée presque en douceur."
+ },
+ {
+  "q": "Combien de personnes ont été blessées par le météore de Tcheliabinsk en Russie ?",
+  "n": 1500,
+  "u": "personnes",
+  "e": "Environ 1 500, presque toutes par des éclats de vitres soufflées. Le caillou de 20 mètres n’a jamais touché le sol : il a explosé à 30 km d’altitude, sans avoir été détecté."
+ },
+ {
+  "q": "Quel âge a l’univers ?",
+  "n": 13800000000,
+  "u": "années",
+  "e": "13,8 milliards d’années, connu à quelques dizaines de millions près grâce au rayonnement fossile. La Terre, elle, n’a que 4,5 milliards d’années : elle a raté les deux premiers tiers."
+ },
+ {
+  "q": "Combien de temps après le Big Bang l’univers est-il devenu transparent à la lumière ?",
+  "n": 380000,
+  "u": "ans",
+  "e": "380 000 ans. Avant cela, le cosmos était un brouillard opaque. La lumière libérée ce jour-là baigne encore l’univers : c’est le rayonnement fossile que captent nos antennes."
+ },
+ {
+  "q": "À quelle température le rayonnement fossile de l’univers baigne-t-il tout l’espace ?",
+  "n": 2.7,
+  "u": "kelvins",
+  "e": "2,7 kelvins, soit -270 °C : à peine au-dessus du zéro absolu. Environ 1 % de la neige des vieux téléviseurs mal réglés venait directement de cet écho du Big Bang."
+ },
+ {
+  "q": "Combien pèserait une cuillère à café de matière d’étoile à neutrons ?",
+  "n": 1000000000,
+  "u": "tonnes",
+  "e": "Un milliard de tonnes, l’équivalent d’une montagne dans une petite cuillère. Les protons et les électrons y ont été écrasés ensemble jusqu’à supprimer tout espace vide."
+ },
+ {
+  "q": "Combien de tours sur elle-même par seconde effectue l’étoile la plus rapide connue ?",
+  "n": 716,
+  "u": "tours",
+  "e": "716 tours par seconde : un astre plus massif que le Soleil, large de 20 km, qui tourne plus vite qu’une lame de mixeur. Son équateur file à un quart de la vitesse de la lumière."
+ },
+ {
+  "q": "À quelle distance se trouve Proxima du Centaure, l’étoile la plus proche du Soleil ?",
+  "n": 4.24,
+  "u": "années-lumière",
+  "e": "4,24 années-lumière, soit 40 000 milliards de km. Si le Soleil était une orange à Paris, cette étoile serait une autre orange posée à New York."
+ },
+ {
+  "q": "Combien de temps mettrait un avion de ligne pour rejoindre l’étoile la plus proche ?",
+  "n": 5000000,
+  "u": "années",
+  "e": "Cinq millions d’années à 900 km/h. Nos ancêtres n’étaient pas encore debout au moment du décollage. C’est l’étoile voisine, la plus accessible de toutes."
+ },
+ {
+  "q": "À quelle distance se trouve la galaxie d’Andromède ?",
+  "n": 2500000,
+  "u": "années-lumière",
+  "e": "2,5 millions d’années-lumière, et pourtant on la voit à l’œil nu par nuit noire. La lumière qui vous atteint est partie quand nos ancêtres taillaient leurs premiers galets."
+ },
+ {
+  "q": "Combien de jours le télescope Hubble a-t-il fixé un carré de ciel apparemment vide pour son champ profond ?",
+  "n": 10,
+  "u": "jours",
+  "e": "Dix jours d’exposition sur une zone grande comme une tête d’épingle à bout de bras. Résultat : 3 000 galaxies dans ce qui semblait un morceau de vide absolu."
+ },
+ {
+  "q": "De combien le miroir du télescope Hubble était-il mal poli lors de son lancement ?",
+  "n": 2.2,
+  "u": "micromètres",
+  "e": "2,2 micromètres, un cinquantième de cheveu. Assez pour rendre les images floues et humilier la NASA jusqu’à une mission de réparation en orbite, trois ans plus tard."
+ },
+ {
+  "q": "Combien de points de défaillance unique le déploiement du télescope James Webb comportait-il ?",
+  "n": 344,
+  "u": "points",
+  "e": "344 mécanismes dont un seul raté aurait condamné le télescope, à 1,5 million de km de toute réparation possible. Le déploiement a duré un mois. Tout a fonctionné."
+ },
+ {
+  "q": "À combien de degrés sous zéro le miroir du télescope James Webb est-il maintenu ?",
+  "n": 233,
+  "u": "°C sous zéro",
+  "e": "-233 °C, obtenus grâce à un pare-soleil de la taille d’un court de tennis. Plus chaud, l’instrument s’éblouirait de sa propre chaleur infrarouge et ne verrait plus rien."
+ }
+]
