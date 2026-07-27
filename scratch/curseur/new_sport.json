@@ -298,5 +298,155 @@
   "n": 10,
   "u": "coureurs",
   "e": "Dix rescapés sur 69 partants. Premier Tour d’après-guerre, sur des routes défoncées par les obus, avec des vélos en acier de vingt kilos et des boyaux de rechange en bandoulière."
+ },
+ {
+  "q": "Combien de virages compte la montée de l’Alpe d’Huez ?",
+  "n": 21,
+  "u": "virages",
+  "e": "21 lacets numérotés à rebours, chacun portant le nom d’un vainqueur d’étape. Quand la liste a dépassé vingt et un noms, il a fallu doubler les plaques sur les premiers virages."
+ },
+ {
+  "q": "Quelle distance Eddy Merckx a-t-il parcourue en une heure lors de son record de 1972 à Mexico ?",
+  "n": 49.431,
+  "u": "kilomètres",
+  "e": "49,431 km en soixante minutes. Merckx a déclaré ensuite n’avoir jamais autant souffert et refusé de retenter l’expérience. Son vélo pesait 5,75 kilos, sans freins ni dérailleur."
+ },
+ {
+  "q": "Quel poids minimum un vélo doit-il peser pour être autorisé en course professionnelle ?",
+  "n": 6.8,
+  "u": "kilos",
+  "e": "6,8 kilos, règle figée par l’UCI depuis 2000. Les fabricants savent descendre bien plus bas : ils rajoutent donc du lest dans les cadres pour atteindre la limite légale."
+ },
+ {
+  "q": "À quelle vitesse Denise Mueller-Korenek a-t-elle roulé à vélo derrière un véhicule d’entraînement ?",
+  "n": 296,
+  "u": "km/h",
+  "e": "296 km/h sur le lac salé de Bonneville, en 2018, dans l’aspiration d’un dragster. À cette allure, un coup de pédale propulse le vélo sur plus de trente mètres."
+ },
+ {
+  "q": "À quelle vitesse Éric Barone a-t-il dévalé une pente enneigée en VTT ?",
+  "n": 227,
+  "u": "km/h",
+  "e": "227,72 km/h à Vars, en 2017, sur une piste de ski à 98 % de pente. Il portait une combinaison profilée et un casque de bobeur, sur un vélo aux roues carénées."
+ },
+ {
+  "q": "De combien de mètres Uwe Hohn a-t-il lancé le javelot, obligeant à redessiner l’engin ?",
+  "n": 104.8,
+  "u": "mètres",
+  "e": "104,80 m en 1984 : les javelots atterrissaient à plat au bout des stades. La fédération a déplacé le centre de gravité de l’engin en 1986, rendant ce record éternel et inbattable."
+ },
+ {
+  "q": "Combien d’années le record du monde de saut en longueur de Bob Beamon a-t-il tenu ?",
+  "n": 23,
+  "u": "ans",
+  "e": "23 ans. En 1968 à Mexico, Beamon saute 8,90 m, cinquante-cinq centimètres au-delà du record ; l’appareil de mesure optique était trop court, il a fallu ressortir un mètre ruban."
+ },
+ {
+  "q": "En combien de temps Jesse Owens a-t-il battu quatre records du monde le même jour, en 1935 ?",
+  "n": 45,
+  "u": "minutes",
+  "e": "45 minutes, à Ann Arbor, le dos douloureux après une chute d’escalier. Quatre records dans quatre disciplines différentes en trois quarts d’heure : l’après-midi la plus productive de l’athlétisme."
+ },
+ {
+  "q": "Combien de records du monde Sergueï Bubka a-t-il battus au saut à la perche ?",
+  "n": 35,
+  "u": "records",
+  "e": "35 records du monde, en salle et en plein air, souvent améliorés d’un seul centimètre. Chaque record était primé : il a méthodiquement grignoté sa propre marque pendant dix ans."
+ },
+ {
+  "q": "Combien de courses consécutives Edwin Moses a-t-il gagnées sur 400 m haies ?",
+  "n": 122,
+  "u": "courses",
+  "e": "122 victoires d’affilée entre 1977 et 1987, soit neuf ans, neuf mois et neuf jours sans perdre. Il franchissait les dix haies en treize foulées, là où ses rivaux en faisaient quatorze."
+ },
+ {
+  "q": "En combien de secondes Roger Bannister a-t-il couru le premier mile sous les quatre minutes ?",
+  "n": 239.4,
+  "u": "secondes",
+  "e": "3 minutes 59 secondes et 4 dixièmes, en 1954 à Oxford. Étudiant en médecine, il s’entraînait pendant sa pause déjeuner. Six semaines plus tard, son record était déjà battu."
+ },
+ {
+  "q": "Combien pèse le boulet du lancer de poids masculin ?",
+  "n": 7.26,
+  "u": "kilos",
+  "e": "7,26 kilos, soit exactement 16 livres anglaises. Le poids vient d’un boulet de canon standard : les soldats écossais s’amusaient à les projeter le plus loin possible entre deux batailles."
+ },
+ {
+  "q": "Combien d’années Shizo Kanakuri a-t-il mis pour terminer le marathon olympique de Stockholm ?",
+  "n": 54,
+  "u": "ans",
+  "e": "54 ans. Épuisé en 1912, il s’arrête chez des habitants, boit un jus d’orange et rentre au Japon sans prévenir. La Suède l’a invité en 1967 pour franchir enfin la ligne."
+ },
+ {
+  "q": "Combien de coureurs ont terminé le marathon olympique de 1904, le plus chaotique de l’histoire ?",
+  "n": 14,
+  "u": "coureurs",
+  "e": "14 arrivants sur 32 partants, par 32 degrés et sur des pistes poussiéreuses. Le vainqueur avait reçu de la strychnine et du cognac ; un autre a été chassé par des chiens."
+ },
+ {
+  "q": "Combien de coureurs ont pris le départ du tout premier marathon de Boston, en 1897 ?",
+  "n": 15,
+  "u": "coureurs",
+  "e": "Quinze hommes. Le vainqueur, John McDermott, a marché plusieurs fois et perdu quatre kilos en route. Aujourd’hui, la course en rassemble environ trente mille."
+ },
+ {
+  "q": "Combien de coureurs ont terminé le premier marathon de New York, en 1970 ?",
+  "n": 55,
+  "u": "coureurs",
+  "e": "55 arrivants sur 127 partants, avec quatre boucles dans Central Park devant une poignée de curieux. Les frais d’inscription étaient d’un dollar, et les trophées avaient été payés par l’organisateur."
+ },
+ {
+  "q": "Quelle distance parcourent les concurrents de la Badwater, la course la plus chaude du monde ?",
+  "n": 217,
+  "u": "kilomètres",
+  "e": "217 km de la Vallée de la Mort au mont Whitney, en juillet, par 50 degrés. Les coureurs restent sur la ligne blanche : le bitume fait fondre les semelles."
+ },
+ {
+  "q": "Combien de tours d’un même pâté de maisons faut-il boucler pour finir la course la plus longue du monde ?",
+  "n": 5649,
+  "u": "tours",
+  "e": "5649 tours d’un bloc du Queens, à New York, pour couvrir 4989 kilomètres. Les concurrents ont 52 jours et usent une dizaine de paires de chaussures autour du même trottoir."
+ },
+ {
+  "q": "Combien de temps les concurrents ont-ils pour boucler les cinq boucles de la Barkley Marathons ?",
+  "n": 60,
+  "u": "heures",
+  "e": "60 heures pour environ 200 km hors sentier et 20 000 mètres de dénivelé, sans GPS. En quarante ans, une vingtaine de personnes seulement ont réussi. Le départ est donné à la cigarette."
+ },
+ {
+  "q": "Quelle distance couvre l’Ultra-Trail du Mont-Blanc autour du massif ?",
+  "n": 171,
+  "u": "kilomètres",
+  "e": "Environ 171 km et 10 000 mètres de dénivelé positif, à travers trois pays. Les derniers arrivants courent deux nuits complètes ; les meilleurs dorment parfois moins de dix minutes."
+ },
+ {
+  "q": "Combien de marches les concurrents de l’Empire State Building Run-Up doivent-ils grimper ?",
+  "n": 1576,
+  "u": "marches",
+  "e": "1576 marches jusqu’au 86e étage, avalées en une dizaine de minutes par les meilleurs. La cage d’escalier est étroite et chaude : beaucoup terminent en s’aidant de la rampe."
+ },
+ {
+  "q": "Quelle distance totale un athlète parcourt-il lors d’un triathlon Ironman ?",
+  "n": 226,
+  "u": "kilomètres",
+  "e": "226 km : 3,8 à la nage, 180 à vélo, puis un marathon complet. La distance vient d’un pari entre militaires à Hawaï, qui ont simplement additionné trois épreuves locales existantes."
+ },
+ {
+  "q": "Combien de temps Matthew Webb a-t-il nagé pour traverser la Manche le premier, en 1875 ?",
+  "n": 21.75,
+  "u": "heures",
+  "e": "21 heures 45, en brasse, enduit d’huile de marsouin, en avalant du café chaud et du brandy passés depuis une barque. Il avait dérivé si loin qu’il a nagé près de 60 kilomètres."
+ },
+ {
+  "q": "Combien de temps Diana Nyad a-t-elle nagé sans cage pour relier Cuba à la Floride ?",
+  "n": 52.9,
+  "u": "heures",
+  "e": "52 heures 54 minutes, à 64 ans, à sa cinquième tentative. Un masque en silicone la protégeait des méduses-boîtes ; sa langue et sa bouche étaient tellement enflées qu’elle ne pouvait plus parler."
+ },
+ {
+  "q": "Combien de litres d’eau contient un bassin olympique de 50 mètres ?",
+  "n": 2500000,
+  "u": "litres",
+  "e": "Environ 2,5 millions de litres. Il faut plus d’une journée pour le remplir, et l’eau est filtrée en continu : le volume complet passe dans les filtres toutes les quatre heures."
  }
 ]
