@@ -1,600 +1,600 @@
 [
  {
-  "q": "À quelle distance de la terre la plus proche se trouve le point Nemo, l’endroit le plus isolé de l’océan ?",
+  "q": "À quelle distance de la terre la plus proche se trouve le point Nemo, l’endroit le plus isolé de l’océan ?",
   "n": 2688,
   "u": "km",
   "e": "Perdu dans le Pacifique Sud. Quand la Station spatiale passe au-dessus, les humains les plus proches sont à 400 km… au-dessus de la tête, pas sur Terre."
  },
  {
-  "q": "De combien le sommet du Chimborazo dépasse-t-il celui de l’Everest en distance au centre de la Terre ?",
+  "q": "De combien le sommet du Chimborazo dépasse-t-il celui de l’Everest en distance au centre de la Terre ?",
   "n": 2072,
   "u": "m",
   "e": "La Terre est aplatie aux pôles et renflée à l’équateur. Ce volcan équatorien culminant à 6 263 m est donc le point de la surface le plus éloigné du centre du globe."
  },
  {
-  "q": "Quelle est la hauteur totale du Mauna Kea mesurée depuis sa base sous-marine ?",
+  "q": "Quelle est la hauteur totale du Mauna Kea mesurée depuis sa base sous-marine ?",
   "n": 10210,
   "u": "m",
   "e": "Hawaï. Émergé, il ne monte qu’à 4 207 m, mais son socle plonge à 6 000 m sous le Pacifique. De la base au sommet, il dépasse l’Everest de plus d’un kilomètre."
  },
  {
-  "q": "Quelle profondeur a atteint le forage le plus profond jamais réalisé, à Kola en Russie ?",
+  "q": "Quelle profondeur a atteint le forage le plus profond jamais réalisé, à Kola en Russie ?",
   "n": 12262,
   "u": "m",
   "e": "Vingt ans de forage pour percer 0,2 % du rayon terrestre. À 12 262 m, la roche atteignait 180 °C et se déformait comme du plastique : le trou se refermait. Ils ont abandonné."
  },
  {
-  "q": "Quelle profondeur atteint le fond de la fosse des Mariannes ?",
+  "q": "Quelle profondeur atteint le fond de la fosse des Mariannes ?",
   "n": 10935,
   "u": "m",
   "e": "Environ 10 935 m au Challenger Deep. L’Everest y tiendrait entièrement avec deux kilomètres d’eau au-dessus du sommet. La pression y dépasse mille fois celle de la surface."
  },
  {
-  "q": "À quelle profondeur sous le niveau de la mer descend la fosse subglaciaire de Bentley, point continental le plus bas ?",
+  "q": "À quelle profondeur sous le niveau de la mer descend la fosse subglaciaire de Bentley, point continental le plus bas ?",
   "n": 2540,
   "u": "m",
   "e": "En Antarctique, sous deux kilomètres de glace. C’est le plus bas de toute la croûte continentale, mais nul ne peut le voir : sans la glace, l’océan s’y engouffrerait."
  },
  {
-  "q": "Quelle épaisseur atteint la glace au point le plus épais de l’Antarctique ?",
+  "q": "Quelle épaisseur atteint la glace au point le plus épais de l’Antarctique ?",
   "n": 4776,
   "u": "m",
   "e": "Presque cinq kilomètres de glace empilée, mesurés en terre Adélie. Le poids a enfoncé la croûte terrestre de plusieurs centaines de mètres ; elle remonterait lentement si tout fondait."
  },
  {
-  "q": "De combien monterait le niveau des mers si toute la glace de l’Antarctique fondait ?",
+  "q": "De combien monterait le niveau des mers si toute la glace de l’Antarctique fondait ?",
   "n": 58,
   "u": "m",
   "e": "Environ 58 mètres. L’Antarctique enferme à lui seul près de 90 % de la glace du monde. Le Groenland, lui, n’ajouterait « que » sept mètres."
  },
  {
-  "q": "Quelle est la température de l’air la plus élevée jamais enregistrée sur Terre ?",
+  "q": "Quelle est la température de l’air la plus élevée jamais enregistrée sur Terre ?",
   "n": 56.7,
   "u": "°C",
   "e": "Furnace Creek, Vallée de la Mort, 10 juillet 1913. Le record de 58 °C revendiqué en Libye a été invalidé en 2012 : thermomètre mal lu par un opérateur inexpérimenté."
  },
  {
-  "q": "De combien de degrés sous zéro était l’air lors du record mondial de froid ?",
+  "q": "De combien de degrés sous zéro était l’air lors du record mondial de froid ?",
   "n": 89.2,
   "u": "°C",
   "e": "Base Vostok, Antarctique, juillet 1983. À cette température, une inspiration profonde brûle les poumons et l’acier devient cassant comme du verre."
  },
  {
-  "q": "De combien de degrés sous zéro est descendu le thermomètre à Oïmiakon, village habité le plus froid du monde ?",
+  "q": "De combien de degrés sous zéro est descendu le thermomètre à Oïmiakon, village habité le plus froid du monde ?",
   "n": 67.7,
   "u": "°C",
   "e": "Sibérie, 1933. On y laisse tourner les moteurs jour et nuit, le sol est trop gelé pour creuser des tombes et l’encre fige dans les stylos."
  },
  {
-  "q": "Quelle est la température la plus chaude jamais mesurée en Antarctique ?",
+  "q": "Quelle est la température la plus chaude jamais mesurée en Antarctique ?",
   "n": 18.3,
   "u": "°C",
   "e": "Base Esperanza, péninsule antarctique, février 2020. Une douceur de printemps breton, validée par l’Organisation météorologique mondiale. Cette péninsule se réchauffe parmi les plus vite du globe."
  },
  {
-  "q": "Quelle température de sol a été relevée par satellite dans le désert du Lout, en Iran ?",
+  "q": "Quelle température de sol a été relevée par satellite dans le désert du Lout, en Iran ?",
   "n": 80.8,
   "u": "°C",
   "e": "Ce n’est pas l’air mais la surface du sol, mesurée depuis l’espace. Le sable y devient assez chaud pour cuire un œuf. Rien ne vit en surface, pas même les bactéries."
  },
  {
-  "q": "Quelle est la température moyenne annuelle de Dallol, l’endroit habité le plus chaud du monde ?",
+  "q": "Quelle est la température moyenne annuelle de Dallol, l’endroit habité le plus chaud du monde ?",
   "n": 34.4,
   "u": "°C",
   "e": "Dépression du Danakil, Éthiopie. Moyenne sur l’année entière, nuits comprises. Les caravaniers y découpent des briques de sel entre des sources acides où même les microbes peinent à survivre."
  },
  {
-  "q": "Quelle quantité de pluie est tombée sur Cherrapunji lors de son année record ?",
+  "q": "Quelle quantité de pluie est tombée sur Cherrapunji lors de son année record ?",
   "n": 26461,
   "u": "mm",
   "e": "Plus de vingt-six mètres d’eau en douze mois, dans les collines indiennes du Meghalaya. De quoi noyer un immeuble de huit étages. Paris reçoit environ 640 mm par an."
  },
  {
-  "q": "Combien de pluie est tombée en vingt-quatre heures au piton Foc-Foc, à La Réunion ?",
+  "q": "Combien de pluie est tombée en vingt-quatre heures au piton Foc-Foc, à La Réunion ?",
   "n": 1825,
   "u": "mm",
   "e": "Cyclone Denise, janvier 1966 : record mondial. Près de deux mètres d’eau en un jour. La Réunion détient presque tous les records mondiaux de pluie, de douze heures à quinze jours."
  },
  {
-  "q": "Combien de pluie est tombée en quinze jours au cratère Commerson, à La Réunion ?",
+  "q": "Combien de pluie est tombée en quinze jours au cratère Commerson, à La Réunion ?",
   "n": 6083,
   "u": "mm",
   "e": "Cyclone Hyacinthe, 1980. Six mètres d’eau en deux semaines : record mondial absolu. Ce cratère volcanique est un piège à nuages parfait, ouvert plein vent d’alizé."
  },
  {
-  "q": "Depuis combien de temps certaines vallées sèches de l’Antarctique n’ont-elles pas reçu de précipitations ?",
+  "q": "Depuis combien de temps certaines vallées sèches de l’Antarctique n’ont-elles pas reçu de précipitations ?",
   "n": 2000000,
   "u": "années",
   "e": "Les vallées sèches de McMurdo : des vents catabatiques si violents et un air si sec que la neige s’évapore avant de toucher le sol. La NASA y teste ses instruments martiens."
  },
  {
-  "q": "Quelle vitesse a atteint la rafale de vent la plus rapide jamais mesurée à la surface du globe ?",
+  "q": "Quelle vitesse a atteint la rafale de vent la plus rapide jamais mesurée à la surface du globe ?",
   "n": 408,
   "u": "km/h",
   "e": "Île Barrow, Australie, cyclone Olivia, avril 1996. Plus vite qu’un TGV lancé. Le record précédent, détenu par le mont Washington depuis 1934, avait tenu soixante-deux ans."
  },
  {
-  "q": "Quelle vitesse a atteint la rafale record du mont Washington, aux États-Unis, en 1934 ?",
+  "q": "Quelle vitesse a atteint la rafale record du mont Washington, aux États-Unis, en 1934 ?",
   "n": 372,
   "u": "km/h",
   "e": "Trois observateurs ont vu leur bâtiment, arrimé par des chaînes, trembler des heures durant. Ce sommet modeste de 1 917 m se trouve au carrefour de trois trajectoires de tempêtes."
  },
  {
-  "q": "Quelle pression a été mesurée au cœur du typhon Tip, la plus basse jamais relevée au niveau de la mer ?",
+  "q": "Quelle pression a été mesurée au cœur du typhon Tip, la plus basse jamais relevée au niveau de la mer ?",
   "n": 870,
   "u": "hPa",
   "e": "Pacifique, octobre 1979, relevé par avion. Une pression inférieure de 13 % à la normale : les oreilles se bouchent comme dans un ascenseur lancé vers le ciel."
  },
  {
-  "q": "Quel diamètre atteignait le typhon Tip, la plus grande tempête tropicale jamais observée ?",
+  "q": "Quel diamètre atteignait le typhon Tip, la plus grande tempête tropicale jamais observée ?",
   "n": 2220,
   "u": "km",
   "e": "Sa circulation couvrait presque la moitié des États-Unis. Un tel monstre posé sur l’Europe s’étendrait de Lisbonne à Varsovie."
  },
  {
-  "q": "Combien de jours a duré l’ouragan John, le cyclone tropical le plus long jamais observé ?",
+  "q": "Combien de jours a duré l’ouragan John, le cyclone tropical le plus long jamais observé ?",
   "n": 31,
   "u": "jours",
   "e": "En 1994, il a traversé tout le Pacifique, changé de nom en typhon en franchissant la ligne de changement de date, puis repris son nom au retour. Plus de 13 000 km parcourus."
  },
  {
-  "q": "Quelle largeur atteignait la tornade d’El Reno, la plus large jamais mesurée ?",
+  "q": "Quelle largeur atteignait la tornade d’El Reno, la plus large jamais mesurée ?",
   "n": 4.2,
   "u": "km",
   "e": "Oklahoma, 31 mai 2013. Un entonnoir plus large que Manhattan, avec des vents relevés à 475 km/h. Trois chasseurs de tornades chevronnés y ont perdu la vie."
  },
  {
-  "q": "Quelle distance a parcourue la tornade des Trois-États, la plus longue trajectoire jamais relevée ?",
+  "q": "Quelle distance a parcourue la tornade des Trois-États, la plus longue trajectoire jamais relevée ?",
   "n": 352,
   "u": "km",
   "e": "18 mars 1925, du Missouri à l’Indiana. Trois heures et demie au sol sans jamais se relever, à près de 100 km/h. Aucune autre tornade n’a approché ce chiffre."
  },
  {
-  "q": "Quel diamètre atteignait le plus gros grêlon jamais ramassé aux États-Unis ?",
+  "q": "Quel diamètre atteignait le plus gros grêlon jamais ramassé aux États-Unis ?",
   "n": 20,
   "u": "cm",
   "e": "Vivian, Dakota du Sud, 2010 : vingt centimètres et près de 900 grammes, plus gros qu’un ballon de handball. Il avait déjà fondu plusieurs heures dans un congélateur en panne avant d’être mesuré."
  },
  {
-  "q": "Combien de nuits par an l’orage permanent du Catatumbo éclate-t-il au Venezuela ?",
+  "q": "Combien de nuits par an l’orage permanent du Catatumbo éclate-t-il au Venezuela ?",
   "n": 260,
   "u": "nuits",
   "e": "À l’embouchure du Catatumbo, sur le lac Maracaibo, les éclairs tombent jusqu’à dix heures d’affilée. Les marins s’en servaient de phare naturel pour se repérer la nuit."
  },
  {
-  "q": "Quelle hauteur a atteint la vague la plus haute jamais observée, dans la baie de Lituya ?",
+  "q": "Quelle hauteur a atteint la vague la plus haute jamais observée, dans la baie de Lituya ?",
   "n": 524,
   "u": "m",
   "e": "Alaska, 1958 : un séisme précipite trente millions de mètres cubes de roche dans un fjord étroit. La vague a rasé la forêt jusqu’à 524 m d’altitude. Deux pêcheurs ont survécu."
  },
  {
-  "q": "Quelle hauteur avait la vague scélérate de Draupner, première jamais mesurée par un instrument ?",
+  "q": "Quelle hauteur avait la vague scélérate de Draupner, première jamais mesurée par un instrument ?",
   "n": 25.6,
   "u": "m",
   "e": "Mer du Nord, 1995. Les scientifiques tenaient ces vagues géantes pour des légendes de marins jusqu’à ce qu’un laser de plateforme pétrolière en enregistre une, un jour de mer pourtant ordinaire."
  },
  {
-  "q": "Quelle amplitude atteignent les marées de la baie de Fundy, les plus fortes du monde ?",
+  "q": "Quelle amplitude atteignent les marées de la baie de Fundy, les plus fortes du monde ?",
   "n": 16.3,
   "u": "m",
   "e": "Canada. Un immeuble de cinq étages d’eau qui monte et descend deux fois par jour. Cent milliards de tonnes d’eau entrent et sortent de la baie à chaque cycle."
  },
  {
-  "q": "Quelle hauteur de chute a la plus grande cascade du monde, cachée sous l’eau dans le détroit du Danemark ?",
+  "q": "Quelle hauteur de chute a la plus grande cascade du monde, cachée sous l’eau dans le détroit du Danemark ?",
   "n": 3505,
   "u": "m",
   "e": "De l’eau arctique froide et dense dégringole sous l’Atlantique, totalement invisible depuis la surface. Son débit dépasse deux mille fois celui des chutes du Niagara."
  },
  {
-  "q": "Quelle est la hauteur totale du Salto Ángel, plus haute cascade du monde ?",
+  "q": "Quelle est la hauteur totale du Salto Ángel, plus haute cascade du monde ?",
   "n": 979,
   "u": "m",
   "e": "Venezuela. L’eau tombe de si haut qu’en saison sèche elle se pulvérise en brume avant d’atteindre le sol. Un aviateur américain cherchant de l’or l’a révélée au monde."
  },
  {
-  "q": "Quel est le débit moyen de l’Amazone à son embouchure ?",
+  "q": "Quel est le débit moyen de l’Amazone à son embouchure ?",
   "n": 209000,
   "u": "m³/s",
   "e": "Un cinquième de toute l’eau douce qui rejoint les océans. Elle repousse la mer salée à plus de 100 km au large : les marins puisaient de l’eau douce sans voir la côte."
  },
  {
-  "q": "Combien de pays le Danube traverse-t-il ou longe-t-il ?",
+  "q": "Combien de pays le Danube traverse-t-il ou longe-t-il ?",
   "n": 10,
   "u": "pays",
   "e": "Allemagne, Autriche, Slovaquie, Hongrie, Croatie, Serbie, Roumanie, Bulgarie, Moldavie, Ukraine. Aucun autre fleuve du monde n’en arrose autant, et il change plusieurs fois de nom au passage."
  },
  {
-  "q": "Combien de pays l’équateur traverse-t-il ?",
+  "q": "Combien de pays l’équateur traverse-t-il ?",
   "n": 13,
   "u": "pays",
   "e": "Treize seulement, dont deux insulaires. L’Équateur, qui lui doit son nom, est loin d’être celui où la ligne parcourt le plus de kilomètres : le Brésil détient ce titre."
  },
  {
-  "q": "Quelle est la longueur de la frontière entre le Canada et les États-Unis, la plus longue du monde ?",
+  "q": "Quelle est la longueur de la frontière entre le Canada et les États-Unis, la plus longue du monde ?",
   "n": 8891,
   "u": "km",
   "e": "Une tranchée de six mètres de large est déboisée en permanence sur presque tout le tracé pour la matérialiser. Le chiffre inclut les 2 475 km avec l’Alaska."
  },
  {
-  "q": "Quelle longueur fait la frontière entre le Botswana et la Zambie, la plus courte du monde ?",
+  "q": "Quelle longueur fait la frontière entre le Botswana et la Zambie, la plus courte du monde ?",
   "n": 150,
   "u": "m",
   "e": "Un simple point de contact au milieu du fleuve Zambèze, là où quatre pays se frôlent. Un pont l’enjambe depuis 2021 : traverser prend quelques secondes."
  },
  {
-  "q": "Combien de parcelles belges forment l’enclave de Baarle-Hertog, en territoire néerlandais ?",
+  "q": "Combien de parcelles belges forment l’enclave de Baarle-Hertog, en territoire néerlandais ?",
   "n": 22,
   "u": "parcelles",
   "e": "Plus sept contre-enclaves néerlandaises à l’intérieur. La frontière traverse des maisons : la nationalité d’un logement dépend de sa porte d’entrée, que certains ont déplacée pour changer de fisc."
  },
  {
-  "q": "Combien d’enclaves l’Inde et le Bangladesh se sont-ils échangées lors de leur accord de 2015 ?",
+  "q": "Combien d’enclaves l’Inde et le Bangladesh se sont-ils échangées lors de leur accord de 2015 ?",
   "n": 162,
   "u": "enclaves",
   "e": "L’une contenait une enclave contenant elle-même une contre-contre-enclave, cas unique au monde. Des dizaines de milliers d’habitants y vivaient sans État, sans école ni électricité, depuis 1947."
  },
  {
-  "q": "Combien de pays du monde n’ont aucun accès à la mer ?",
+  "q": "Combien de pays du monde n’ont aucun accès à la mer ?",
   "n": 44,
   "u": "pays",
   "e": "Dont deux entièrement entourés d’autres pays eux-mêmes sans littoral : le Liechtenstein et l’Ouzbékistan. Il faut y franchir deux frontières au minimum pour apercevoir la mer."
  },
  {
-  "q": "Combien de pays au monde sont entièrement entourés par un seul autre pays ?",
+  "q": "Combien de pays au monde sont entièrement entourés par un seul autre pays ?",
   "n": 3,
   "u": "pays",
   "e": "Le Lesotho dans l’Afrique du Sud, Saint-Marin et le Vatican dans l’Italie. Trois États dont la totalité des importations passe par un unique voisin."
  },
  {
-  "q": "À quelle altitude se trouve le point le plus bas du Lesotho ?",
+  "q": "À quelle altitude se trouve le point le plus bas du Lesotho ?",
   "n": 1400,
   "u": "m",
   "e": "C’est le point bas le plus élevé du monde : tout le pays est au-dessus de 1 400 m. On le surnomme le royaume dans le ciel, et il y neige en pleine Afrique australe."
  },
  {
-  "q": "Quelle superficie fait Bir Tawil, ce territoire que ni l’Égypte ni le Soudan ne veulent revendiquer ?",
+  "q": "Quelle superficie fait Bir Tawil, ce territoire que ni l’Égypte ni le Soudan ne veulent revendiquer ?",
   "n": 2060,
   "u": "km²",
   "e": "Deux tracés frontaliers rivaux : réclamer Bir Tawil obligerait à renoncer au triangle d’Hala’ib, bien plus grand et côtier. Résultat, personne ne veut de ce désert."
  },
  {
-  "q": "Quelle surface occupe la principauté de Sealand, micronation installée sur une plateforme en mer du Nord ?",
+  "q": "Quelle surface occupe la principauté de Sealand, micronation installée sur une plateforme en mer du Nord ?",
   "n": 550,
   "u": "m²",
   "e": "Un ancien fort antiaérien britannique de 1942, occupé depuis 1967 par une famille qui frappe monnaie et vend des titres de noblesse. Aucun État ne la reconnaît."
  },
  {
-  "q": "Quelle est la longueur du réseau ferré du Vatican, le plus court du monde ?",
+  "q": "Quelle est la longueur du réseau ferré du Vatican, le plus court du monde ?",
   "n": 300,
   "u": "m",
   "e": "Trois cents mètres et une seule gare, achevés en 1934. Les trains entrent par un portail coulissant de vingt tonnes. Jean XXIII fut le premier pape à l’emprunter."
  },
  {
-  "q": "À quelle altitude culmine le point le plus haut des Maldives ?",
+  "q": "À quelle altitude culmine le point le plus haut des Maldives ?",
   "n": 2.4,
   "u": "m",
   "e": "Le sommet national le plus bas de la planète : moins haut qu’un plafond d’appartement. Quatre-vingts pour cent des îles se situent à moins d’un mètre au-dessus de l’eau."
  },
  {
-  "q": "Quelle proportion du territoire des Pays-Bas se situe sous le niveau de la mer ?",
+  "q": "Quelle proportion du territoire des Pays-Bas se situe sous le niveau de la mer ?",
   "n": 26,
   "u": "%",
   "e": "Un quart du pays, où vit environ un tiers de la population. Sans digues ni pompes, Rotterdam et l’aéroport de Schiphol, bâti quatre mètres sous le niveau marin, seraient noyés."
  },
  {
-  "q": "Quelle superficie fait le Flevopolder, plus grande île artificielle du monde ?",
+  "q": "Quelle superficie fait le Flevopolder, plus grande île artificielle du monde ?",
   "n": 970,
   "u": "km²",
   "e": "Pays-Bas. Un morceau de mer asséché puis peuplé : la ville d’Almere et ses centaines de milliers d’habitants reposent sur un ancien fond marin. Les fermiers y déterrent encore des épaves."
  },
  {
-  "q": "À quelle profondeur sous le niveau de la mer se trouve Jéricho, la ville la plus basse du monde ?",
+  "q": "À quelle profondeur sous le niveau de la mer se trouve Jéricho, la ville la plus basse du monde ?",
   "n": 258,
   "u": "m",
   "e": "Dans la vallée du Jourdain. On y descend en voiture avec les oreilles qui se bouchent à l’envers. C’est aussi l’une des plus anciennes villes continûment habitées."
  },
  {
-  "q": "De combien de kilomètres le diamètre de la Terre à l’équateur dépasse-t-il son diamètre d’un pôle à l’autre ?",
+  "q": "De combien de kilomètres le diamètre de la Terre à l’équateur dépasse-t-il son diamètre d’un pôle à l’autre ?",
   "n": 43,
   "u": "km",
   "e": "La rotation renfle la planète à sa taille. Notre Terre n’est donc pas une sphère mais un ballon légèrement écrasé, et l’océan lui-même est plus « haut » à l’équateur."
  },
  {
-  "q": "Combien d’ouvriers sont morts sur les chantiers du canal de Panama ?",
-  "n": 25000,
-  "u": "morts",
-  "e": "Environ 25 000, dont plus de vingt mille sur le chantier français abandonné. Le vrai tueur n’était pas la roche mais le moustique : fièvre jaune et paludisme ont fait le gros du travail."
+  "q": "À quelle altitude vit la population permanente la plus haute du monde, à La Rinconada au Pérou ?",
+  "n": 5100,
+  "u": "m",
+  "e": "Une ville minière accrochée sous un glacier, sans eau courante, où l’oxygène est moitié moins dense qu’au niveau de la mer. Le sang des habitants s’épaissit anormalement pour compenser."
  },
  {
-  "q": "Combien de jours a duré la traversée du Mayflower ?",
-  "n": 66,
-  "u": "jours",
-  "e": "Soixante-six jours pour 102 passagers entassés sur un navire marchand de vingt-sept mètres. Un bébé est né en mer, on l’a nommé Oceanus. La moitié n’a pas passé le premier hiver."
+  "q": "À quelle altitude se trouve la surface du lac Titicaca ?",
+  "n": 3812,
+  "u": "m",
+  "e": "Des vapeurs britanniques du XIXᵉ siècle y ont été hissés à dos de mulet, en pièces détachées. À cette altitude l’eau bout à 88 °C : impossible d’y réussir un œuf dur."
  },
  {
-  "q": "Combien de mois le Pony Express a-t-il réellement fonctionné ?",
-  "n": 18,
-  "u": "mois",
-  "e": "Dix-huit mois, de 1860 à 1861. Le télégraphe transcontinental l’a tué net deux jours après son achèvement. Sa légende aura duré cent fois plus longtemps que le service lui-même."
+  "q": "À quelle altitude se trouve le lac permanent le plus haut du monde, dans le cratère de l’Ojos del Salado ?",
+  "n": 6390,
+  "u": "m",
+  "e": "Une mare d’une centaine de mètres de diamètre, perchée près du sommet du plus haut volcan du monde, entre Chili et Argentine. Bien plus haut que le camp de base de l’Everest."
  },
  {
-  "q": "Combien d’années a duré la construction de la cathédrale de Cologne ?",
-  "n": 632,
-  "u": "ans",
-  "e": "632 ans. Commencée en 1248, abandonnée trois siècles avec une grue laissée en haut d’une tour, puis achevée en 1880 d’après les plans médiévaux retrouvés par hasard."
+  "q": "De combien de mètres le Denali s’élève-t-il au-dessus de sa propre base ?",
+  "n": 5500,
+  "u": "m",
+  "e": "Alaska. L’Everest, posé sur un plateau à 5 200 m, ne dépasse sa base que de 3 600 m environ. Le Denali offre donc le plus grand dénivelé continu de toutes les montagnes émergées."
  },
  {
-  "q": "Combien d’animaux ont été tués pendant les cent jours de jeux inaugurant le Colisée ?",
-  "n": 9000,
-  "u": "animaux",
-  "e": "Neuf mille bêtes, selon Dion Cassius : lions, ours, éléphants, autruches. Les arènes romaines ont dévoré tant de faune que certaines espèces d’Afrique du Nord ont fini par disparaître."
+  "q": "Quelle hauteur fait la face Rupal du Nanga Parbat, le plus haut versant de montagne du monde ?",
+  "n": 4600,
+  "u": "m",
+  "e": "Pakistan. Un mur de 4,6 km d’un seul tenant, soit quinze tours Eiffel empilées. Il a fallu attendre 1970 pour qu’un alpiniste en vienne à bout."
  },
  {
-  "q": "Combien d’années le Colosse de Rhodes est-il resté debout ?",
-  "n": 54,
-  "u": "ans",
-  "e": "Cinquante-quatre ans seulement. Érigé vers 280 avant notre ère, abattu par un séisme en 226. Ses débris sont restés couchés au sol huit siècles et attiraient déjà les curieux."
+  "q": "Quelle profondeur atteint le canyon du Yarlung Tsangpo, le plus profond du monde ?",
+  "n": 6009,
+  "u": "m",
+  "e": "Tibet. Six kilomètres de dénivelé entre le fleuve et les sommets qui l’encadrent, plus de trois fois le Grand Canyon. Son cœur le plus reculé n’a été exploré qu’en 1998."
  },
  {
-  "q": "Combien de jours a duré le règne de Jean Ier, roi de France ?",
-  "n": 5,
-  "u": "jours",
-  "e": "Cinq jours. Né posthume en 1316, roi dès sa première seconde, mort presque aussitôt. Le plus court règne de l’histoire de France, et le seul roi à n’avoir jamais marché."
+  "q": "Combien de lettres compte le nom de lieu le plus long du monde, une colline de Nouvelle-Zélande ?",
+  "n": 85,
+  "u": "lettres",
+  "e": "Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu. En maori, la phrase raconte l’histoire d’un homme qui jouait de la flûte à sa bien-aimée. La colline, elle, ne fait que 305 mètres."
  },
  {
-  "q": "Combien de roubles par an coûtait la taxe sur la barbe instaurée par Pierre le Grand ?",
-  "n": 100,
-  "u": "roubles",
-  "e": "Cent roubles par an pour les nobles, une petite fortune. Le payeur recevait un jeton de cuivre à garder sur lui, gravé d’une devise : « la barbe est un fardeau superflu »."
+  "q": "Quelle profondeur atteint la Verevkina, la grotte la plus profonde du monde ?",
+  "n": 2212,
+  "u": "m",
+  "e": "Massif de l’Arabika, dans le Caucase. Il faut une semaine sous terre pour toucher le fond et remonter. Une crue soudaine y a piégé une équipe de spéléologues en 2018."
  },
  {
-  "q": "Quelle taille faisait le tsar Pierre le Grand ?",
-  "n": 2.03,
-  "u": "mètres",
-  "e": "2,03 m : une taille de géant au XVIIIe siècle, où l’on dépassait rarement 1,65 m. Il devait se courber sous les portes de ses propres palais, qu’il avait pourtant fait bâtir."
+  "q": "Quelle hauteur atteint le plafond de Son Doong, la plus grande galerie souterraine du monde ?",
+  "n": 200,
+  "u": "m",
+  "e": "Vietnam. Un gratte-ciel de quarante étages y tiendrait debout, et une jungle pousse sous les effondrements du plafond. Un villageois l’avait trouvée en 1991, puis en avait perdu l’entrée."
  },
  {
-  "q": "Quelle est l’épaisseur de la peau de cuivre de la statue de la Liberté ?",
-  "n": 2.4,
-  "u": "mm",
-  "e": "2,4 mm, l’épaisseur de deux pièces de monnaie. Trente et une tonnes de cuivre martelé tiennent debout grâce à une charpente de fer conçue par Gustave Eiffel."
+  "q": "Quelle profondeur fait le trou bleu de Sansha Yongle, le plus profond du monde ?",
+  "n": 300.89,
+  "u": "m",
+  "e": "Mer de Chine méridionale. Un puits vertical percé dans le récif, sans oxygène au-delà de cent mètres : rien n’y vit en profondeur. Il a été cartographié par robot en 2016."
  },
  {
-  "q": "Pendant combien d’années la guillotine a-t-elle été utilisée en France ?",
-  "n": 185,
-  "u": "ans",
-  "e": "185 ans, de 1792 à 1977. La dernière exécution a eu lieu à Marseille l’année de la sortie du premier Star Wars au cinéma. L’abolition n’est venue qu’en 1981."
+  "q": "Quelle profondeur fait le Grand Trou Bleu du Belize ?",
+  "n": 124,
+  "u": "m",
+  "e": "Un cercle presque parfait de 318 m de diamètre. C’était une grotte sèche pendant la dernière glaciation : ses stalactites, formées à l’air libre, sont aujourd’hui noyées sous la mer."
  },
  {
-  "q": "Combien d’heures a duré le plus long discours d’obstruction du Sénat américain ?",
-  "n": 24.3,
-  "u": "heures",
-  "e": "24 heures et 18 minutes, en 1957, sans quitter l’estrade. Strom Thurmond avait pris un long bain de vapeur avant de commencer, pour se déshydrater et éviter toute pause."
- },
- {
-  "q": "Combien de jours a duré la construction de l’Empire State Building ?",
-  "n": 410,
-  "u": "jours",
-  "e": "410 jours, avec des semaines à un étage tous les jours et demi. Le chantier est allé si vite qu’il s’est terminé en avance sur le calendrier et sous le budget prévu."
- },
- {
-  "q": "Combien d’ouvriers sont morts pendant la construction de l’Empire State Building ?",
-  "n": 5,
-  "u": "morts",
-  "e": "Cinq, selon le bilan officiel, pour 102 étages en un peu plus d’un an. Le métier citait alors volontiers une règle sinistre : un mort par étage. Le chiffre a stupéfié."
- },
- {
-  "q": "Combien d’ouvriers sont morts pendant la construction du Golden Gate ?",
-  "n": 11,
-  "u": "morts",
-  "e": "Onze, dont dix le même jour, quand un échafaudage a crevé le filet de sécurité tendu sous le pont. Ce filet, une première mondiale, avait déjà rattrapé dix-neuf hommes."
- },
- {
-  "q": "Combien d’années a duré la construction de la tour de Pise ?",
-  "n": 199,
-  "u": "ans",
-  "e": "199 ans, de 1173 à 1372, avec deux très longues interruptions dues aux guerres. Ces pauses ont laissé le sol se tasser : sans elles, la tour se serait probablement effondrée."
- },
- {
-  "q": "Combien d’années le Japon est-il resté fermé au monde sous le sakoku ?",
-  "n": 214,
-  "u": "ans",
-  "e": "214 ans, de 1639 à 1853. Quitter le pays était puni de mort. Seul un comptoir néerlandais installé sur l’îlot artificiel de Dejima, à Nagasaki, gardait une fenêtre entrouverte."
- },
- {
-  "q": "Quelle est la longueur totale de la Grande Muraille de Chine, tous tronçons confondus ?",
-  "n": 21196,
+  "q": "À quelle profondeur s’est produit le séisme le plus profond jamais détecté ?",
+  "n": 751,
   "u": "km",
-  "e": "21 196 km selon le relevé officiel chinois de 2012, murs, tranchées et barrières naturelles compris. Soit plus de la moitié du tour de la Terre, bâti sur près de deux mille ans."
+  "e": "Sous les îles Bonin, au Japon, en 2015. À cette profondeur la roche devrait être trop chaude et molle pour casser net : les géophysiciens n’ont toujours pas d’explication définitive."
  },
  {
-  "q": "Combien de soldats compte l’armée de terre cuite de Xi’an ?",
-  "n": 8000,
-  "u": "soldats",
-  "e": "Environ huit mille, accompagnés de chars et de centaines de chevaux, chacun avec un visage différent. Des paysans creusant un puits les ont réveillés en 1974, sous trois mètres de terre."
+  "q": "De combien l’île japonaise de Honshu s’est-elle déplacée lors du séisme de 2011 ?",
+  "n": 2.4,
+  "u": "m",
+  "e": "L’île entière a glissé vers l’est. Le séisme a aussi décalé l’axe de rotation de la Terre d’une quinzaine de centimètres et raccourci la journée de 1,8 microseconde."
  },
  {
-  "q": "Combien d’ouvriers ont travaillé au mausolée de l’empereur Qin Shi Huang ?",
-  "n": 700000,
-  "u": "ouvriers",
-  "e": "700 000, selon l’historien Sima Qian. Le tombeau contiendrait des rivières de mercure : les analyses du sol ont effectivement révélé des concentrations anormales de ce métal."
+  "q": "À quelle distance a-t-on entendu l’explosion du Krakatoa en 1883 ?",
+  "n": 4800,
+  "u": "km",
+  "e": "Entendue jusqu’à l’île Rodrigues, dans l’océan Indien, où l’on crut à une canonnade. Le son le plus fort de l’histoire documentée : l’onde de pression a fait trois fois le tour du globe."
  },
  {
-  "q": "Combien de navires comptait l’Invincible Armada espagnole ?",
-  "n": 130,
-  "u": "navires",
-  "e": "Cent trente. La moitié seulement est rentrée en Espagne, et surtout à cause des tempêtes au large de l’Écosse et de l’Irlande, bien plus que des canons anglais."
+  "q": "Quel diamètre fait le cratère de Chicxulub, laissé par l’astéroïde qui a exterminé les dinosaures ?",
+  "n": 180,
+  "u": "km",
+  "e": "Enfoui sous le Yucatán et le golfe du Mexique, totalement invisible depuis le sol. Ce sont des géologues pétroliers qui l’ont repéré, le prenant d’abord pour une structure volcanique."
  },
  {
-  "q": "De quelle hauteur sont tombés les hommes jetés par la fenêtre lors de la défenestration de Prague de 1618 ?",
-  "n": 21,
-  "u": "mètres",
-  "e": "Environ 21 mètres, et les trois hommes ont survécu. Les catholiques y ont vu un miracle, les protestants un tas de fumier providentiel. La guerre de Trente Ans a suivi."
+  "q": "Quel diamètre avait le cratère de Vredefort, plus grande cicatrice d’impact connue sur Terre ?",
+  "n": 300,
+  "u": "km",
+  "e": "Afrique du Sud, il y a environ deux milliards d’années. L’érosion n’en laisse aujourd’hui qu’un modeste arc de collines, indice d’une catastrophe d’une ampleur inimaginable."
  },
  {
-  "q": "Combien de fenêtres compte le château de Versailles ?",
-  "n": 2153,
-  "u": "fenêtres",
-  "e": "2 153 fenêtres, pour environ 2 300 pièces et 67 escaliers. Il fallait une petite armée de domestiques rien que pour les ouvrir le matin et les fermer le soir."
+  "q": "Quel diamètre fait le Meteor Crater d’Arizona ?",
+  "n": 1200,
+  "u": "m",
+  "e": "Creusé par un caillou de fer de seulement cinquante mètres de large lancé à 45 000 km/h. Les astronautes d’Apollo s’y sont entraînés à reconnaître des terrains lunaires."
  },
  {
-  "q": "Combien de temps a duré la pose de la toute première photographie de l’histoire ?",
-  "n": 8,
-  "u": "heures",
-  "e": "Environ huit heures, en 1826, sur une plaque d’étain enduite de bitume. Le soleil a tourné pendant l’exposition : sur l’image, les deux côtés de la cour sont éclairés simultanément."
+  "q": "Quelle surface de forêt l’explosion de la Toungouska a-t-elle couchée en Sibérie ?",
+  "n": 2150,
+  "u": "km²",
+  "e": "Quatre-vingts millions d’arbres abattus par une onde de choc, sans le moindre cratère : l’objet a explosé en altitude. Vingt fois la superficie de Paris, rasée en quelques secondes."
  },
  {
-  "q": "Combien de spectateurs ont assisté à la première séance publique payante du cinématographe Lumière ?",
-  "n": 33,
-  "u": "spectateurs",
-  "e": "Trente-trois, le 28 décembre 1895, au Grand Café à Paris. Les frères Lumière estimaient leur invention sans avenir commercial. La séance a rapporté trente-trois francs."
+  "q": "À quelle profondeur descendent les galeries de Mponeng, la mine la plus profonde du monde ?",
+  "n": 4,
+  "u": "km",
+  "e": "Afrique du Sud. La roche y atteint 60 °C : il faut souffler de la glace fondue dans les galeries pour rendre l’air respirable. La descente en cage prend plus d’une heure."
  },
  {
-  "q": "Quelle longueur du tunnel sous la Manche se trouve réellement sous la mer ?",
+  "q": "Quel diamètre fait le trou de la mine de diamants de Mir, en Sibérie ?",
+  "n": 1200,
+  "u": "m",
+  "e": "Profond de 525 mètres, il engendre des courants d’air si violents que le survol en hélicoptère est interdit : des appareils ont été aspirés vers le fond."
+ },
+ {
+  "q": "Quelle profondeur atteint le Big Hole de Kimberley, creusé à la pioche et à la pelle ?",
+  "n": 215,
+  "u": "m",
+  "e": "Afrique du Sud, 1871-1914. Cinquante mille chercheurs de diamants ont sorti vingt-deux millions de tonnes de terre à la main pour en extraire environ trois tonnes de pierres."
+ },
+ {
+  "q": "Depuis combien de temps brûle la veine de charbon de Burning Mountain, en Australie ?",
+  "n": 6000,
+  "u": "années",
+  "e": "Le plus vieil incendie connu au monde, allumé bien avant les pyramides. Il progresse d’environ un mètre par an sous la colline. Les colons crurent d’abord découvrir un volcan."
+ },
+ {
+  "q": "Combien de temps le feu souterrain de Centralia, en Pennsylvanie, pourrait-il encore brûler ?",
+  "n": 250,
+  "u": "années",
+  "e": "Allumé en 1962 dans une décharge, il a gagné la veine de charbon sous la ville. Habitants évacués, code postal supprimé, et la route fendue fume toujours."
+ },
+ {
+  "q": "Quel diamètre fait le cratère de Darvaza, la porte de l’enfer turkmène en flammes depuis des décennies ?",
+  "n": 69,
+  "u": "m",
+  "e": "Un forage soviétique s’est effondré ; on a mis le feu au gaz en pensant qu’il s’éteindrait sous quelques semaines. Il brûle encore, un demi-siècle plus tard."
+ },
+ {
+  "q": "Quelle est la longueur du tunnel de base du Saint-Gothard, le plus long tunnel du monde ?",
+  "n": 57.1,
+  "u": "km",
+  "e": "Dix-sept ans de travaux sous 2 300 m de roche alpine. Il a fallu évacuer vingt-huit millions de tonnes de matériaux, soit cinq fois le volume de la pyramide de Khéops."
+ },
+ {
+  "q": "Quelle longueur du tunnel sous la Manche se trouve réellement sous la mer ?",
   "n": 37.9,
   "u": "km",
   "e": "Sur 50,45 km au total. C’est la plus longue section sous-marine du monde, jusqu’à 75 m sous le fond marin, creusée dans une couche de craie choisie pour son étanchéité."
  },
  {
-  "q": "Quelle est la longueur de la ligne du Transsibérien, de Moscou à Vladivostok ?",
+  "q": "Quelle est la longueur de la ligne du Transsibérien, de Moscou à Vladivostok ?",
   "n": 9289,
   "u": "km",
   "e": "Sept jours de train et huit fuseaux horaires traversés. Pendant des décennies, un seul horaire était affiché dans toutes les gares : celui de Moscou, quelle que soit l’heure locale."
  },
  {
-  "q": "Quelle est la longueur de la plus longue ligne droite ferroviaire du monde, dans la plaine du Nullarbor ?",
+  "q": "Quelle est la longueur de la plus longue ligne droite ferroviaire du monde, dans la plaine du Nullarbor ?",
   "n": 478,
   "u": "km",
   "e": "Australie. Plus de quatre heures sans le moindre virage, dans un désert calcaire si plat et si vide que son nom signifie approximativement « aucun arbre » en latin."
  },
  {
-  "q": "À quelle profondeur se trouve Arsenalna, la station de métro la plus profonde du monde ?",
+  "q": "À quelle profondeur se trouve Arsenalna, la station de métro la plus profonde du monde ?",
   "n": 105.5,
   "u": "m",
   "e": "À Kiev, sous une falaise du Dniepr. Il faut cinq bonnes minutes d’escalator pour remonter à l’air libre, en deux volées séparées par un hall intermédiaire."
  },
  {
-  "q": "À quelle altitude se trouve la gare ferroviaire la plus haute du monde, à Tanggula au Tibet ?",
+  "q": "À quelle altitude se trouve la gare ferroviaire la plus haute du monde, à Tanggula au Tibet ?",
   "n": 5068,
   "u": "m",
   "e": "Les wagons du train sont pressurisés comme des avions et un masque à oxygène équipe chaque siège. La voie repose sur du permafrost maintenu gelé artificiellement."
  },
  {
-  "q": "Quelle est la longueur du plus long pont du monde, le viaduc de Danyang-Kunshan ?",
+  "q": "Quelle est la longueur du plus long pont du monde, le viaduc de Danyang-Kunshan ?",
   "n": 164.8,
   "u": "km",
   "e": "Chine. Un viaduc ferroviaire qui franchit rizières, lacs et villes sans jamais toucher le sol sur 165 km. Construit en quatre ans par près de dix mille ouvriers."
  },
  {
-  "q": "Quelle hauteur atteint le plus haut pylône du viaduc de Millau ?",
+  "q": "Quelle hauteur atteint le plus haut pylône du viaduc de Millau ?",
   "n": 343,
   "u": "m",
   "e": "Plus haut que la tour Eiffel. Le tablier a été poussé par vérins depuis les deux rives, avançant de soixante centimètres toutes les quatre minutes, pour se rejoindre au millimètre près."
  },
  {
-  "q": "Quelle est la longueur de la piste de Saba, la plus courte piste commerciale du monde ?",
+  "q": "Quelle est la longueur de la piste de Saba, la plus courte piste commerciale du monde ?",
   "n": 400,
   "u": "m",
   "e": "Antilles néerlandaises. Une bande d’asphalte coincée entre une falaise et deux précipices, avec la mer au bout. Seule une poignée de pilotes au monde est habilitée à s’y poser."
  },
  {
-  "q": "Combien de temps dure le vol de ligne régulier le plus court du monde, entre Westray et Papa Westray ?",
+  "q": "Combien de temps dure le vol de ligne régulier le plus court du monde, entre Westray et Papa Westray ?",
   "n": 90,
   "u": "secondes",
   "e": "Îles Orcades, en Écosse : deux kilomètres et demi de vol. Le record établi est de 53 secondes vent arrière. Les consignes de sécurité durent plus longtemps que le trajet."
  },
  {
-  "q": "Quelle est la longueur de la barrière anti-dingos qui traverse l’Australie ?",
+  "q": "Quelle est la longueur de la barrière anti-dingos qui traverse l’Australie ?",
   "n": 5614,
   "u": "km",
   "e": "La plus longue clôture du monde, entretenue depuis les années 1880 pour protéger les moutons. Vue du ciel, la végétation diffère nettement de part et d’autre du grillage."
  },
  {
-  "q": "Combien de marches compte l’escalier du Niesen, le plus long escalier du monde ?",
+  "q": "Combien de marches compte l’escalier du Niesen, le plus long escalier du monde ?",
   "n": 11674,
   "u": "marches",
   "e": "Suisse. Il longe un funiculaire dont il assure la maintenance et n’ouvre au public qu’un seul jour par an, pour une course. Les meilleurs le grimpent en moins d’une heure."
  },
  {
-  "q": "Quelle pente atteint Baldwin Street, la rue la plus raide du monde ?",
+  "q": "Quelle pente atteint Baldwin Street, la rue la plus raide du monde ?",
   "n": 34.8,
   "u": "%",
   "e": "À Dunedin, en Nouvelle-Zélande. Un urbaniste londonien avait dessiné le plan de la ville sans jamais y mettre les pieds, ignorant totalement le relief. On y a longtemps fait rouler des bonbons."
  },
  {
-  "q": "Quelle est la longueur du Grand Canal de Chine, plus long canal artificiel du monde ?",
+  "q": "Quelle est la longueur du Grand Canal de Chine, plus long canal artificiel du monde ?",
   "n": 1794,
   "u": "km",
   "e": "Creusé à la main à partir du Vᵉ siècle avant notre ère, il relie Pékin à Hangzhou. Deux mille cinq cents ans plus tard, des péniches y circulent encore."
  },
  {
-  "q": "De combien de mètres les écluses du canal de Panama soulèvent-elles les navires ?",
+  "q": "De combien de mètres les écluses du canal de Panama soulèvent-elles les navires ?",
   "n": 26,
   "u": "m",
   "e": "Les bateaux ne traversent pas l’isthme : ils passent par-dessus, via le lac Gatún. Chaque passage déverse environ deux cents millions de litres d’eau douce dans la mer."
  },
  {
-  "q": "Quel écart d’heure maximal sépare deux endroits habités du globe au même instant ?",
+  "q": "Quel écart d’heure maximal sépare deux endroits habités du globe au même instant ?",
   "n": 26,
   "u": "heures",
   "e": "Des Kiribati, à UTC+14, à l’île Baker, à UTC−12. Il peut être dix heures vendredi ici et huit heures jeudi là-bas : trois jours calendaires coexistent parfois sur Terre."
  },
  {
-  "q": "Combien de jours le soleil reste-t-il sans se coucher à Longyearbyen, au Svalbard ?",
+  "q": "Combien de jours le soleil reste-t-il sans se coucher à Longyearbyen, au Svalbard ?",
   "n": 124,
   "u": "jours",
   "e": "Du 20 avril au 22 août. En hiver, l’inverse : plus de cent jours sans le moindre lever de soleil. Les habitants dorment derrière des rideaux occultants en plein juillet."
  },
  {
-  "q": "Combien d’îles compte la Suède ?",
+  "q": "Combien d’îles compte la Suède ?",
   "n": 267570,
   "u": "îles",
   "e": "Recensement officiel suédois : la plupart ne sont que des rochers émergés. Moins d’un millier sont habitées, et le seul archipel de Stockholm en compte environ trente mille."
  },
  {
-  "q": "Combien de lacs compte la Finlande ?",
+  "q": "Combien de lacs compte la Finlande ?",
   "n": 187888,
   "u": "lacs",
   "e": "Le pays surnommé « aux mille lacs » en compte cent quatre-vingt-huit fois plus. On y dénombre aussi près de 180 000 îles : eau et terre y sont presque à égalité."
  },
  {
-  "q": "Combien d’îles compte l’archipel des Philippines selon le recomptage de 2016 ?",
+  "q": "Combien d’îles compte l’archipel des Philippines selon le recomptage de 2016 ?",
   "n": 7641,
   "u": "îles",
   "e": "Le chiffre officiel était de 7 107 depuis les années 1940. Une cartographie moderne en a révélé cinq cent trente-quatre de plus, jusque-là simplement absentes des cartes."
  },
  {
-  "q": "Quelle est la longueur du littoral du Canada, le plus long du monde ?",
+  "q": "Quelle est la longueur du littoral du Canada, le plus long du monde ?",
   "n": 202080,
   "u": "km",
   "e": "Cinq fois le tour de la Terre, îles arctiques comprises. Cela représente environ la moitié de tout le littoral de la planète, pour un seul pays."
  },
  {
-  "q": "À quelle distance de l’océan le plus proche se trouve le point continental le plus enclavé du monde ?",
+  "q": "À quelle distance de l’océan le plus proche se trouve le point continental le plus enclavé du monde ?",
   "n": 2510,
   "u": "km",
   "e": "Le pôle d’inaccessibilité eurasien, au Xinjiang, près de la frontière kazakhe. C’est l’endroit de la surface terrestre d’où la mer est le plus loin possible, dans toutes les directions."
  },
  {
-  "q": "Combien de fois l’Afrique est-elle plus vaste que le Groenland ?",
+  "q": "Combien de fois l’Afrique est-elle plus vaste que le Groenland ?",
   "n": 14,
   "u": "fois",
   "e": "Sur les cartes en projection de Mercator, les deux paraissent de taille comparable. En réalité l’Afrique fait trente millions de km², le Groenland à peine plus de deux millions."
  },
  {
-  "q": "Quelle superficie fait le salar d’Uyuni, plus grand désert de sel du monde ?",
+  "q": "Quelle superficie fait le salar d’Uyuni, plus grand désert de sel du monde ?",
   "n": 10582,
   "u": "km²",
   "e": "Bolivie. Si plat que son altitude varie de moins d’un mètre sur toute son étendue : les satellites s’en servent pour calibrer leurs altimètres, l’océan étant moins régulier."
  },
  {
-  "q": "Quelle est la salinité de l’étang Don Juan, l’eau libre la plus salée du monde ?",
+  "q": "Quelle est la salinité de l’étang Don Juan, l’eau libre la plus salée du monde ?",
   "n": 44,
   "u": "%",
   "e": "En Antarctique, il refuse de geler même à −50 °C. Environ dix fois plus salé que l’océan, plus encore que la mer Morte : quasiment rien n’y survit."
  },
  {
-  "q": "Depuis combien de temps le lac Vostok est-il coupé du monde sous la glace antarctique ?",
+  "q": "Depuis combien de temps le lac Vostok est-il coupé du monde sous la glace antarctique ?",
   "n": 15000000,
   "u": "années",
   "e": "Un lac de la taille de la Corse, sous quatre kilomètres de glace, isolé depuis des millions d’années. Les forages sont conduits avec des précautions dignes d’une mission spatiale."
