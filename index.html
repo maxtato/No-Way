@@ -228,6 +228,30 @@ a.mini-btn{text-decoration:none;color:inherit}
 .result .score{font-family:var(--f-disp);font-size:calc(56px * var(--disp-scale));font-weight:var(--disp-w);line-height:.9;color:var(--rouge);filter:url(#peint-fort)}
 .result .score small{display:block;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;font-size:calc(17px * var(--hand-scale));color:var(--encre);text-shadow:none;margin-top:2px}
 .result .actions{width:100%;max-width:330px;display:flex;flex-direction:column;gap:11px;margin-top:26px}
+/* ---------- ÉCRAN DE CHOIX DU MODE ---------- */
+.menu{position:absolute;inset:0;z-index:90;background:var(--papier);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:26px 22px calc(env(safe-area-inset-bottom) + 22px);
+  transition:opacity .3s,transform .3s}
+.menu.off{opacity:0;transform:scale(1.03);pointer-events:none;visibility:hidden}
+.menu .logo{font-size:calc(46px * var(--disp-scale));margin:0 0 6px;transform:rotate(-2.2deg)}
+.menu .logo em{font-size:calc(15px * var(--hand-scale))}
+.menu .accroche{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:15px;opacity:.8;margin-bottom:28px;text-align:center;max-width:280px;text-wrap:balance}
+.modes{display:flex;flex-direction:column;gap:14px;width:100%;max-width:340px}
+.mode{position:relative;display:flex;align-items:center;gap:14px;padding:17px 18px;
+  text-decoration:none;color:inherit;text-align:left}
+.mode:nth-child(1){transform:rotate(-.8deg)}
+.mode:nth-child(2){transform:rotate(.7deg)}
+.mode:nth-child(1):active{transform:rotate(-.8deg) translate(3px,3px)}
+.mode:nth-child(2):active{transform:rotate(.7deg) translate(3px,3px)}
+.mode .ico{width:48px;height:48px;flex:none;display:grid;place-items:center;line-height:0}
+.mode .ico svg{width:40px;height:40px}
+.mode .txt strong{display:block;font-family:var(--f-disp);font-weight:var(--disp-w);
+  font-size:calc(21px * var(--disp-scale));letter-spacing:var(--disp-ls);line-height:1.05}
+.mode .txt span{display:block;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:13.5px;opacity:.75;margin-top:3px;line-height:1.3}
+
 .confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden}
 /* confetti dans l'esprit du jeu : aplat de couleur + trait crayonné (filtre
    #peint), la couleur légèrement mal calée déborde un peu du contour */
@@ -328,6 +352,21 @@ a.mini-btn{text-decoration:none;color:inherit}
   </filter>
 </defs></svg>
 <div class="app">
+
+  <section class="menu" id="menu">
+    <div class="logo">NO WAY!<em>des faits à peine croyables</em></div>
+    <p class="accroche">Deux façons de jouer. Choisis ton camp.</p>
+    <div class="modes">
+      <button class="mode" id="modeAventure">
+        <span class="ico" id="icoAventure"></span>
+        <span class="txt"><strong>L'aventure</strong><span>Seul, sur la carte : 32 étapes, quatre réponses, des jokers à gagner.</span></span>
+      </button>
+      <a class="mode" id="modeDuel" href="curseur.html">
+        <span class="ico" id="icoDuel"></span>
+        <span class="txt"><strong>Le duel</strong><span>À deux ou plus : chacun place son curseur, le plus proche gagne la manche.</span></span>
+      </a>
+    </div>
+  </section>
 
   <div class="hud">
     <div class="logo">NO WAY!<em>des faits à peine croyables</em></div>
@@ -1153,6 +1192,14 @@ if(document.fonts && document.fonts.ready){
   majJetons();
   $('quitBtn').innerHTML=pictoSVG('croix',15);
   $('modeBtn').innerHTML=pictoSVG('curseur',18);
+  // écran de choix du mode, à l'ouverture
+  $('icoAventure').innerHTML=pictoSVG('carte',40,'#2A3229');
+  $('icoDuel').innerHTML=pictoSVG('curseur',40,'#2A3229');
+  requestAnimationFrame(()=>{
+    paintFrame($('modeAventure'),HEX.jaune,HEX.ombre,7,1.4,14);
+    paintFrame($('modeDuel'),HEX.papier,HEX.ombre,23,1.4,14);
+  });
+  $('modeAventure').addEventListener('click',()=>{ sfx.tap(); $('menu').classList.add('off'); });
   requestAnimationFrame(peindreUI);
   renderMap();
   setTimeout(scrollToCurrent,120);
