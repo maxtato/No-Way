@@ -448,5 +448,155 @@
   "n": 11,
   "u": "oscars",
   "e": "Onze statuettes, record depuis égalé par Titanic et Le Retour du roi. La course de chars a demandé des mois de tournage et un cirque romain reconstruit grandeur nature en Italie."
+ },
+ {
+  "q": "Combien pèse une statuette des Oscars ?",
+  "n": 3.85,
+  "u": "kg",
+  "e": "3,85 kilos de métal plaqué or, pour trente-quatre centimètres. Pendant la Seconde Guerre mondiale, faute de métal disponible, les lauréats ont reçu des statuettes en plâtre peint."
+ },
+ {
+  "q": "Quelle est la hauteur des lettres du panneau Hollywood ?",
+  "n": 14,
+  "u": "m",
+  "e": "Environ quatorze mètres par lettre. À l’origine, l’enseigne disait « HOLLYWOODLAND » et vantait un simple programme immobilier : elle ne devait rester en place que dix-huit mois."
+ },
+ {
+  "q": "Combien d’Américains ont regardé le dernier épisode de M*A*S*H ?",
+  "n": 105900000,
+  "u": "spectateurs",
+  "e": "Près de 106 millions en 1983, record jamais battu pour une fiction. Les réseaux d’égouts de New York ont enregistré un pic de débit historique dès la fin de la diffusion."
+ },
+ {
+  "q": "Combien d’épisodes compte la série Friends ?",
+  "n": 236,
+  "u": "épisodes",
+  "e": "236 épisodes en dix saisons. Tout tient dans un café et deux appartements new-yorkais dont le loyer réel serait aujourd’hui hors de portée pour un serveur ou un cuisinier."
+ },
+ {
+  "q": "Combien d’épisodes compte le western télévisé Gunsmoke ?",
+  "n": 635,
+  "u": "épisodes",
+  "e": "635 épisodes en vingt ans d’antenne. À raison d’un épisode par jour, il faudrait presque deux années entières pour arriver au bout de la série."
+ },
+ {
+  "q": "Combien coûtait un épisode de la dernière saison de Game of Thrones ?",
+  "n": 15000000,
+  "u": "dollars",
+  "e": "Environ quinze millions de dollars par épisode, soit le budget d’un long-métrage indépendant entier pour moins d’une heure de série. Les nuits de bataille expliquent une bonne part de la facture."
+ },
+ {
+  "q": "Combien de joueurs participent au jeu mortel dans la première saison de Squid Game ?",
+  "n": 456,
+  "u": "joueurs",
+  "e": "456 joueurs au départ. Le chiffre correspond exactement à la cagnotte : 45,6 milliards de wons, soit cent millions de wons ajoutés à chaque mort."
+ },
+ {
+  "q": "Quelle est la somme des six nombres maudits de la série Lost ?",
+  "n": 108,
+  "u": "points",
+  "e": "4, 8, 15, 16, 23 et 42 donnent 108 — et c’est précisément toutes les 108 minutes qu’il fallait retaper la séquence dans le bunker pour éviter la catastrophe."
+ },
+ {
+  "q": "À quel niveau Pac-Man devient-il injouable à cause d’un bug ?",
+  "n": 256,
+  "u": "niveaux",
+  "e": "Au 256e tableau, un débordement de mémoire coupe l’écran en deux et remplit la moitié droite de symboles. Les programmeurs n’avaient jamais imaginé qu’un humain irait aussi loin."
+ },
+ {
+  "q": "Quel est le poids total du jeu Super Mario Bros. sur NES ?",
+  "n": 40,
+  "u": "ko",
+  "e": "Quarante kilo-octets pour tout le jeu : niveaux, musiques, graphismes et code. Une seule photo prise avec un téléphone d’aujourd’hui pèse une centaine de fois plus lourd."
+ },
+ {
+  "q": "Combien d’étoiles peut-on collecter dans Super Mario 64 ?",
+  "n": 120,
+  "u": "étoiles",
+  "e": "Cent vingt, alors que soixante-dix suffisent pour affronter Bowser. Le jeu a inventé la caméra à la troisième personne, officiellement tenue par un Lakitu cameraman qui vous suit en nuage."
+ },
+ {
+  "q": "Combien de graines de Korogu sont cachées dans Zelda : Breath of the Wild ?",
+  "n": 900,
+  "u": "graines",
+  "e": "Neuf cents graines dispersées sur la carte. La récompense pour les avoir toutes trouvées est une crotte dorée, plaisanterie assumée des développeurs à l’intention des joueurs complétistes."
+ },
+ {
+  "q": "Combien de Pokémon comptait la toute première génération ?",
+  "n": 151,
+  "u": "pokémon",
+  "e": "Cent cinquante et un, dont Mew, glissé en douce dans la mémoire libérée après le débogage par un programmeur, à l’insu de sa hiérarchie. Il devait rester introuvable à jamais."
+ },
+ {
+  "q": "Combien de répliques ont été enregistrées pour le jeu Skyrim ?",
+  "n": 60000,
+  "u": "répliques",
+  "e": "Plus de soixante mille lignes de dialogue. Une poignée de comédiens double des centaines de personnages : c’est pourquoi tous les gardes semblent avoir exactement la même voix."
+ },
+ {
+  "q": "Combien de répliques de dialogue contient Red Dead Redemption 2 ?",
+  "n": 500000,
+  "u": "répliques",
+  "e": "Environ cinq cent mille, pour sept ans de développement. Le souci du détail va jusqu’aux chevaux dont l’anatomie réagit au froid : un caprice de programmation devenu célèbre."
+ },
+ {
+  "q": "Combien a coûté le développement de Grand Theft Auto V ?",
+  "n": 265000000,
+  "u": "dollars",
+  "e": "Environ 265 millions de dollars, marketing compris : plus cher que la plupart des blockbusters hollywoodiens. Le jeu a remboursé la totalité en vingt-quatre heures de mise en vente."
+ },
+ {
+  "q": "Combien de temps dure un cycle jour-nuit complet dans Minecraft ?",
+  "n": 20,
+  "u": "minutes",
+  "e": "Vingt minutes réelles, dont sept de nuit noire. C’est ce rythme serré qui transforme chaque coucher de soleil en course contre la montre pour bâtir un abri avant les monstres."
+ },
+ {
+  "q": "À combien de blocs du centre se trouve la bordure du monde dans Minecraft ?",
+  "n": 60000000,
+  "u": "blocs",
+  "e": "Soixante millions de blocs dans chaque direction. Marcher jusqu’à la bordure demanderait plus de cinq mois de marche continue, sans jamais s’arrêter ni dormir une seule nuit."
+ },
+ {
+  "q": "Combien de touches faut-il taper pour entrer le fameux code Konami ?",
+  "n": 10,
+  "u": "touches",
+  "e": "Dix entrées : haut, haut, bas, bas, gauche, droite, gauche, droite, B, A. Ajouté par un programmeur qui trouvait son propre jeu trop dur, il a été oublié dans la version finale."
+ },
+ {
+  "q": "Combien de jeux Rovio avait-il sortis avant de créer Angry Birds ?",
+  "n": 51,
+  "u": "jeux",
+  "e": "Cinquante et un jeux sans succès, et un studio au bord de la faillite avec une poignée d’employés restants. Le cinquante-deuxième a été téléchargé des milliards de fois."
+ },
+ {
+  "q": "Combien Flappy Bird rapportait-il par jour à son créateur au sommet de son succès ?",
+  "n": 50000,
+  "u": "dollars",
+  "e": "Cinquante mille dollars de publicité quotidienne, de l’aveu même de Dong Nguyen. Écrasé par la pression et la culpabilité, il a retiré le jeu des boutiques en pleine gloire."
+ },
+ {
+  "q": "Combien d’exemplaires du Virtual Boy Nintendo a-t-il vendus avant de l’abandonner ?",
+  "n": 770000,
+  "u": "consoles",
+  "e": "Environ 770 000, puis l’arrêt en moins d’un an. L’écran rouge monochrome donnait des maux de tête ; Nintendo évite soigneusement de mentionner cette console dans son histoire officielle."
+ },
+ {
+  "q": "Combien de temps a duré la plus grande bataille spatiale d’EVE Online, à B-R5RB ?",
+  "n": 21,
+  "u": "heures",
+  "e": "Vingt et une heures de combat ininterrompu, plusieurs milliers de joueurs connectés. Les vaisseaux détruits représentaient environ 300 000 dollars réels — et tout est parti d’un loyer virtuel impayé."
+ },
+ {
+  "q": "Combien de temps dure le trajet dans le jeu Desert Bus, sans pouvoir mettre en pause ?",
+  "n": 8,
+  "u": "heures",
+  "e": "Huit heures de conduite en temps réel entre Tucson et Las Vegas, en ligne parfaitement droite. Le bus dévie légèrement vers la droite : impossible de lâcher le volant une seconde."
+ },
+ {
+  "q": "Combien d’épisodes compte la série originale Star Trek, annulée pour audiences insuffisantes ?",
+  "n": 79,
+  "u": "épisodes",
+  "e": "Soixante-dix-neuf épisodes seulement, avant l’annulation pure et simple. Ce sont les rediffusions, des années plus tard, qui ont transformé cet échec commercial en phénomène planétaire."
  }
 ]
