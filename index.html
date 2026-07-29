@@ -196,6 +196,9 @@ a.mini-btn{text-decoration:none;color:inherit}
   padding:4px 12px;border:2px solid var(--encre);box-shadow:3px 3px 0 var(--encre);
   transform:rotate(6deg) scale(.5);opacity:0;transition:.18s}
 .combo.on{opacity:1;transform:rotate(6deg) scale(1)}
+/* la même pastille, en jaune, quand elle annonce un jeton gagné */
+.combo.gain{background:var(--jaune);color:var(--encre);display:flex;align-items:center;gap:5px}
+.combo.gain svg{display:block}
 
 /* ---------- TAMPON « NO WAY! » — la signature ---------- */
 .stamp{position:absolute;left:50%;top:40%;z-index:20;
@@ -445,6 +448,7 @@ a.mini-btn{text-decoration:none;color:inherit}
     <div class="quiz-top">
       <button class="mini-btn" id="quitBtn" aria-label="Quitter"></button>
       <div class="segs" id="segs"></div>
+      <div class="chip" id="quizCoins" style="transform:rotate(1.1deg);background:var(--papier)"></div>
       <div class="hearts" id="hearts"></div>
     </div>
     <div class="timer" id="timer"><b id="timerBar"></b></div>
@@ -738,6 +742,7 @@ const SCENERY=[['herbe','#8A9A48',28],['caillou','#B79B6B',24],['fossile','#B553
 function peindreUI(){
   paintUI($('starCount'),HEX.jaune,3,HEX.ombre);
   paintUI($('coinCount'),HEX.papier,11,HEX.ombre);
+  paintUI($('quizCoins'),HEX.papier,31,HEX.ombre);
   ['soundBtn','quitBtn','modeBtn','carnetBtn','carnetClose'].forEach((id,k)=>paintUI($(id),HEX.papier,k*13+7,HEX.ombre));
   document.querySelectorAll('.node .tag').forEach((t,k)=>paintUI(t,HEX.papier,k*5+3,null,1.7));
   const tm=$('timer'); if(tm && tm.classList.contains('on')) paintUI(tm,null,57,null,1.8);
@@ -1084,9 +1089,25 @@ function heartsHTML(n){
     'width="20" height="20" style="filter:url(#peint)"')).join('');
 }
 function majJetons(){
-  const c=$('coinCount');
-  if(c){ c.innerHTML=pictoSVG('jeton',15)+'<span>'+state.jetons+'</span>';
-         requestAnimationFrame(()=>paintUI(c,HEX.papier,11,HEX.ombre)); }
+  /* la bourse se lit sur la carte, et surtout pendant la manche : c'est là
+     qu'on décide d'acheter un bonus */
+  [['coinCount',11],['quizCoins',31]].forEach(([id,graine])=>{
+    const c=$(id); if(!c) return;
+    c.innerHTML=pictoSVG('jeton',15)+'<span>'+state.jetons+'</span>';
+    requestAnimationFrame(()=>paintUI(c,HEX.papier,graine,HEX.ombre));
+  });
+}
+/* Une série de bonnes réponses paie : c'est la source régulière de jetons,
+   celle qui ne dépend pas d'aller au bout du niveau. */
+const SERIE_PAYANTE=3;
+function payerSerie(){
+  state.jetons++; run.jetonsGagnes++;
+  majJetons(); majBoosts(); save();
+  const el=$('combo');
+  el.innerHTML=pictoSVG('jeton',17,'#2A3229')+'<span>+1</span>';
+  el.classList.add('on','gain');
+  setTimeout(()=>el.classList.remove('on','gain'),1300);
+  [880,1180].forEach((f,i)=>setTimeout(()=>beep(f,.1,'triangle',.05),i*80));
 }
 function majSon(){
   const b=$('soundBtn'); if(!b) return;
@@ -1144,7 +1165,7 @@ function utiliserBoost(k){
   }
 }
 function flashInfo(t){
-  const el=$('combo'); el.textContent=t; el.classList.add('on');
+  const el=$('combo'); el.textContent=t; el.classList.remove('gain'); el.classList.add('on');
   setTimeout(()=>el.classList.remove('on'),1400);
 }
 /* La signature : un énorme « NO WAY! » tamponné sur la carte quand
@@ -1162,7 +1183,7 @@ function stampNoWay(ok){
 function startLevel(i){
   const l=LEVELS[i];
   run={lvl:i,deck:buildDeck(l),idx:0,lives:3,wrong:0,points:0,combo:0,boss:l.boss,timerId:null,res:{},
-       usedTour:false,repondu:false,aideUtilisee:false,bouclier:false,x2:false};
+       usedTour:false,repondu:false,aideUtilisee:false,bouclier:false,x2:false,jetonsGagnes:0};
   renderBoosts();
   closeSheet();
   $('quizScreen').classList.add('on');
@@ -1235,10 +1256,14 @@ function answer(i){
     run.combo++;
     const m=Math.min(3,1+Math.floor(run.combo/2))*(run.x2?2:1);
     run.points+=10*m; run.x2=false;
-    if(m>1){$('combo').textContent='×'+m;$('combo').classList.add('on')}
+    // toutes les trois bonnes réponses d'affilée, la bourse se remplit ; la
+    // pastille annonce alors le jeton plutôt que le multiplicateur
+    const paie=run.combo%SERIE_PAYANTE===0;
+    if(m>1&&!paie){$('combo').textContent='×'+m;$('combo').classList.remove('gain');$('combo').classList.add('on')}
     sfx.good();
     $('verdict').textContent=run.combo>=3?'En série !':'Bien vu';
     $('verdict').className='verdict ok';
+    if(paie) payerSerie();
   }else{
     run.combo=0; run.wrong++; run.x2=false;
     if(run.bouclier){ run.bouclier=false; $('verdict').textContent='Rattrapé au calque'; }
@@ -1268,10 +1293,17 @@ $('quitBtn').addEventListener('click',()=>{
 
 /* ---------- résultat ---------- */
 function finish(won){
-  let stars=won?Math.max(1,3-run.wrong):0;
+  const brutes=won?Math.max(1,3-run.wrong):0;
+  let stars=brutes;
   if(run.aideUtilisee) stars=Math.min(stars,2);   // on n'achète pas les trois étoiles
   const premier=won&&!state.stars[run.lvl];
-  const gain=won?(stars+(stars===3?2:0)+(premier?3:0)+(run.boss?5:0)):0;
+  const justes=Object.values(run.res).filter(r=>r===true).length;
+  /* Les jetons se comptent sur les étoiles brutes : l'aide coûte le sans-faute,
+     pas le salaire — sinon acheter un bonus rapporterait moins qu'il ne coûte.
+     Et une manche perdue paie quand même, sinon le joueur en difficulté
+     n'a aucun moyen de s'offrir l'aide dont il a justement besoin. */
+  const gain=won ? brutes+(brutes===3?2:0)+(premier?3:0)+(run.boss?5:0)
+                 : Math.max(justes?1:0, Math.floor(justes/SERIE_PAYANTE));
   $('quizScreen').classList.remove('on');
   $('explain').classList.remove('on');
   $('resultScreen').classList.add('on');
@@ -1289,19 +1321,25 @@ function finish(won){
   paintFrame($('continueBtn'),HEX.rouge,HEX.ombre,run.lvl*13+3);
   paintFrame($('retryBtn'),HEX.jaune,HEX.ombre,run.lvl*13+61);
   const rc=$('resultCoins'); rc.classList.remove('on');
-  rc.innerHTML=gain?`${pictoSVG('jeton',23,'#F2C64B')}<span>+${gain} jeton${gain>1?'s':''} gagné${gain>1?'s':''} !</span>`:'';
+  const s=n=>n>1?'s':'';
+  const serie=run.jetonsGagnes?`${run.jetonsGagnes} jeton${s(run.jetonsGagnes)} pris en série${s(run.jetonsGagnes)}`:'';
+  rc.innerHTML = (gain||run.jetonsGagnes)
+    ? pictoSVG('jeton',23,'#F2C64B')
+      +`<span>${gain?`+${gain} jeton${s(gain)}${serie?' · '+serie:''}`:serie}</span>`
+    : '';
   if(won){
     sfx.win(); confetti();
     if(stars>(state.stars[run.lvl]||0)) state.stars[run.lvl]=stars;
     if(run.lvl===state.unlocked&&state.unlocked<LEVELS.length-1) state.unlocked++;
-    save();
-    // la récompense arrive après les étoiles : jetons versés + animation + son
-    if(gain) setTimeout(()=>{
-      rc.classList.add('on');
-      state.jetons+=gain; majJetons(); save();
-      [740,990,1240].forEach((f,i)=>setTimeout(()=>beep(f,.12,'triangle',.05),i*70));
-    },560);
   }else sfx.lose();
+  save();
+  // la récompense arrive après les étoiles : jetons versés + animation + son.
+  // Les jetons de série ont déjà été crédités pendant la manche.
+  if(gain||run.jetonsGagnes) setTimeout(()=>{
+    rc.classList.add('on');
+    if(gain){ state.jetons+=gain; majJetons(); save(); }
+    [740,990,1240].forEach((f,i)=>setTimeout(()=>beep(f,.12,'triangle',.05),i*70));
+  },560);
 }
 function confetti(){
   const box=$('confetti'); box.innerHTML='';
