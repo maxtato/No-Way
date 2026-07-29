@@ -1662,7 +1662,19 @@ function validerClasse(){
       `<span class="vraie">${rang(attendu[i])} · ${c.u?fmtNb(c.items[i].v):fmtAnnee(c.items[i].v)}</span>`;
   });
   $('clOk').style.display='none';
-  resoudre(bonnes/total>=.83,base,bonnes===total?'Sans faute':`${bonnes} paires sur ${total} bien placées`);
+  // Le verdict parle en cartes, comme les couleurs à l'écran. Le compte de
+  // paires sert au score, jamais à l'affichage : personne ne le voit venir.
+  const n=c.items.length;
+  let justes=0; for(let i=0;i<n;i++) if(donne[i]===attendu[i]) justes++;
+  const echanges=total-bonnes;                 // paires prises à l'envers
+  const passe=bonnes/total>=.83;
+  let detail;
+  if(echanges===0) detail='Sans faute';
+  else if(passe) detail=echanges===1?'Presque : deux cartes à échanger'
+                                    :`Presque : ${echanges} cartes à échanger`;
+  else if(justes===0) detail="L'ordre n'y était pas";
+  else detail=`${justes} carte${justes>1?'s':''} sur ${n} à ${justes>1?'leur':'sa'} place`;
+  resoudre(passe,base,detail);
 }
 
 /* ---------- Je parie ! ---------- */
