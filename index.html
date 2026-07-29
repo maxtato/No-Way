@@ -178,6 +178,10 @@ a.mini-btn{text-decoration:none;color:inherit}
 .q-card{position:relative;padding:28px 23px;transform:rotate(-.9deg);margin:0 4px 0 2px}
 .q-card p{font-family:var(--f-disp);font-size:calc(23px * var(--disp-scale));line-height:1.22;
   text-transform:var(--disp-case);letter-spacing:var(--disp-ls);font-weight:var(--disp-w);filter:url(#peint)}
+/* ce qu'on compare exactement : sans cette ligne, « le plus d'eau » ne veut rien dire */
+.q-card p small{display:block;margin-top:9px;font-family:var(--f-hand);font-style:italic;
+  font-weight:var(--hand-w);font-size:calc(15px * var(--hand-scale));line-height:1.3;
+  text-transform:none;letter-spacing:0;opacity:.72}
 .answers{display:flex;flex-direction:column;gap:13px;padding-bottom:2px}
 .ans{position:relative;text-align:left;padding:19px 20px;font-weight:700;font-size:17px;
   display:flex;align-items:center;gap:12px;transition:transform .12s cubic-bezier(.34,1.6,.5,1)}
@@ -191,11 +195,89 @@ a.mini-btn{text-decoration:none;color:inherit}
 .ans[disabled]{pointer-events:none}
 @keyframes shake{0%,100%{transform:translateX(0) rotate(0)}25%{transform:translateX(-7px) rotate(-1.5deg)}75%{transform:translateX(7px) rotate(1.5deg)}}
 
+/* ---------- ÉPREUVES : chaque mécanique habille la même zone ---------- */
+/* le bandeau qui annonce l'épreuve, au-dessus de la carte */
+.epreuve{align-self:flex-start;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap;row-gap:0;
+  font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:calc(14.5px * var(--hand-scale));color:var(--bleu);
+  transform:rotate(-.8deg) translateX(6px);margin-top:-2px}
+.epreuve b{font-family:var(--f-disp);font-style:normal;font-weight:800;white-space:nowrap;
+  font-size:calc(15px * var(--disp-scale));color:var(--encre)}
+.epreuve span{flex:1 1 auto;min-width:0}
+.epreuve svg{display:block;flex:none;align-self:center}
+
+/* deux grands choix : Le Détecteur et Le Duel */
+.answers.duo{gap:15px}
+.answers.duo .ans{justify-content:center;text-align:center;padding:23px 18px;width:100%!important;
+  align-self:stretch!important;font-size:19px}
+.answers.duo .ans .lbl{font-family:var(--f-disp);font-weight:var(--disp-w);letter-spacing:var(--disp-ls)}
+.answers.duo .ans .key{width:26px;height:26px}
+/* Le Duel oppose deux récits : le texte prime, pas le verdict */
+.answers.recits .ans{text-align:left;justify-content:flex-start;font-size:16.5px;line-height:1.3;padding:19px 18px}
+.answers.recits .ans .lbl{font-family:var(--f-body);font-weight:700;letter-spacing:0}
+
+/* Lequel ment ? — quatre affirmations serrées */
+.answers.liste .ans{font-size:15.5px;line-height:1.3;padding:15px 17px;width:100%!important;align-self:stretch!important}
+
+/* Classe-les — on tape dans l'ordre, le rang s'inscrit */
+.answers.ordre{gap:11px}
+.answers.ordre .ans{width:100%!important;align-self:stretch!important;padding:15px 17px;font-size:16px}
+.answers.ordre .ans .key{background:none}
+.answers.ordre .ans .rang{margin-left:auto;flex:none;font-family:var(--f-disp);font-weight:800;
+  font-size:15px;color:var(--bleu);font-variant-numeric:tabular-nums;white-space:nowrap}
+.answers.ordre .ans.place .rang{color:var(--encre)}
+.answers.ordre .ans .vraie{margin-left:auto;flex:none;font-family:var(--f-hand);font-style:italic;
+  font-weight:var(--hand-w);font-size:13.5px;white-space:nowrap;opacity:.85}
+
+/* Plus ou Moins — l'échelle et sa molette */
+.glisse{display:flex;flex-direction:column;gap:2px}
+.glisse .grand{text-align:center;font-family:var(--f-disp);font-weight:800;line-height:.92;
+  color:var(--rouge);filter:url(#peint-fort);font-size:46px;transform:rotate(-1deg);transition:color .2s}
+.glisse .grand small{display:block;font-family:var(--f-hand);font-style:italic;font-weight:var(--hand-w);
+  font-size:14px;color:var(--encre);margin-top:3px;filter:none}
+.piste{position:relative;height:74px;margin:4px 2px 0;touch-action:none;cursor:grab}
+.piste:active{cursor:grabbing}
+.piste svg.rail{position:absolute;left:0;top:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.piste .molette{position:absolute;top:24px;width:40px;height:40px;margin-left:-20px;pointer-events:none;
+  display:grid;place-items:center;transition:transform .08s}
+.piste .molette svg{position:absolute;inset:-6px;width:52px;height:52px;overflow:visible}
+.piste.prise .molette{transform:scale(1.12)}
+.piste .verite{position:absolute;top:10px;width:2px;height:0;margin-left:-1px;opacity:0;
+  background:var(--vert);box-shadow:2px 0 0 rgba(42,50,41,.55)}
+.piste .verite.on{opacity:1;height:40px;animation:tombe .5s cubic-bezier(.2,1.4,.4,1) forwards}
+@keyframes tombe{from{transform:translateY(-24px) scale(.6);opacity:0}to{transform:none;opacity:1}}
+.piste .verite i{position:absolute;left:50%;top:-18px;transform:translateX(-50%) rotate(-4deg);
+  font-family:var(--f-disp);font-style:normal;font-weight:800;font-size:12.5px;color:var(--papier);
+  background:var(--vert);padding:2px 8px;white-space:nowrap;filter:url(#peint);
+  border-radius:11px 8px 10px 9px/9px 11px 8px 10px}
+.bornes{display:flex;justify-content:space-between;font-family:var(--f-hand);font-style:italic;
+  font-weight:var(--hand-w);font-size:12.5px;opacity:.6;margin:-4px 4px 8px}
+
+/* Je parie ! — la mise de confiance, entre la réponse et la révélation */
+.pari{position:absolute;left:0;right:0;bottom:0;z-index:30;
+  padding:20px 15px calc(env(safe-area-inset-bottom) + 18px);
+  transform:translateY(calc(100% + 40px));transition:transform .26s cubic-bezier(.2,.9,.3,1);
+  visibility:hidden}
+.pari.on{visibility:visible;transform:translateY(0)}
+.pari h3{font-family:var(--f-disp);font-weight:var(--disp-w);font-size:calc(20px * var(--disp-scale));
+  text-align:center;margin-bottom:3px;transform:rotate(-.7deg)}
+.pari .sous{font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;font-size:14px;
+  color:var(--bleu);text-align:center;margin-bottom:15px;text-wrap:balance}
+.mises{display:flex;gap:10px}
+.mise{flex:1;position:relative;padding:15px 6px 13px;text-align:center;transition:transform .12s}
+.mise:active{transform:translateY(3px)}
+.mise b{display:block;font-family:var(--f-disp);font-weight:800;font-size:calc(21px * var(--disp-scale));line-height:1}
+.mise span{display:block;font-family:var(--f-hand);font-weight:var(--hand-w);font-style:italic;
+  font-size:12.5px;margin-top:3px;opacity:.8}
+
 .combo{position:absolute;right:15px;top:calc(env(safe-area-inset-top) + 54px);
   background:var(--rouge);color:var(--papier);font-family:var(--f-disp);font-size:15px;
   padding:4px 12px;border:2px solid var(--encre);box-shadow:3px 3px 0 var(--encre);
   transform:rotate(6deg) scale(.5);opacity:0;transition:.18s}
 .combo.on{opacity:1;transform:rotate(6deg) scale(1)}
+/* la même pastille, en jaune, quand elle annonce un jeton gagné */
+.combo.gain{background:var(--jaune);color:var(--encre);display:flex;align-items:center;gap:5px}
+.combo.gain svg{display:block}
 
 /* ---------- TAMPON « NO WAY! » — la signature ---------- */
 .stamp{position:absolute;left:50%;top:40%;z-index:20;
@@ -410,7 +492,7 @@ a.mini-btn{text-decoration:none;color:inherit}
     <div class="modes">
       <button class="mode" id="modeAventure">
         <span class="ico" id="icoAventure"></span>
-        <span class="txt"><strong>L'aventure</strong><span>Seul, sur la carte : 32 étapes, quatre réponses, des jokers à gagner.</span></span>
+        <span class="txt"><strong>L'aventure</strong><span>Seul, sur la carte : 32 étapes, six façons de jouer, des jokers à gagner.</span></span>
       </button>
       <a class="mode" id="modeDuel" href="curseur.html">
         <span class="ico" id="icoDuel"></span>
@@ -445,6 +527,7 @@ a.mini-btn{text-decoration:none;color:inherit}
     <div class="quiz-top">
       <button class="mini-btn" id="quitBtn" aria-label="Quitter"></button>
       <div class="segs" id="segs"></div>
+      <div class="chip" id="quizCoins" style="transform:rotate(1.1deg);background:var(--papier)"></div>
       <div class="hearts" id="hearts"></div>
     </div>
     <div class="timer" id="timer"><b id="timerBar"></b></div>
@@ -452,11 +535,17 @@ a.mini-btn{text-decoration:none;color:inherit}
     <div class="stamp" id="stamp">NO WAY!</div>
     <div class="q-wrap">
       <div class="cat" id="qTag">Géographie</div>
+      <div class="epreuve" id="qEpreuve"></div>
       <i class="sp sp1"></i>
       <div class="q-card" id="qCard"><p id="qText">…</p></div>
       <div class="boosts" id="boosts"></div>
       <i class="sp sp2"></i>
       <div class="answers" id="answers"></div>
+    </div>
+    <div class="pari" id="pari">
+      <h3>Tu es sûr à combien ?</h3>
+      <p class="sous" id="pariSous">Plus tu mises haut, plus ça rapporte — et plus ça coûte si tu te trompes.</p>
+      <div class="mises" id="mises"></div>
     </div>
     <div class="explain" id="explain">
       <div class="vrow"><span class="verdict" id="verdict">Bien vu</span><span class="why">pourquoi</span></div>
@@ -490,6 +579,9 @@ a.mini-btn{text-decoration:none;color:inherit}
 </div>
 
 <script src="questions.js"></script>
+<script src="questions-curseur.js"></script>
+<script src="anecdotes.js"></script>
+<script src="classements.js"></script>
 <script>
 /* =========================================================
    NO WAY! — direction artistique « carnet de voyage »
@@ -738,6 +830,7 @@ const SCENERY=[['herbe','#8A9A48',28],['caillou','#B79B6B',24],['fossile','#B553
 function peindreUI(){
   paintUI($('starCount'),HEX.jaune,3,HEX.ombre);
   paintUI($('coinCount'),HEX.papier,11,HEX.ombre);
+  paintUI($('quizCoins'),HEX.papier,31,HEX.ombre);
   ['soundBtn','quitBtn','modeBtn','carnetBtn','carnetClose'].forEach((id,k)=>paintUI($(id),HEX.papier,k*13+7,HEX.ombre));
   document.querySelectorAll('.node .tag').forEach((t,k)=>paintUI(t,HEX.papier,k*5+3,null,1.7));
   const tm=$('timer'); if(tm && tm.classList.contains('on')) paintUI(tm,null,57,null,1.8);
@@ -761,9 +854,10 @@ function repaintFrames(){
 }
 
 /* ---------- bonus ---------- */
+/* mec : les épreuves où le bonus a un sens. Absent = il marche partout. */
 const BOOSTS=[
- {k:'ciseaux', ico:'ciseaux',  n:'Coup de ciseaux', p:4, d:'retire deux mauvaises réponses'},
- {k:'blanco',  ico:'crayon',   n:'Blanco',          p:2, d:'efface une mauvaise réponse'},
+ {k:'ciseaux', ico:'ciseaux',  n:'Coup de ciseaux', p:4, d:'retire deux mauvaises réponses', mec:['qcm','ment']},
+ {k:'blanco',  ico:'crayon',   n:'Blanco',          p:2, d:'efface une mauvaise réponse',    mec:['qcm','ment']},
  {k:'calque',  ico:'bouclier', n:'Calque',          p:3, d:'la prochaine erreur ne coûte pas de vie'},
  {k:'double',  ico:'fois2',    n:'Double encre',    p:2, d:'la prochaine bonne réponse compte double'},
  {k:'sablier', ico:'sablier',  n:'Sablier',         p:3, d:'relance le chrono', boss:true},
@@ -935,8 +1029,8 @@ function openSheet(i){
   $('sheetTitle').textContent=l.boss?`Niveau ${i+1} · Bazar`:`Niveau ${i+1}`;
   const banque=Object.values(Q).flat();
   const inedites=banque.filter(q=>!state.seen[qid(q.q)]).length;
-  $('sheetSub').textContent=(l.boss?`${l.count} questions · 3 vies · 12 s`:`${l.count} questions · 3 vies`)
-    +' · tous les thèmes'+(inedites?` · ${inedites} inédites`:'');
+  $('sheetSub').textContent=(l.boss?`${l.count} épreuves · 3 vies · 12 s`:`${l.count} épreuves · 3 vies`)
+    +' · six façons de jouer'+(inedites?` · ${inedites} questions inédites`:'');
   $('sheetStars').innerHTML=starsRow(st,19,i*3);
   $('playBtn').querySelector('.lbl').textContent=st?'Rejouer':'Jouer';
   $('sheet').classList.add('on'); $('scrim').classList.add('on');
@@ -1042,41 +1136,10 @@ function cibleDiff(l){
    puis les moins vues. Les questions du dernier essai de CE niveau sont
    pénalisées pour ne pas y retomber après un échec.
    Chaque niveau voyage : au plus deux questions d'un même thème. */
-function buildDeck(l){
-  const dernier=new Set(state.last[l.id]||[]);
-  const pool=Object.entries(Q).flatMap(([k,v])=>v.map(q=>({...q,t:k,id:qid(q.q)})));
-  // priorité de chaque question : jamais vue d'abord, puis moins vue, le
-  // dernier essai de ce niveau pénalisé ; classée par difficulté.
-  pool.forEach(q=>{q._s=(state.seen[q.id]||0)*10+(dernier.has(q.id)?6:0)+Math.random()});
-  const seau={1:[],2:[],3:[]};
-  for(const q of pool) seau[q.d||2].push(q);
-  for(const d of [1,2,3]) seau[d].sort((a,b)=>a._s-b._s);
-
-  // distribution de difficulté du niveau : cloche centrée sur la cible, si
-  // bien que chaque slot tire une difficulté (surtout la cible, un peu les voisines)
-  const cible=cibleDiff(l), spread=1.15;
-  const w=d=>Math.max(0,1-Math.abs(d-cible)/spread);
-  const wsum=w(1)+w(2)+w(3)||1;
-  const tirerDiff=()=>{let r=Math.random()*wsum;for(const d of [1,2,3]){r-=w(d);if(r<=0)return d}return 2};
-
-  const parTheme={},choix=[],pris=new Set();
-  const prendre=d=>{ for(const q of seau[d]){ if(pris.has(q.id)) continue;
-    if((parTheme[q.t]||0)>=2) continue; return q; } return null; };
-  let garde=0;
-  while(choix.length<l.count && garde++<200){
-    const d=tirerDiff();
-    let q=prendre(d) || prendre(2) || prendre(1) || prendre(3);  // repli si épuisé/capé
-    if(!q) break;
-    pris.add(q.id); parTheme[q.t]=(parTheme[q.t]||0)+1; choix.push(q);
-  }
-  state.last[l.id]=choix.map(q=>q.id);
-  choix.forEach(q=>{state.seen[q.id]=(state.seen[q.id]||0)+1});
-  save();
-  return shuffle(choix).map(q=>{
-    const mixed=shuffle(q.a.map((txt,i)=>({txt,i})));
-    return {q:q.q,e:q.e,t:q.t,a:mixed.map(m=>m.txt),c:mixed.findIndex(m=>m.i===q.c)};
-  });
-}
+/* ---------- l'interface de manche : bourse, vies, bonus, tampon ---------- */
+/* Une série de bonnes réponses paie : c'est la source régulière de jetons,
+   celle qui ne dépend pas d'aller au bout du niveau. */
+const SERIE_PAYANTE=3;
 function heartsHTML(n){
   return [0,1,2].map(k=>svgEl(24,24,
     (k<n?`<path d="${heartPath()}" fill="#E03B26" stroke="#E03B26" stroke-width="2.6" stroke-linejoin="round" transform="translate(-.5,.6)"/>`:'')
@@ -1084,9 +1147,22 @@ function heartsHTML(n){
     'width="20" height="20" style="filter:url(#peint)"')).join('');
 }
 function majJetons(){
-  const c=$('coinCount');
-  if(c){ c.innerHTML=pictoSVG('jeton',15)+'<span>'+state.jetons+'</span>';
-         requestAnimationFrame(()=>paintUI(c,HEX.papier,11,HEX.ombre)); }
+  /* la bourse se lit sur la carte, et surtout pendant la manche : c'est là
+     qu'on décide d'acheter un bonus */
+  [['coinCount',11],['quizCoins',31]].forEach(([id,graine])=>{
+    const c=$(id); if(!c) return;
+    c.innerHTML=pictoSVG('jeton',15)+'<span>'+state.jetons+'</span>';
+    requestAnimationFrame(()=>paintUI(c,HEX.papier,graine,HEX.ombre));
+  });
+}
+function payerSerie(){
+  state.jetons++; run.jetonsGagnes++;
+  majJetons(); majBoosts(); save();
+  const el=$('combo');
+  el.innerHTML=pictoSVG('jeton',17,'#2A3229')+'<span>+1</span>';
+  el.classList.add('on','gain');
+  setTimeout(()=>el.classList.remove('on','gain'),1300);
+  [880,1180].forEach((f,i)=>setTimeout(()=>beep(f,.1,'triangle',.05),i*80));
 }
 function majSon(){
   const b=$('soundBtn'); if(!b) return;
@@ -1109,20 +1185,27 @@ function renderBoosts(){
   box.querySelectorAll('.boost').forEach(el=>el.addEventListener('click',()=>utiliserBoost(el.dataset.b)));
   majBoosts();
 }
+/** Un bonus convient-il à l'épreuve en cours ? */
+function convient(b){
+  const c=run&&run.deck[run.idx];
+  return !c||!b.mec||b.mec.includes(c.m);
+}
 function majBoosts(){
   requestAnimationFrame(peindreUI);
   document.querySelectorAll('#boosts .boost').forEach(el=>{
     const b=BOOSTS.find(x=>x.k===el.dataset.b);
     const utilise=run.usedTour, repondu=run.repondu;
     const pauvre=state.jetons<b.p;
-    el.classList.toggle('off', pauvre||repondu);
+    const horsSujet=!convient(b);
+    el.classList.toggle('off', pauvre||repondu||horsSujet);
     el.classList.toggle('used', !!utilise);
-    el.disabled = pauvre||repondu||!!utilise;
+    el.disabled = pauvre||repondu||!!utilise||horsSujet;
+    el.title=horsSujet?`${b.n} — sans effet sur cette épreuve`:`${b.n} — ${b.d}`;
   });
 }
 function utiliserBoost(k){
   const b=BOOSTS.find(x=>x.k===k);
-  if(!b||!run||run.repondu||run.usedTour||state.jetons<b.p) return;
+  if(!b||!run||run.repondu||run.usedTour||state.jetons<b.p||!convient(b)) return;
   state.jetons-=b.p; run.usedTour=true; run.aideUtilisee=true;
   sfx.tap(); majJetons(); majBoosts(); save();
   const c=run.deck[run.idx];
@@ -1144,11 +1227,9 @@ function utiliserBoost(k){
   }
 }
 function flashInfo(t){
-  const el=$('combo'); el.textContent=t; el.classList.add('on');
+  const el=$('combo'); el.textContent=t; el.classList.remove('gain'); el.classList.add('on');
   setTimeout(()=>el.classList.remove('on'),1400);
 }
-/* La signature : un énorme « NO WAY! » tamponné sur la carte quand
-   l'anecdote se révèle. Rouge si l'on a vu juste, jaune sinon. */
 function stampNoWay(ok){
   const s=$('stamp'); if(!s) return;
   if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -1159,10 +1240,162 @@ function stampNoWay(ok){
   try{ if(navigator.vibrate) navigator.vibrate(ok?18:[10,40,10]); }catch(e){}
 }
 
+/* =========================================================
+   LES ÉPREUVES
+   Le jeu ne pose plus des questions : il propose des façons de
+   réfléchir. Le QCM en est une parmi d'autres, et il ne fait
+   plus que la moitié d'une manche.
+   ========================================================= */
+const EPREUVES={
+  qcm:   {n:'Question',        ico:'couronne',  d:"une seule bonne réponse"},
+  vrai:  {n:'Le Détecteur',    ico:'eclair',    d:"vrai, ou pipeau ?"},
+  duel:  {n:'Le Duel',         ico:'des',       d:"une seule est vraie"},
+  ment:  {n:'Lequel ment ?',   ico:'ciseaux',   d:"trouve l'imposteur"},
+  plus:  {n:'Plus ou Moins',   ico:'curseur',   d:"vise juste"},
+  classe:{n:'Classe-les',      ico:'carte',     d:"dans le bon ordre"}
+};
+/* Moitié de QCM, moitié de tout le reste : c'est le rythme qui compte.
+   Les épreuves tirées d'une même banque ne se répètent pas dans un niveau. */
+const MELANGE=['vrai','ment','plus','classe','duel'];
+
+/* ---------- construction des épreuves ---------- */
+/** Le Détecteur : une anecdote, vraie ou inventée. */
+function epreuveVrai(pioche){
+  const a=pioche.anec(); if(!a) return null;
+  return {m:'vrai',t:a.t,q:a.s,e:a.e,v:a.v,
+          a:["C'est vrai","N'importe quoi"],c:a.v?0:1};
+}
+/** Le Duel : une vraie contre une inventée, sur le même thème si possible. */
+function epreuveDuel(pioche){
+  const vraie=pioche.anec(1), fausse=pioche.anec(0);
+  if(!vraie||!fausse) return null;
+  const paire=shuffle([{s:vraie.s,ok:1},{s:fausse.s,ok:0}]);
+  return {m:'duel',t:vraie.t,q:"Une seule de ces deux histoires est vraie.",
+          e:vraie.e,a:paire.map(x=>x.s),c:paire.findIndex(x=>x.ok)};
+}
+/** Lequel ment ? : trois vraies, une inventée. */
+function epreuveMent(pioche){
+  const vraies=[pioche.anec(1),pioche.anec(1),pioche.anec(1)].filter(Boolean);
+  const fausse=pioche.anec(0);
+  if(vraies.length<3||!fausse) return null;
+  const lot=shuffle(vraies.map(a=>({s:a.s,ment:0})).concat([{s:fausse.s,ment:1}]));
+  return {m:'ment',t:fausse.t,q:"Trois de ces affirmations sont vraies. Une est inventée.",
+          e:fausse.e,a:lot.map(x=>x.s),c:lot.findIndex(x=>x.ment)};
+}
+/** Plus ou Moins : la banque chiffrée du duel resservie en solo. */
+function epreuvePlus(pioche){
+  const q=pioche.chiffre(); if(!q) return null;
+  return {m:'plus',t:q.t,q:q.q,e:q.e,n:q.n,min:q.min,max:q.max,u:q.u};
+}
+/** Classe-les : quatre éléments à remettre dans l'ordre. */
+function epreuveClasse(pioche){
+  const s=pioche.classement(); if(!s) return null;
+  const tri=s.i.slice().sort((a,b)=>s.rev?a.v-b.v:b.v-a.v);
+  const melange=shuffle(s.i);
+  return {m:'classe',t:s.t,q:s.c,mes:s.mes,u:s.u,items:melange,
+          ordre:melange.map(x=>tri.indexOf(x)),
+          e:tri.map(x=>`${x.l} : ${avecUnite(x.v,s.u)}`).join(' · ')};
+}
+const FABRIQUE={vrai:epreuveVrai,duel:epreuveDuel,ment:epreuveMent,plus:epreuvePlus,classe:epreuveClasse};
+
+/** Le nombre et son unité, correctement liés : « 40 millions DE dollars ». */
+function avecUnite(n,u){
+  if(!u) return fmtAnnee(n);        // sans unité, la valeur est une année
+  const t=fmtNb(n);
+  return t+(/millions?$|milliards?$/.test(t)?' de ':' ')+u;
+}
+/** Une année ne prend pas d'espace de milliers, et se dit avant notre ère. */
+function fmtAnnee(n){ return n<0?`${-n} av. J.-C.`:String(n); }
+/** Nombre lisible : 1 430 et non 1430, 0,012 et non 0.012 */
+function fmtNb(n){
+  if(Math.abs(n)>=1e9) return (n/1e9).toFixed(1).replace('.',',')+' milliards';
+  if(Math.abs(n)>=1e6) return (n/1e6).toFixed(Math.abs(n)>=1e7?0:1).replace('.',',')+' millions';
+  const ent=Number.isInteger(n);
+  return (ent?n.toLocaleString('fr-FR'):n.toFixed(Math.abs(n)<1?3:1).replace('.',','));
+}
+
+/* ---------- le tirage d'un niveau ---------- */
+/** Un distributeur qui ne ressort jamais deux fois la même chose dans la manche. */
+function faireLaPioche(){
+  const pris=new Set();
+  const tirer=(liste,cle)=>{
+    const libres=liste.filter(x=>!pris.has(cle(x)));
+    if(!libres.length) return null;
+    // les moins vus d'abord, puis au hasard
+    libres.sort((a,b)=>(state.seen[cle(a)]||0)-(state.seen[cle(b)]||0)+Math.random()-.5);
+    const x=libres[Math.random()*Math.min(12,libres.length)|0]||libres[0];
+    pris.add(cle(x)); state.seen[cle(x)]=(state.seen[cle(x)]||0)+1;
+    return x;
+  };
+  const cleA=a=>'a'+qid(a.s), cleC=q=>'c'+qid(q.q), cleK=s=>'k'+qid(s.c+s.i[0].l);
+  return {
+    anec:v=>tirer(v===undefined?ANECDOTES:ANECDOTES.filter(a=>a.v===v),cleA),
+    chiffre:()=>tirer(QC,cleC),
+    classement:()=>tirer(CLASSEMENTS,cleK)
+  };
+}
+
+function buildDeck(l){
+  const pioche=faireLaPioche();
+  // la moitié en QCM, arrondie au plus près : le classique tient le rythme
+  const nQcm=Math.round(l.count*0.5);
+  const deck=buildQCM(l,nQcm);
+
+  // le reste : des mécaniques différentes, jamais deux fois la même d'affilée
+  const restant=l.count-deck.length;
+  const roue=shuffle(MELANGE);
+  let garde=0;
+  for(let k=0;deck.length<l.count&&garde++<40;k++){
+    const type=roue[k%roue.length];
+    const ep=FABRIQUE[type](pioche);
+    if(ep) deck.push(ep);
+  }
+  // s'il manque encore quelque chose (banque épuisée), on complète en QCM
+  if(deck.length<l.count) deck.push(...buildQCM(l,l.count-deck.length));
+  save();
+  return shuffle(deck).slice(0,l.count);
+}
+
+/** Le tirage historique des QCM : difficulté ciblée, deux thèmes maximum. */
+function buildQCM(l,combien){
+  if(combien<=0) return [];
+  const dernier=new Set(state.last[l.id]||[]);
+  const pool=Object.entries(Q).flatMap(([k,v])=>v.map(q=>({...q,t:k,id:qid(q.q)})));
+  pool.forEach(q=>{q._s=(state.seen[q.id]||0)*10+(dernier.has(q.id)?6:0)+Math.random()});
+  const seau={1:[],2:[],3:[]};
+  for(const q of pool) seau[q.d||2].push(q);
+  for(const d of [1,2,3]) seau[d].sort((a,b)=>a._s-b._s);
+
+  const cible=cibleDiff(l), spread=1.15;
+  const w=d=>Math.max(0,1-Math.abs(d-cible)/spread);
+  const wsum=w(1)+w(2)+w(3)||1;
+  const tirerDiff=()=>{let r=Math.random()*wsum;for(const d of [1,2,3]){r-=w(d);if(r<=0)return d}return 2};
+
+  const parTheme={},choix=[],pris=new Set();
+  const prendre=d=>{ for(const q of seau[d]){ if(pris.has(q.id)) continue;
+    if((parTheme[q.t]||0)>=2) continue; return q; } return null; };
+  let garde=0;
+  while(choix.length<combien && garde++<200){
+    const d=tirerDiff();
+    let q=prendre(d) || prendre(2) || prendre(1) || prendre(3);
+    if(!q) break;
+    pris.add(q.id); parTheme[q.t]=(parTheme[q.t]||0)+1; choix.push(q);
+  }
+  state.last[l.id]=choix.map(q=>q.id);
+  choix.forEach(q=>{state.seen[q.id]=(state.seen[q.id]||0)+1});
+  return choix.map(q=>{
+    const mixed=shuffle(q.a.map((txt,i)=>({txt,i})));
+    return {m:'qcm',q:q.q,e:q.e,t:q.t,a:mixed.map(m=>m.txt),c:mixed.findIndex(m=>m.i===q.c)};
+  });
+}
+
 function startLevel(i){
   const l=LEVELS[i];
   run={lvl:i,deck:buildDeck(l),idx:0,lives:3,wrong:0,points:0,combo:0,boss:l.boss,timerId:null,res:{},
-       usedTour:false,repondu:false,aideUtilisee:false,bouclier:false,x2:false};
+       usedTour:false,repondu:false,aideUtilisee:false,bouclier:false,x2:false,jetonsGagnes:0};
+  // une épreuve par manche se joue à la mise de confiance
+  const misables=run.deck.map((c,k)=>({c,k})).filter(x=>x.c.m!=='plus'&&x.c.m!=='classe');
+  if(misables.length) misables[Math.random()*misables.length|0].c.pari=true;
   renderBoosts();
   closeSheet();
   $('quizScreen').classList.add('on');
@@ -1170,35 +1403,32 @@ function startLevel(i){
   requestAnimationFrame(peindreUI);
   renderQuestion();
 }
+
+/* ---------- l'habillage commun à toutes les épreuves ---------- */
 function renderQuestion(){
   const c=run.deck[run.idx];
-  run.usedTour=false; run.repondu=false;
-  // pastille de thème : logo + encre du thème, question par question
-  const th=THEMES[c.t], clair=INK_CLAIR.has(th.ink), enc=clair?'#2A3229':'#FAF2DC';
+  run.usedTour=false; run.repondu=false; run.mise=0;
+  const th=THEMES[c.t]||THEMES.wtf, clair=INK_CLAIR.has(th.ink), enc=clair?'#2A3229':'#FAF2DC';
   const tag=$('qTag');
   tag.style.background=INK_HEX[th.ink];
   tag.style.color=enc;
   tag.innerHTML=pictoSVG(th.ico,15,enc)+`<span>${th.name}</span>`;
-  $('qText').textContent=c.q;
+  const ep=EPREUVES[c.m]||EPREUVES.qcm;
+  $('qEpreuve').innerHTML=pictoSVG(ep.ico,16,'#5E9BD1')
+    +`<b>${ep.n}</b><span>· ${ep.d}${c.pari?" · tu miseras dessus":''}</span>`;
+  const esc=t=>String(t).replace(/[&<>]/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[x]));
+  $('qText').innerHTML=esc(c.q)+(c.mes?`<small>${esc(c.mes)}</small>`:'');
   $('segs').innerHTML=run.deck.map((_,i)=>{
     const r=run.res[i];
     return `<b class="${i<run.idx?(r==='skip'?'skip':(r?'ok':'ko')):(i===run.idx?'now':'')}"></b>`;
   }).join('');
   $('hearts').innerHTML=heartsHTML(run.lives);
+  $('pari').classList.remove('on');
+
   const seed0=run.idx*37+run.lvl*101;
-  $('answers').innerHTML=c.a.map((txt,i)=>{
-    const sgn=i%2?1:-1;
-    const rot=(sgn*(.35+rnd(seed0+i*5)*.5)).toFixed(2);           // sens alterné, très léger
-    const dx=(wob(seed0+i*9+3,2.2)).toFixed(1);                   // bords à peine décalés
-    const wd=(96+rnd(seed0+i*13)*3.5).toFixed(1);                 // largeurs presque égales
-    const al=i%2?'flex-end':'flex-start';
-    return `<button class="ans" data-i="${i}" style="transform:rotate(${rot}deg) translateX(${dx}px);width:${wd}%;align-self:${al}">
-      <span class="key"><i>${'ABCD'[i]}</i></span><span class="lbl">${txt}</span></button>`;
-  }).join('');
-  $('answers').querySelectorAll('.ans').forEach((b,i)=>{
-    paintFrame(b,HEX.papier,HEX.ombre,seed0+i*23);
-    b.addEventListener('click',()=>answer(+b.dataset.i));
-  });
+  ({qcm:rendreChoix,vrai:rendreChoix,duel:rendreChoix,ment:rendreChoix,
+    plus:rendrePlus,classe:rendreClasse}[c.m]||rendreChoix)(c,seed0);
+
   paintFrame($('qCard'),HEX.jaune,HEX.ombre,seed0+7,1.5);
   paintWave($('explain'),seed0);
   $('explain').classList.remove('on');
@@ -1206,6 +1436,133 @@ function renderQuestion(){
   requestAnimationFrame(peindreUI);
   if(run.boss) startTimer();
 }
+
+/** QCM, Détecteur, Duel, Lequel ment ? — tous des listes de choix. */
+function rendreChoix(c,seed0){
+  const box=$('answers');
+  box.className='answers'
+    + (c.m==='vrai'?' duo':'')
+    + (c.m==='duel'?' duo recits':'')
+    + (c.m==='ment'?' liste':'');
+  const deuxGros=c.m==='vrai'||c.m==='duel';
+  box.innerHTML=c.a.map((txt,i)=>{
+    const sgn=i%2?1:-1;
+    const rot=(sgn*(.35+rnd(seed0+i*5)*.5)).toFixed(2);
+    const dx=deuxGros?0:(wob(seed0+i*9+3,2.2)).toFixed(1);
+    const wd=deuxGros?100:(96+rnd(seed0+i*13)*3.5).toFixed(1);
+    const al=deuxGros?'stretch':(i%2?'flex-end':'flex-start');
+    const cle=c.m==='vrai'?pictoSVG(i===0?'etoile':'croix',15):`<i>${'ABCD'[i]}</i>`;
+    return `<button class="ans" data-i="${i}" style="transform:rotate(${rot}deg) translateX(${dx}px);width:${wd}%;align-self:${al}">
+      <span class="key">${cle}</span><span class="lbl">${txt}</span></button>`;
+  }).join('');
+  box.querySelectorAll('.ans').forEach((b,i)=>{
+    paintFrame(b,HEX.papier,HEX.ombre,seed0+i*23);
+    b.addEventListener('click',()=>answer(+b.dataset.i));
+  });
+}
+
+/** Plus ou Moins — une échelle, une molette, et la distance qui paie. */
+function rendrePlus(c,seed0){
+  const box=$('answers');
+  box.className='answers';
+  box.innerHTML=`<div class="glisse">
+      <div class="grand" id="pmVal">—</div>
+      <div class="piste" id="pmPiste">
+        <svg class="rail" id="pmRail" aria-hidden="true"></svg>
+        <div class="molette" id="pmMolette"></div>
+        <div class="verite" id="pmVerite"><i id="pmVeriteLbl"></i></div>
+      </div>
+      <div class="bornes"><span>${avecUnite(c.min,c.u)}</span><span>${avecUnite(c.max,c.u)}</span></div>
+      <button class="cta" id="pmOk"><span class="lbl">Je valide</span></button>
+    </div>`;
+  run.val=Math.round((c.min+c.max)/2/pasDe(c))*pasDe(c);
+  const piste=$('pmPiste');
+  const tracerRail=()=>{
+    const w=piste.clientWidth||300;
+    let d=`M 2 40`;
+    for(let i=1;i<=8;i++){const x=2+(w-4)*i/8;
+      d+=` Q ${(x-(w-4)/16).toFixed(1)} ${(40+wob(seed0+i*3.3,2.4)).toFixed(1)} ${x.toFixed(1)} ${(40+wob(seed0+i*7.7,1.8)).toFixed(1)}`;}
+    $('pmRail').setAttribute('viewBox',`0 0 ${w} 74`);
+    $('pmRail').innerHTML=`<path d="${d}" fill="none" stroke="#E7D5AC" stroke-width="9" stroke-linecap="round" transform="translate(0,2)"/>
+      <path d="${d}" fill="none" stroke="#2A3229" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>`;
+    $('pmRail').style.filter='url(#peint)';
+    $('pmMolette').innerHTML=svgEl(52,52,
+      `<path d="${scribbleCircle(26,26,17,seed0+3,2.6)}" fill="#2A3229" opacity=".2" transform="translate(2,3)"/>
+       <path d="${scribbleCircle(26,26,17,seed0+41,2.4)}" fill="#E03B26" stroke="#E03B26" stroke-width="3"/>
+       <path d="${scribbleCircle(26,26,17,seed0+83,2.2)}" fill="none" stroke="#2A3229" stroke-width="2.2"/>
+       <path d="M 18 26 L 34 26 M 22 22 L 18 26 L 22 30 M 30 22 L 34 26 L 30 30" stroke="#FAF2DC" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+      `style="filter:url(#peint)"`);
+    majMolette();
+  };
+  const majMolette=()=>{
+    if(!$('pmMolette')||run.deck[run.idx]!==c) return;
+    const w=piste.clientWidth||300, t=(run.val-c.min)/(c.max-c.min);
+    $('pmMolette').style.left=(t*w)+'px';
+    const txt=fmtNb(run.val), el=$('pmVal');
+    el.innerHTML=txt+`<small>${c.u}</small>`;
+    el.style.fontSize=(txt.length<=7?46:txt.length<=10?38:txt.length<=14?31:25)+'px';
+  };
+  const poser=e=>{
+    if(run.repondu) return;
+    const r=piste.getBoundingClientRect();
+    const x=Math.max(0,Math.min(1,((e.touches?e.touches[0].clientX:e.clientX)-r.left)/r.width));
+    const brut=c.min+x*(c.max-c.min), p=pasDe(c);
+    run.val=Math.max(c.min,Math.min(c.max,Math.round(brut/p)*p));
+    majMolette();
+  };
+  ['pointerdown','pointermove'].forEach(ev=>piste.addEventListener(ev,e=>{
+    if(ev==='pointermove'&&!piste.classList.contains('prise')) return;
+    if(ev==='pointerdown'){piste.classList.add('prise');piste.setPointerCapture&&piste.setPointerCapture(e.pointerId)}
+    poser(e); e.preventDefault();
+  }));
+  ['pointerup','pointercancel','pointerleave'].forEach(ev=>
+    piste.addEventListener(ev,()=>piste.classList.remove('prise')));
+  requestAnimationFrame(()=>{ if(run.deck[run.idx]!==c) return;
+    tracerRail(); paintFrame($('pmOk'),HEX.rouge,HEX.ombre,seed0+41); });
+  $('pmOk').addEventListener('click',()=>{$('pmOk').blur();validerPlus()});
+}
+/** Un pas entier dès que la plage le permet : personne n'estime 28,8 levers de soleil. */
+function pasDe(c){
+  const plage=c.max-c.min;
+  if(plage>=20) return Math.max(1,Math.round(plage/200));
+  return plage/200;
+}
+
+const rang=r=>r===0?'1ᵉʳ':`${r+1}ᵉ`;
+/** Classe-les — on tape dans l'ordre, le rang s'inscrit, on valide. */
+function rendreClasse(c,seed0){
+  const box=$('answers');
+  box.className='answers ordre';
+  run.rangs=[];
+  box.innerHTML=c.items.map((it,i)=>
+    `<button class="ans" data-i="${i}"><span class="key"><i>·</i></span>
+       <span class="lbl">${it.l}</span><span class="rang" data-r="${i}">—</span></button>`).join('')
+    +`<button class="cta" id="clOk" style="margin-top:4px"><span class="lbl">Je valide</span></button>`;
+  const majRangs=()=>{
+    box.querySelectorAll('.ans').forEach((b,i)=>{
+      const cible=b.querySelector('.rang'); if(!cible) return;
+      const r=run.rangs.indexOf(i);
+      b.classList.toggle('place',r>=0);
+      cible.textContent=r>=0?rang(r):'—';
+    });
+    const pret=run.rangs.length===c.items.length;
+    $('clOk').style.opacity=pret?1:.4;
+    $('clOk').disabled=!pret;
+  };
+  box.querySelectorAll('.ans').forEach((b,i)=>{
+    paintFrame(b,HEX.papier,HEX.ombre,seed0+i*23);
+    b.addEventListener('click',()=>{
+      if(run.repondu) return;
+      const r=run.rangs.indexOf(i);
+      if(r>=0) run.rangs.splice(r,1); else run.rangs.push(i);
+      sfx.tap(); majRangs();
+    });
+  });
+  requestAnimationFrame(()=>{ if(run.deck[run.idx]!==c) return;
+    paintFrame($('clOk'),HEX.rouge,HEX.ombre,seed0+41); majRangs(); });
+  $('clOk').addEventListener('click',()=>{$('clOk').blur();validerClasse()});
+}
+
 function startTimer(){
   clearInterval(run.timerId);
   const bar=$('timerBar'), total=12000, t0=performance.now();
@@ -1216,33 +1573,124 @@ function startTimer(){
     bar.style.width=(p*100)+'%';
   },50);
 }
+
+/* ---------- les résolutions, une par famille ---------- */
+/** Les épreuves à choix : on colore, puis on mise ou on révèle. */
 function answer(i){
+  if(run.repondu) return;
   clearInterval(run.timerId);
   const c=run.deck[run.idx], ok=i===c.c;
-  run.res[run.idx]=ok; run.repondu=true; majBoosts();
-  // le carnet se tient à jour question par question, même si on quitte en route
-  const bilan=state.themes[c.t]||(state.themes[c.t]={n:0,ok:0});
-  bilan.n++; if(ok) bilan.ok++;
-  save();
   const seed0=run.idx*37+run.lvl*101;
   $('answers').querySelectorAll('.ans').forEach((b,k)=>{
     b.disabled=true;
+    if(k===i) b.classList.add('choisi');
+  });
+  const peindreVerdict=()=>$('answers').querySelectorAll('.ans').forEach((b,k)=>{
     if(k===c.c){ b.classList.add('good'); paintFrame(b,HEX.vert,HEX.ombre,seed0+k*23); }
     else if(k===i){ b.classList.add('bad'); paintFrame(b,HEX.rouge,HEX.ombre,seed0+k*23); }
     else b.classList.add('dim');
   });
+  if(c.pari && i!==-1) return demanderMise(ok,peindreVerdict);
+  peindreVerdict();
+  resoudre(ok,ok?10:0,i===-1?'Temps écoulé':null);
+}
+
+/** Plus ou Moins : la distance décide, pas le tout ou rien. */
+function validerPlus(){
+  if(run.repondu) return;
+  clearInterval(run.timerId);
+  const c=run.deck[run.idx], w=$('pmPiste').clientWidth||300;
+  const ecart=Math.abs(run.val-c.n), rel=ecart/(c.max-c.min);
+  // même barème que le duel : parfait sous 1,5 %, plus rien au-delà de 30 %
+  const part=rel<=.015?1:Math.max(0,1-rel/.30);
+  const base=Math.round(part*10);
+  $('pmOk').disabled=true; $('pmOk').style.opacity=.4;
+  const el=$('pmVal'), txt=fmtNb(c.n);
+  el.innerHTML=txt+`<small>${c.u}</small>`;
+  el.style.color='var(--vert)';
+  const v=$('pmVerite');
+  v.style.left=(((c.n-c.min)/(c.max-c.min))*w)+'px';
+  $('pmVeriteLbl').textContent=avecUnite(c.n,c.u);
+  v.classList.add('on');
+  const mot=part===1?'Dans le mille':part>=.7?'Tout près':part>=.35?'Pas si loin':"À côté";
+  resoudre(base>=5,base,mot+' · écart de '+avecUnite(ecart,c.u));
+}
+
+/** Classe-les : on compte les paires bien ordonnées, pas les places exactes. */
+function validerClasse(){
+  if(run.repondu||run.rangs.length!==run.deck[run.idx].items.length) return;
+  clearInterval(run.timerId);
+  const c=run.deck[run.idx];
+  // la place attendue de chaque élément
+  const attendu=c.ordre;                       // attendu[i] = rang correct de l'item i
+  const donne={};                              // donne[i]   = rang donné par le joueur
+  run.rangs.forEach((it,r)=>{donne[it]=r});
+  let bonnes=0,total=0;
+  for(let a=0;a<c.items.length;a++) for(let b=a+1;b<c.items.length;b++){
+    total++;
+    if((attendu[a]<attendu[b])===(donne[a]<donne[b])) bonnes++;
+  }
+  const base=Math.round(bonnes/total*10);
+  const box=$('answers');
+  box.querySelectorAll('.ans').forEach((b,i)=>{
+    b.disabled=true;
+    const juste=donne[i]===attendu[i];
+    b.classList.add(juste?'good':'dim');
+    if(juste) paintFrame(b,HEX.vert,HEX.ombre,run.idx*37+run.lvl*101+i*23);
+    b.querySelector('.rang').outerHTML=
+      `<span class="vraie">${rang(attendu[i])} · ${c.u?fmtNb(c.items[i].v):fmtAnnee(c.items[i].v)}</span>`;
+  });
+  $('clOk').style.display='none';
+  resoudre(base>=8,base,bonnes===total?'Sans faute':`${bonnes} paires sur ${total} bien placées`);
+}
+
+/* ---------- Je parie ! ---------- */
+const MISES=[{p:6,l:'60 %',d:'plutôt sûr'},{p:8,l:'80 %',d:'très sûr'},{p:10,l:'100 %',d:'certain'}];
+function demanderMise(ok,peindreVerdict){
+  const box=$('mises');
+  box.innerHTML=MISES.map((m,i)=>
+    `<button class="mise" data-p="${m.p}"><b>${m.l}</b><span>${m.d}</span><span>+${m.p} / −${m.p}</span></button>`).join('');
+  box.querySelectorAll('.mise').forEach((b,i)=>{
+    paintFrame(b,i===2?HEX.rouge:HEX.jaune,HEX.ombre,run.idx*11+i*17+5,1.3,12);
+    if(i===2) b.style.color=HEX.papier;
+    b.addEventListener('click',()=>{
+      b.blur();
+      const p=+b.dataset.p;
+      $('pari').classList.remove('on');
+      peindreVerdict();
+      resoudre(ok, ok?p:-p, ok?`Mise de ${p} tenue`:`Mise de ${p} perdue`);
+    });
+  });
+  requestAnimationFrame(()=>{
+    paintFrame($('pari'),HEX.papier,HEX.ombre,run.idx*7+3,1.5);
+    $('pari').classList.add('on');
+  });
+}
+
+/* ---------- le tronc commun : vies, séries, jetons, explication ---------- */
+function resoudre(ok,base,detail){
+  const c=run.deck[run.idx];
+  run.res[run.idx]=ok; run.repondu=true; majBoosts();
+  // le carnet se tient à jour question par question, même si on quitte en route
+  if(c.t){ const bilan=state.themes[c.t]||(state.themes[c.t]={n:0,ok:0});
+           bilan.n++; if(ok) bilan.ok++; }
+  save();
+
   if(ok){
     run.combo++;
     const m=Math.min(3,1+Math.floor(run.combo/2))*(run.x2?2:1);
-    run.points+=10*m; run.x2=false;
-    if(m>1){$('combo').textContent='×'+m;$('combo').classList.add('on')}
+    run.points+=Math.round(base*m); run.x2=false;
+    const paie=run.combo%SERIE_PAYANTE===0;
+    if(m>1&&!paie){$('combo').textContent='×'+m;$('combo').classList.remove('gain');$('combo').classList.add('on')}
     sfx.good();
-    $('verdict').textContent=run.combo>=3?'En série !':'Bien vu';
+    $('verdict').textContent=detail||(run.combo>=3?'En série !':'Bien vu');
     $('verdict').className='verdict ok';
+    if(paie) payerSerie();
   }else{
     run.combo=0; run.wrong++; run.x2=false;
+    run.points=Math.max(0,run.points+Math.round(base));   // une mise perdue coûte vraiment
     if(run.bouclier){ run.bouclier=false; $('verdict').textContent='Rattrapé au calque'; }
-    else { run.lives--; $('verdict').textContent=i===-1?'Temps écoulé':'Raté'; }
+    else { run.lives--; $('verdict').textContent=detail||'Raté'; }
     $('combo').classList.remove('on');
     sfx.bad();
     $('verdict').className='verdict ko';
@@ -1250,10 +1698,12 @@ function answer(i){
   }
   $('explainText').textContent=c.e;
   requestAnimationFrame(peindreUI);
+  const seed0=run.idx*37+run.lvl*101;
   $('nextBtn').querySelector('.lbl').textContent=(run.lives===0||run.idx===run.deck.length-1)?'Voir le résultat':'Continuer';
   paintFrame($('nextBtn'),HEX.rouge,HEX.ombre,seed0+41);
   setTimeout(()=>{ stampNoWay(ok); $('explain').classList.add('on'); },300);
 }
+
 $('nextBtn').addEventListener('click',()=>{
   sfx.tap();
   if(run.lives===0) return finish(false);
@@ -1268,10 +1718,17 @@ $('quitBtn').addEventListener('click',()=>{
 
 /* ---------- résultat ---------- */
 function finish(won){
-  let stars=won?Math.max(1,3-run.wrong):0;
+  const brutes=won?Math.max(1,3-run.wrong):0;
+  let stars=brutes;
   if(run.aideUtilisee) stars=Math.min(stars,2);   // on n'achète pas les trois étoiles
   const premier=won&&!state.stars[run.lvl];
-  const gain=won?(stars+(stars===3?2:0)+(premier?3:0)+(run.boss?5:0)):0;
+  const justes=Object.values(run.res).filter(r=>r===true).length;
+  /* Les jetons se comptent sur les étoiles brutes : l'aide coûte le sans-faute,
+     pas le salaire — sinon acheter un bonus rapporterait moins qu'il ne coûte.
+     Et une manche perdue paie quand même, sinon le joueur en difficulté
+     n'a aucun moyen de s'offrir l'aide dont il a justement besoin. */
+  const gain=won ? brutes+(brutes===3?2:0)+(premier?3:0)+(run.boss?5:0)
+                 : Math.max(justes?1:0, Math.floor(justes/SERIE_PAYANTE));
   $('quizScreen').classList.remove('on');
   $('explain').classList.remove('on');
   $('resultScreen').classList.add('on');
@@ -1289,19 +1746,25 @@ function finish(won){
   paintFrame($('continueBtn'),HEX.rouge,HEX.ombre,run.lvl*13+3);
   paintFrame($('retryBtn'),HEX.jaune,HEX.ombre,run.lvl*13+61);
   const rc=$('resultCoins'); rc.classList.remove('on');
-  rc.innerHTML=gain?`${pictoSVG('jeton',23,'#F2C64B')}<span>+${gain} jeton${gain>1?'s':''} gagné${gain>1?'s':''} !</span>`:'';
+  const s=n=>n>1?'s':'';
+  const serie=run.jetonsGagnes?`${run.jetonsGagnes} jeton${s(run.jetonsGagnes)} pris en série${s(run.jetonsGagnes)}`:'';
+  rc.innerHTML = (gain||run.jetonsGagnes)
+    ? pictoSVG('jeton',23,'#F2C64B')
+      +`<span>${gain?`+${gain} jeton${s(gain)}${serie?' · '+serie:''}`:serie}</span>`
+    : '';
   if(won){
     sfx.win(); confetti();
     if(stars>(state.stars[run.lvl]||0)) state.stars[run.lvl]=stars;
     if(run.lvl===state.unlocked&&state.unlocked<LEVELS.length-1) state.unlocked++;
-    save();
-    // la récompense arrive après les étoiles : jetons versés + animation + son
-    if(gain) setTimeout(()=>{
-      rc.classList.add('on');
-      state.jetons+=gain; majJetons(); save();
-      [740,990,1240].forEach((f,i)=>setTimeout(()=>beep(f,.12,'triangle',.05),i*70));
-    },560);
   }else sfx.lose();
+  save();
+  // la récompense arrive après les étoiles : jetons versés + animation + son.
+  // Les jetons de série ont déjà été crédités pendant la manche.
+  if(gain||run.jetonsGagnes) setTimeout(()=>{
+    rc.classList.add('on');
+    if(gain){ state.jetons+=gain; majJetons(); save(); }
+    [740,990,1240].forEach((f,i)=>setTimeout(()=>beep(f,.12,'triangle',.05),i*70));
+  },560);
 }
 function confetti(){
   const box=$('confetti'); box.innerHTML='';
