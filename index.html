@@ -895,17 +895,31 @@ function repaintFrames(){
           Duel, retirer une réponse sur deux revient à donner la solution.
           Le bonus n'est alors pas proposé du tout, plutôt que grisé sans
           explication. */
+/* Les prix sont proportionnels à ce que chaque bonus rapporte réellement,
+   mesuré en rejouant des manches entières avec et sans lui. Leur somme est
+   quasiment la même qu'avant, 18 contre 19 : c'est la répartition qui change,
+   pas le rythme auquel on peut s'offrir une aide.
+     Ciseaux 5 — de loin le plus rentable, presque le double du suivant.
+     Double  3 — deuxième, et il rapporte d'autant plus qu'on joue bien.
+     Calque  3 — peu de points, mais le meilleur pour finir la manche.
+     Blanco  2 — le demi-Ciseaux : deux fois moins utile, deux fois moins cher.
+     Page    2 — le moins rentable en moyenne, mais c'est une assurance : jouée
+                 à une vie, elle fait gagner dix-huit points de victoire. Elle
+                 ne descend pas plus bas : à 1 jeton, passer tout ce qu'on
+                 ignore rapporterait plus de jetons que ça n'en coûte.
+     Sablier 3 — inchangé : sa valeur dépend de la vitesse de lecture du
+                 joueur, que rien ici ne permet de mesurer. */
 const BOOSTS=[
- {k:'ciseaux', ico:'ciseaux',  n:'Ciseaux', p:4, eff:{
+ {k:'ciseaux', ico:'ciseaux',  n:'Ciseaux', p:5, eff:{
     qcm:'retire deux mauvaises réponses', ment:'retire deux mauvaises réponses',
     plus:'resserre la fourchette de moitié', classe:'place deux cartes à leur place'}},
  {k:'blanco',  ico:'crayon',   n:'Blanco',  p:2, eff:{
     qcm:'efface une mauvaise réponse', ment:'efface une mauvaise réponse',
     plus:"resserre la fourchette d'un quart", classe:'place une carte à sa place'}},
  {k:'calque',  ico:'bouclier', n:'Calque',  p:3, d:'la prochaine erreur ne coûte pas de vie'},
- {k:'double',  ico:'fois2',    n:'Double',  p:2, d:'la prochaine bonne réponse compte double'},
+ {k:'double',  ico:'fois2',    n:'Double',  p:3, d:'la prochaine bonne réponse compte double'},
  {k:'sablier', ico:'sablier',  n:'Sablier', p:3, d:'relance le chrono', boss:true},
- {k:'page',    ico:'feuille',  n:'Page',    p:5, d:'passe la question, sans point ni erreur'}
+ {k:'page',    ico:'feuille',  n:'Page',    p:2, d:'passe la question, sans point ni erreur'}
 ];
 /** Ce que le bonus fait sur l'épreuve en cours, ou null s'il n'y sert à rien. */
 function effetBoost(b,m){
